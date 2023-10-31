@@ -15,9 +15,9 @@ By the end of this lesson, you should be able to...
 
 Vid 1 - Exploring the nature of API's via Gincord.io
 
-# Exercises 💪
+<!-- # Exercises 💪
 
-Answer the questions in [this repl.it](https://repl.it/team/WebArchitecture/Module-301ApisQuestions) and submit your work.
+Answer the questions in [this repl.it](https://repl.it/team/WebArchitecture/Module-301ApisQuestions) and submit your work. -->
 
 # Written Companion 🗒
 
