@@ -19,9 +19,9 @@ Vid 1 - Creating `JSON` objects in Python
 
 Vid 2 - Returning `JSON` objects in a Flask route
 
-# Exercises 💪
+<!-- # Exercises 💪
 
-Complete the exercise in [this repl.it](https://repl.it/team/WebArchitecture/Module-302DictionariesPractice) and submit your work.
+Complete the exercise in [this repl.it](https://repl.it/team/WebArchitecture/Module-302DictionariesPractice) and submit your work. -->
 
 # Written Companion 🗒
 
