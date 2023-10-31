@@ -15,10 +15,10 @@ By the end of this lesson, you should be able to...
 
 Vid 1 - walking through how to create requests via the `Requests` Python library
 
-# Exercises 💪
+<!-- # Exercises 💪
 
 1. Complete the exercises in [this repl.it](https://repl.it/team/WebArchitecture/Module-303ApiPractice) (only API, no Flask) and submit your work.
-2. Complete the exercises in [this repl.it](https://replit.com/team/WebArchitecture/Module-304ApiFlaskPractice) (API and Flask) and submit your work.
+2. Complete the exercises in [this repl.it](https://replit.com/team/WebArchitecture/Module-304ApiFlaskPractice) (API and Flask) and submit your work. -->
 
 # Written Companion 🗒
 
