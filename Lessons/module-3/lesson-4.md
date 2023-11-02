@@ -34,4 +34,4 @@ Similar to an internet browser, Postman allows developers to make requests and r
 
 ![Fig 1 - A `GET` request being sent to *[api.icndb.com/jokes](http://api.icndb.com/jokes)* with one query parameter](Untitled-2.png)
 
-Fig 1 - A `GET` request being sent to *[api.icndb.com/jokes](http://api.icndb.com/jokes)* with one query parameter
+Fig 1 - A `GET` request being sent to *[api.icndb.com/jokes](https://api.chucknorris.io)* with one query parameter
