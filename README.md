@@ -6,7 +6,7 @@
 
 This course is designed to introduce students to the Flask web framework. Students will learn language independent patterns that are repeated across many common servers. The course will cover topics including the request-response cycle, server-side templating, APIs, databases, & unit testing, to help students to build the skills necessary to create custom web sites.
 
-This course covers language-independent web server frameworks and patterns in full-stack web design. Students will use their prior knowledge in HTML, CSS, and JavaScript to build the front-end of a simple web application, and then will learn new concepts to write a supporting back-end. This course covers the request-response cycle, server-side templating, parsing data from an HTML form, HTTP methods, and using APIs. More advanced concepts include document-based databases and controller testing. Prerequisite
+This course covers language-independent web server frameworks and patterns in full-stack web design. Students will use their prior knowledge in HTML, CSS, and JavaScript to build the front-end of a simple web application, and then will learn new concepts to write a supporting back-end. This course covers the request-response cycle, server-side templating, parsing data from an HTML form, HTTP methods, and using APIs. More advanced concepts include document-based databases and controller testing.
 
 <!-- ### 👉 [ Introduction to WEB 1.1 (Web Architecture)](https://handsome-air-ad0.notion.site/Introduction-to-WEB-1-1-Web-Architecture-eb65692e73e04a7784e6b39b8c962488) 🚀 -->
 
