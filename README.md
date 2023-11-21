@@ -93,9 +93,9 @@ This course has been broken down into 5 modules for students to approach at thei
 | 10 | Tue, Nov 21 | [Finished Module 4 Assignment](Assignments/03-APIs.md) |
 | 11 | Thu, Nov 23 | **Thanks Giving Holiday** |
 | 12 | Tue, Nov 28  | [Module 5](Lessons/module-5/) |
-| 13 | Thu, Nov 30  | **Finished Quiz 3 (Cumulative)** |
+| 13 | Thu, Nov 30  | - |
 | 14 | Tue, Dec  5  | [Finished Module 5 Assignment](Assignments/04-Databases.md) |
-| 13 | Thu, Dec  7  | **Finished Quiz 3 (Cumulative)** |
+| 13 | Thu, Dec  7  | - |
 
 
 ## Assignments
