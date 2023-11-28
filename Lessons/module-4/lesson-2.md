@@ -13,8 +13,6 @@ By the end of this lesson, you should be able to...
 
 [Vid 1 - Walking through a virtual environment and accessing a `SECRET_KEY`](https://www.youtube.com/watch?v=9bMDFVkhOnA)
 
-Vid 1 - Walking through a virtual environment and accessing a `SECRET_KEY`
-
 # Exercises 💪
 
 Go back to your Homework 3 (More Forms) submission and use a `.env` file to hide the API key for the GIF Search API. Then in the code, call `load_dotenv()` and use the `os.getenv()` library function to retrieve and use it.
