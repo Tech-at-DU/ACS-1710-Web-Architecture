@@ -11,7 +11,7 @@ By the end of this lesson, you should be able to...
 
 # Videos 🎥
 
-[Vid 1 - Walking through a virtual environment and accessing a `SECRET_KEY`](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4b30d583-b100-4707-a44b-a758e73b92bf/15_dotenv_code.mov)
+[Vid 1 - Walking through a virtual environment and accessing a `SECRET_KEY`](https://www.youtube.com/watch?v=9bMDFVkhOnA)
 
 Vid 1 - Walking through a virtual environment and accessing a `SECRET_KEY`
 
