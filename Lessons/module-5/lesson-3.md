@@ -17,9 +17,10 @@ By the end of this lesson, you should be able to...
 
 https://youtu.be/05_dDRR9TyA
 
-# Exercises 💪
+<!-- # Exercises 💪
 
 Solve the #TODO's in this [this Repl.it](https://repl.it/team/WebArchitecture/Module-53Connecting-Flask-to-MongoDB) and submit your work.
+-->
 
 # Written Companion 🗒
 
