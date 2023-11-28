@@ -17,6 +17,8 @@ By the end of this lesson, you should be able to...
 
 https://youtu.be/05_dDRR9TyA
 
+To create a mongodb "cluster" (this is a database hosted on the mongodb site) follow the guide here: https://www.mongodb.com/docs/guides/atlas/cluster/
+
 <!-- # Exercises 💪
 
 Solve the #TODO's in this [this Repl.it](https://repl.it/team/WebArchitecture/Module-53Connecting-Flask-to-MongoDB) and submit your work.
