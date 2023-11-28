@@ -13,7 +13,7 @@ By the end of this lesson, you should be able to...
 
 # Video Companions 🎥
 
-[Setting Up MongoDB Atlas Video](https://youtu.be/0ENeevQ_1e0) (recommended before you watch the rest of this lesson)
+<!-- [Setting Up MongoDB Atlas Video](https://youtu.be/0ENeevQ_1e0) (recommended before you watch the rest of this lesson) -->
 
 https://youtu.be/05_dDRR9TyA
 
