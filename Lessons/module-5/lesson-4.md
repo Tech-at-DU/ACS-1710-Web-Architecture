@@ -15,8 +15,6 @@ By the end of this lesson, you should be able to...
 
 [Video 1 - Performing C.R.U.D. operations to a MongoDB cluster via Flask and PyMongo](https://youtu.be/eiJJq86zmmI)
 
-Video 1 - Performing C.R.U.D. operations to a MongoDB cluster via Flask and PyMongo
-
 <!-- # Exercises 💪
 
 Complete the #TODO's in [this Repl.it](https://repl.it/team/WebArchitecture/Module-54CRUD-operations-in-PyMongo) and submit your work. -->
