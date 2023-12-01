@@ -429,7 +429,7 @@ You can inspect the contents of your database, delete and edit items.
 
 If you solved all of the problems here and have a functional app you need to challenge yourself. Try to solve these problems to test your understanding of the concepts here. 
 
-### Add a new priority level
+### 1 Add a new priority level
 
 Add a new radio button to the list of priorities. Currently the list shows: Important, and Unimportant. It might be good to have a "normal" or "very important" priority level. 
 
@@ -437,7 +437,7 @@ Add a new radio button with a new value. Give it a matching label.
 
 Test your work by adding a new todo item with the new priority. 
 
-### Style priorities
+### 2 Style priorities
 
 It would be helpful if users could spot important priority todos at a glance. Adding some color would heklp with this.
 
@@ -449,7 +449,7 @@ Currrently the todo priority string is displayed in a p tag that has a class nam
 }
 ```
 
-### Sort your todos
+### 3 Sort your todos
 
 Important! This app is running all of it's application logic on the serverside. The browser isn't doing any work. This gives us two possiblities to handling sorted todos. 
 
@@ -501,7 +501,7 @@ all_todos = todos.find().collation({'locale': 'en'}).sort('content')
 
 Both code snippets function the same. 
 
-### Completion 
+### 4 Completion 
 
 It might be good if we had a list that showed all of the todo items but could also show which were complete and which were not. This way we could avoid questions like: "did I feed the cat?"
 
@@ -531,9 +531,15 @@ Filter is an object with the `_id` of the record that should be updated. Remembe
 
 New Values is an object with what to set. The format here is a little unexpected. It's the value of `'$set'` that will be set set. Here we are setting the 'complete' property to True. 
 
-### Add a date to each todo
+### 5 Add a date to each todo
 
 It would be good if each todo stored the date it was added to the list. This might help organize how we complete and prioritize our tasks! 
 
-When the todo is created you'll need add a date field/property to the todo object. Generate a Python date object. It's probably best to store the date a as a UTC value then convert to a date string before it is displayed. 
+You'll need add a date attribute/property to the todo object. Generate a Python date object. It's probably best to store the date a as a UTC value then convert to a date string before it is displayed. 
+
+To do this: 
+
+- Import datetime: `from datetime import timezone, datetime`
+- When creating a new Todo add a date key.
+- Set the date key to a UTC with: `datetime.now(timezone.utc)`
 
