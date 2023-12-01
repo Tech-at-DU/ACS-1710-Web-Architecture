@@ -4,8 +4,9 @@ In this lesson you will create a Python/Flask application that performs CRUD ope
 
 By the end of this tutorial you should be able to: 
 
-- 
-- 
+- Use Python and Flask
+- CRUD records with MongoDB
+- Use the Python language to create a web application
 
 ## Getting started 
 
@@ -51,16 +52,26 @@ Start a new project. Create a folder where you will work. You can also take time
 
 Follow the steps covered in Module 4. 
 
-create venv
+Create a virtual environment: 
 
 ```
-python3 -m venv env
+python3 -m venv venv
 ```
 
 Activate you virtual environment
 
 ```
-source env/bin/activate
+source venv/bin/activate
+```
+
+You can tell the virtual environment is active when you see `(venv)` in the command prompt in the terminal. 
+
+Before commiting your work to GitHub you should add a .gitignore file to exclude the `venv` folder from your GitHub repository. 
+
+Create a new file named: `.gitignore`. Add the following line to this file: 
+
+```
+venv/
 ```
 
 ## Install dependencies
