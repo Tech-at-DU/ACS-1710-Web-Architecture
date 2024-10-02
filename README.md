@@ -31,7 +31,7 @@ By the end of the course, you will be able to ...
 
 This course has been broken down into 5 modules for students to approach at their own pace. See the **schedule** below for recommendations on where you should be at in terms of content completion to help assess your pace.
 
-##### Although this course has self-pacing elements--attendance is still a requirement! We will be doing activites, checking-in, and learning as a class!
+### Although this course has self-pacing elements--attendance is still a requirement! We will be doing activites, checking-in, and learning as a class!
 
 #### MODULE 1: [ Introduction to internet communication patterns, C.R.U.D, and servers](https://handsome-air-ad0.notion.site/MODULE-1-Intro-to-Flask-Forms-54dd4bdc06494f6f9fd44e73ae5fd907) 
 
@@ -97,24 +97,22 @@ This course has been broken down into 5 modules for students to approach at thei
 | 14 | Thu, Dec  5  | [Finished Module 5 Assignment](Assignments/04-Databases.md) |
 | 15 | Tue, Dec 12  | - |
 
-
 ## Assignments
-
 Students will complete assignments at their own pace. 
 
 Assignments **must be turned in via [Gradescope](https://gradescope.com) for credit!**
 
-##### Assignments should be completed by the recommended date in the above **schedules** section. Students falling behind should connect with the instructor for help staying on pace!
+### Assignments should be completed by the recommended date in the above **schedules** section. Students falling behind should connect with the instructor for help staying on pace!
 
-##### Any assignments not complete by the final day of class (Wed, Mar 3 & Thu, Mar 4) will be given a score of **0**.
+### Any assignments not complete by the final day of class (Wed, Mar 3 & Thu, Mar 4) will be given a score of **0**.
 
 Quizzes can be found on [Gradescope](https://gradescope.com) for credit during the week of their listing.
 
-##### Quizzes have a **HARD DEADLINE** date and will close on the Friday of its listed week. 
+### Quizzes have a **HARD DEADLINE** date and will close on the Friday of its listed week. 
 
 Quizzes can be retaken once, with the final grade being the average of the two final scores. 
 
-##### Students that have completed all assignments with a score of 3 or higher and earned an 80% or greater on their quizzes **AUTOMATICALLY PASS QUIZ 3** and will not be required to take it! 🤩
+### Students that have completed all assignments with a score of 3 or higher and earned an 80% or greater on their quizzes **AUTOMATICALLY PASS QUIZ 3** and will not be required to take it! 🤩
 
 | Topic | Pacing Date | Assignment |
 | :--: | :------------: | :----: |
