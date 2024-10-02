@@ -75,27 +75,27 @@ This course has been broken down into 5 modules for students to approach at thei
 
 ## Schedule
 
-**Course Dates:** October 18 – December 7, 2023
+**Course Dates:** October 21 – December 13, 2023
 
-**Class Times:** Tuesday, Thursday 9:30 AM – 12:15 PM
+**Class Times:** Tuesday, Thursday 1:00 PM – 3:45 PM
 
 | Class | Date | Pacing Recommendations (Complete all lessons up to - ) |
 | :---: | :--: | :-----: |
-|  1 | Thu, Oct 19 | [Module 1](Lessons/module-1/) |
-|  2 | Tue, Oct 24 | [Finished Module 1 Assignment](Assignments/01-Request-Response.md)  |
-|  3 | Thu, Oct 26 | [Module 2](Lessons/module-2/) |
-|  4 | Tue, Oct 31 | [Finished Module 2 Assignment](Assignments/02-Forms-Templates.md) |
-|  5 | Thu, Nov  2 | **Finished Quiz 1 (HARD DEADLINE - CLOSES END OF WEEK)** |
-|  6 | Tue, Nov  7 | [Module 3](Lessons/module-3/) |
-|  7 | Thu, Nov  9 | [Finished Module 3 Assignment](Assignments/03-More-Forms.md) |
-|  8 | Tue, Nov 14 | **Finished Quiz 2 (HARD DEADLINE - CLOSES END OF WEEK)** |
-|  9 | Thu, Nov 16 | [Module 4](Lessons/module-4/) |
-| 10 | Tue, Nov 21 | [Finished Module 4 Assignment](Assignments/03-APIs.md) |
-| 11 | Thu, Nov 23 | **Thanks Giving Holiday** |
-| 12 | Tue, Nov 28  | [Module 5](Lessons/module-5/) |
-| 13 | Thu, Nov 30  | - |
-| 14 | Tue, Dec  5  | [Finished Module 5 Assignment](Assignments/04-Databases.md) |
-| 13 | Thu, Dec  7  | - |
+|  1 | Tue, Oct 22 | [Module 1](Lessons/module-1/) |
+|  2 | Thu, Oct 24 | [Finished Module 1 Assignment](Assignments/01-Request-Response.md)  |
+|  3 | Tue, Oct 29 | [Module 2](Lessons/module-2/) |
+|  4 | Thu, Oct 31 | [Finished Module 2 Assignment](Assignments/02-Forms-Templates.md) |
+|  5 | Tue, Nov  5 | **Finished Quiz 1 (HARD DEADLINE - CLOSES END OF WEEK)** |
+|  6 | Thu, Nov  7 | [Module 3](Lessons/module-3/) |
+|  7 | Tue, Nov 12 | [Finished Module 3 Assignment](Assignments/03-More-Forms.md) |
+|  8 | Thu, Nov 14 | **Finished Quiz 2 (HARD DEADLINE - CLOSES END OF WEEK)** |
+|  9 | Tue, Nov 19 | [Module 4](Lessons/module-4/) |
+| 10 | Thu, Nov 21 | [Finished Module 4 Assignment](Assignments/03-APIs.md) |
+| 11 | Tue, Nov 26 | **Thanks Giving Holiday** |
+| 12 | Thu, Nov 28  | [Module 5](Lessons/module-5/) |
+| 13 | Tue, Nov  3  | - |
+| 14 | Thu, Dec  5  | [Finished Module 5 Assignment](Assignments/04-Databases.md) |
+| 15 | Tue, Dec 12  | - |
 
 
 ## Assignments
