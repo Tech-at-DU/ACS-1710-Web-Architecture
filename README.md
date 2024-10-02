@@ -75,7 +75,7 @@ This course has been broken down into 5 modules for students to approach at thei
 
 ## Schedule
 
-**Course Dates:** October 21 – December 13, 2023
+**Course Dates:** October 21 – December 13, 2024
 
 **Class Times:** Tuesday, Thursday 1:00 PM – 3:45 PM
 
