@@ -26,6 +26,8 @@ https://youtu.be/xLy7D3CaHps
 
 Diving deeper into Python's `__name__` keyword
 
+[Video Lesson 3](https://file.notion.so/f/f/b55c22ee-fac0-43f5-b763-ad205bab0599/63bd2804-9ad5-4385-ae3f-866dbd646dae/3_Name_Keyword.mov?table=block&id=b7e6ede1-e878-418a-aacd-ebd9ec69d9d3&spaceId=b55c22ee-fac0-43f5-b763-ad205bab0599&expirationTimestamp=1728064800000&signature=ZNAJriaf421QJ03IgKO8DR89nubO4WQWwdlnqeWQh-o&downloadName=3_Name_Keyword.mov)
+
 https://youtu.be/okQzZJD-lbg
 
 ## Exercises 💪
