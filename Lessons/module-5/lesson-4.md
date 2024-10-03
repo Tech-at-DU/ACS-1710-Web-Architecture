@@ -13,7 +13,9 @@ By the end of this lesson, you should be able to...
 
 # Video Companions 🎥
 
-[Video 1 - Performing C.R.U.D. operations to a MongoDB cluster via Flask and PyMongo](https://youtu.be/eiJJq86zmmI)
+[Video 1 - Performing C.R.U.D. operations to a MongoDB cluster via Flask and PyMongo](https://file.notion.so/f/f/6004cc36-d69e-461f-a1c5-8e5078ac8f6b/c6b33d5f-0398-4a3a-85c9-d3ae0c7078db/18_PyMongo_and_CRUD.mov?table=block&id=51a4c123-a8ca-4d6e-87a3-4301159f6383&spaceId=6004cc36-d69e-461f-a1c5-8e5078ac8f6b&expirationTimestamp=1728064800000&signature=zKM9E-X3IoiozPCnahLLGKpRS_pyHKWJYM_yyd7h0KM&downloadName=18_PyMongo_and_CRUD.mov)
+
+https://youtu.be/eiJJq86zmmI
 
 <!-- # Exercises 💪
 
