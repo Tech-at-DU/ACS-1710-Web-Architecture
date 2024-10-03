@@ -11,11 +11,13 @@ By the end of this lesson, you should be able to...
 
 # Videos 🎥
 
-[Video 1 - Introduction to virtual environments](https://youtu.be/wNbqyD1OEXY)
+[Video 1 - Introduction to virtual environments](https://file.notion.so/f/f/6004cc36-d69e-461f-a1c5-8e5078ac8f6b/4a97c72c-f29d-4850-b2a0-68cbf3f1bfe4/RPReplay_Final1610467521.mp4?table=block&id=8081b010-ca5a-4fd6-899d-16931384ed2f&spaceId=6004cc36-d69e-461f-a1c5-8e5078ac8f6b&expirationTimestamp=1728064800000&signature=Y-Scx5usWjGUP1Ydcocsp4TwIT9J6CEy_ByLGkDHRV4&downloadName=RPReplay_Final1610467521.mp4)
 
-Video 1 - Introduction to virtual environments
+https://youtu.be/wNbqyD1OEXY
 
-[Video 2 - Creating, activating, and deactivating virtual environments](https://youtu.be/VmgMbrDIDLA)
+[Video 2 - Creating, activating, and deactivating virtual environments](https://file.notion.so/f/f/6004cc36-d69e-461f-a1c5-8e5078ac8f6b/5b265dc7-6501-4772-bc95-4c9805023e3c/terminal_venv.mov?table=block&id=64625746-2341-4867-9d57-9a303fdaa341&spaceId=6004cc36-d69e-461f-a1c5-8e5078ac8f6b&expirationTimestamp=1728064800000&signature=V-ciOh57x7mCpXBaQ0vPTX2iQNMU8PyIOWhc3ar9ye4&downloadName=terminal_venv.mov)
+
+https://youtu.be/VmgMbrDIDLA
 
 Video 2 - Creating, activating, and deactivating virtual environments
 
