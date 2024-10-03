@@ -13,7 +13,9 @@ By the end of this lesson, you should be able to...
 
 # Video Companions 🎥
 
-[Video 1 - Exploring the differences and use cases of SQL vs NoSQL](https://youtu.be/38ebgY7QKt8)
+[Video 1 - Exploring the differences and use cases of SQL vs NoSQL](https://file.notion.so/f/f/6004cc36-d69e-461f-a1c5-8e5078ac8f6b/a2bb5cdd-3a87-4278-aa4a-8ecaefab3337/RPReplay_Final1611091771.mp4?table=block&id=6ddd64d3-1fde-4310-9711-01ff06ecab19&spaceId=6004cc36-d69e-461f-a1c5-8e5078ac8f6b&expirationTimestamp=1728064800000&signature=gvK4TIoZWUHwpX15DPeedd-Wf3JpUL0UVIk8juU8XTk&downloadName=RPReplay_Final1611091771.mp4)
+
+https://youtu.be/38ebgY7QKt8
 
 Video 1 - Exploring the differences and use cases of SQL vs NoSQL
 
