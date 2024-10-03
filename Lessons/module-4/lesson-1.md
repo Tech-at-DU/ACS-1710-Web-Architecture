@@ -19,8 +19,6 @@ https://youtu.be/wNbqyD1OEXY
 
 https://youtu.be/VmgMbrDIDLA
 
-Video 2 - Creating, activating, and deactivating virtual environments
-
 # Exercises 💪
 
 Try creating and using a virtual environment for one of your past homework assignments.
