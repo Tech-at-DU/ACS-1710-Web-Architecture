@@ -11,7 +11,9 @@ By the end of this lesson, you should be able to...
 
 # Videos 🎥
 
-[Vid 1 - walking through how to create requests via the `Requests` Python library](https://youtu.be/sJOmt33lq4E)
+[Vid 1 - walking through how to create requests via the `Requests` Python library](https://file.notion.so/f/f/6004cc36-d69e-461f-a1c5-8e5078ac8f6b/9b7579b7-c564-4bee-be36-0dbd4352a7bf/14_Requests_Library.mov?table=block&id=343d29d7-c8f8-4030-853e-a5a93ec86997&spaceId=6004cc36-d69e-461f-a1c5-8e5078ac8f6b&expirationTimestamp=1728064800000&signature=RkqEevW6I5D-wzN-gsBB5xvtBQQ0MtlNsZbbi1Q2rjA&downloadName=14_Requests_Library.mov)
+
+https://youtu.be/sJOmt33lq4E
 
 <!-- # Exercises 💪
 
