@@ -13,7 +13,9 @@ By the end of this lesson, you should be able to...
 
 # Video Companions 🎥
 
-<!-- [Setting Up MongoDB Atlas Video](https://youtu.be/0ENeevQ_1e0) (recommended before you watch the rest of this lesson) -->
+[Setting Up MongoDB Atlas Video](https://youtu.be/0ENeevQ_1e) (recommended before you watch the rest of this lesson)
+
+[Video Lesson](https://file.notion.so/f/f/6004cc36-d69e-461f-a1c5-8e5078ac8f6b/176ba85b-3222-4a08-98f8-2d78692ee243/17_Connecting_to_MongoDB.mov?table=block&id=8d1fb9d4-8241-454d-8ac7-7cffe6e9b1db&spaceId=6004cc36-d69e-461f-a1c5-8e5078ac8f6b&expirationTimestamp=1728064800000&signature=8utux3BOvV_GAYMtio2ljnQc2Mc4Q68wmLqbnIsE3Wk&downloadName=17_Connecting_to_MongoDB.mov)
 
 https://youtu.be/05_dDRR9TyA
 
