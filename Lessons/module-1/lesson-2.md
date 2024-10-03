@@ -20,6 +20,8 @@ https://youtu.be/PoHWcq1pLhM
 
 Diving deeper into Python's Decorator @ syntax
 
+[Video Lesson 2](https://file.notion.so/f/f/b55c22ee-fac0-43f5-b763-ad205bab0599/c2c210e6-86e3-4c2b-a455-e8ba870f6bbc/2_Decorators.mov?table=block&id=ecac1118-a8b4-4a9a-b882-99d40adcb7ab&spaceId=b55c22ee-fac0-43f5-b763-ad205bab0599&expirationTimestamp=1728064800000&signature=FPKDpuqVZ55JIiKJq8qM-AfgCZsRfr9ZYD72oRecLOQ&downloadName=2_Decorators.mov)
+
 https://youtu.be/xLy7D3CaHps
 
 Diving deeper into Python's `__name__` keyword
