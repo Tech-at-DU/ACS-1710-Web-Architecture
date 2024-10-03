@@ -14,19 +14,19 @@ By the end of this lesson, you should be able to...
 
 Building our first Flask server step-by-step video walkthrough
 
-[Video Lesson 1](https://file.notion.so/f/f/b55c22ee-fac0-43f5-b763-ad205bab0599/73aa7d96-2b1b-48ad-a993-2a229e23a5b3/1_Flask_Introduction.mov?table=block&id=f5d7bb61-fc2e-4c27-b0ab-40593c5c4c9d&spaceId=b55c22ee-fac0-43f5-b763-ad205bab0599&expirationTimestamp=1728064800000&signature=JFa9-3u6ekLXMhtaj_a7foaNzlQlRl-YHQ6m___QIZ4&downloadName=1_Flask_Introduction.mov)
+[Vid 1 - First Flask server walkthrough](https://file.notion.so/f/f/b55c22ee-fac0-43f5-b763-ad205bab0599/73aa7d96-2b1b-48ad-a993-2a229e23a5b3/1_Flask_Introduction.mov?table=block&id=f5d7bb61-fc2e-4c27-b0ab-40593c5c4c9d&spaceId=b55c22ee-fac0-43f5-b763-ad205bab0599&expirationTimestamp=1728064800000&signature=JFa9-3u6ekLXMhtaj_a7foaNzlQlRl-YHQ6m___QIZ4&downloadName=1_Flask_Introduction.mov)
 
 https://youtu.be/PoHWcq1pLhM
 
 Diving deeper into Python's Decorator @ syntax
 
-[Video Lesson 2](https://file.notion.so/f/f/b55c22ee-fac0-43f5-b763-ad205bab0599/c2c210e6-86e3-4c2b-a455-e8ba870f6bbc/2_Decorators.mov?table=block&id=ecac1118-a8b4-4a9a-b882-99d40adcb7ab&spaceId=b55c22ee-fac0-43f5-b763-ad205bab0599&expirationTimestamp=1728064800000&signature=FPKDpuqVZ55JIiKJq8qM-AfgCZsRfr9ZYD72oRecLOQ&downloadName=2_Decorators.mov)
+[Vid 2 - exploring Python's Decorator syntax](https://file.notion.so/f/f/b55c22ee-fac0-43f5-b763-ad205bab0599/c2c210e6-86e3-4c2b-a455-e8ba870f6bbc/2_Decorators.mov?table=block&id=ecac1118-a8b4-4a9a-b882-99d40adcb7ab&spaceId=b55c22ee-fac0-43f5-b763-ad205bab0599&expirationTimestamp=1728064800000&signature=FPKDpuqVZ55JIiKJq8qM-AfgCZsRfr9ZYD72oRecLOQ&downloadName=2_Decorators.mov)
 
 https://youtu.be/xLy7D3CaHps
 
 Diving deeper into Python's `__name__` keyword
 
-[Video Lesson 3](https://file.notion.so/f/f/b55c22ee-fac0-43f5-b763-ad205bab0599/63bd2804-9ad5-4385-ae3f-866dbd646dae/3_Name_Keyword.mov?table=block&id=b7e6ede1-e878-418a-aacd-ebd9ec69d9d3&spaceId=b55c22ee-fac0-43f5-b763-ad205bab0599&expirationTimestamp=1728064800000&signature=ZNAJriaf421QJ03IgKO8DR89nubO4WQWwdlnqeWQh-o&downloadName=3_Name_Keyword.mov)
+[Vid 3 - exploring the `__name__` keyword](https://file.notion.so/f/f/b55c22ee-fac0-43f5-b763-ad205bab0599/63bd2804-9ad5-4385-ae3f-866dbd646dae/3_Name_Keyword.mov?table=block&id=b7e6ede1-e878-418a-aacd-ebd9ec69d9d3&spaceId=b55c22ee-fac0-43f5-b763-ad205bab0599&expirationTimestamp=1728064800000&signature=ZNAJriaf421QJ03IgKO8DR89nubO4WQWwdlnqeWQh-o&downloadName=3_Name_Keyword.mov)
 
 https://youtu.be/okQzZJD-lbg
 
