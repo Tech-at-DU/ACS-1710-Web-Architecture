@@ -11,6 +11,8 @@ By the end of this lesson, you should be able to...
 
 ## Videos 🎥
 
+[Vid 1 - Using Flask's request method to work with <form> data in routes](https://file.notion.so/f/f/b55c22ee-fac0-43f5-b763-ad205bab0599/61e7d94e-4e14-49d3-aa74-5276af2c144b/6_Forms_and_request_edited.mp4?table=block&id=a9bb8bf6-5597-41e6-a1dd-1d455580e80f&spaceId=b55c22ee-fac0-43f5-b763-ad205bab0599&expirationTimestamp=1728064800000&signature=4QQCMysUohN5q2NJKbzAO7OCWDRoZEhKj13M_pK94RI&downloadName=6_Forms_and_request_edited.mp4)
+
 https://youtu.be/5KvnErD1YG8
 
 # Exercises 💪
