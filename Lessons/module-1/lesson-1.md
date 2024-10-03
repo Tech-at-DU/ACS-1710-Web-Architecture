@@ -13,6 +13,8 @@ By the end of this lesson, you should be able to...
 
 https://youtu.be/2CYu4d0-YJk
 
+https://file.notion.so/f/f/b55c22ee-fac0-43f5-b763-ad205bab0599/0bcfbd95-79ed-4184-b36c-d849beb3a4ce/RPReplay_Final1610465677.mp4?table=block&id=190f592a-ef75-45db-bb74-cc8f313e8a7c&spaceId=b55c22ee-fac0-43f5-b763-ad205bab0599&expirationTimestamp=1728064800000&signature=_G9gV-hTHvHCk7LXVmYFFYSUOiFhJ1jWnj3uBy40rZc&downloadName=RPReplay_Final1610465677.mp4
+
 ## Exercises 💪
 
 Answer “Request Response Questions” on Gradescope. 
