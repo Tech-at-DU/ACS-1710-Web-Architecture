@@ -15,6 +15,7 @@ By the end of this lesson, you should be able to...
 
 </aside>
 
+
 [Vid 1 - Generating different views via conditional statements in the Jinja2 template syntax](https://file.notion.so/f/f/6004cc36-d69e-461f-a1c5-8e5078ac8f6b/e22199cd-31ad-4b5b-8268-51953e9a9037/9_Template_Conditionals.mov?table=block&id=37a0a656-14d2-4b01-9f33-c33188af3418&spaceId=6004cc36-d69e-461f-a1c5-8e5078ac8f6b&expirationTimestamp=1728064800000&signature=PDZBVpzjRt_BDoaJh2RpFrMfikdS8COyzUoN7UmbXZU&downloadName=9_Template_Conditionals.mov)
 
 https://youtu.be/QnY-WcDyE4k
