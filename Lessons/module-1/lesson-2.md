@@ -14,6 +14,8 @@ By the end of this lesson, you should be able to...
 
 Building our first Flask server step-by-step video walkthrough
 
+[Video Lesson 1](https://file.notion.so/f/f/b55c22ee-fac0-43f5-b763-ad205bab0599/73aa7d96-2b1b-48ad-a993-2a229e23a5b3/1_Flask_Introduction.mov?table=block&id=f5d7bb61-fc2e-4c27-b0ab-40593c5c4c9d&spaceId=b55c22ee-fac0-43f5-b763-ad205bab0599&expirationTimestamp=1728064800000&signature=JFa9-3u6ekLXMhtaj_a7foaNzlQlRl-YHQ6m___QIZ4&downloadName=1_Flask_Introduction.mov)
+
 https://youtu.be/PoHWcq1pLhM
 
 Diving deeper into Python's Decorator @ syntax
