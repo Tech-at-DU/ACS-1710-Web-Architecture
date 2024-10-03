@@ -11,7 +11,7 @@ By the end of this lesson, you should be able to...
 
 ## Videos 🎥
 
-[Video Lesson 1](https://file.notion.so/f/f/b55c22ee-fac0-43f5-b763-ad205bab0599/8cc1a9e1-4326-4ca2-8372-a97cf16e3ed9/get_vs_post_take2.mov?table=block&id=fcce6099-1999-4356-800a-db640da1a49d&spaceId=b55c22ee-fac0-43f5-b763-ad205bab0599&expirationTimestamp=1728064800000&signature=0570wwmoAnOApx5JuKfQN9asQxsAvvdmRLeHVFIq3v8&downloadName=get_vs_post_take2.mov)
+[Vid 1 - Exploring applications and differences between the HTTP GET and POST and methods via Grumble.io](https://file.notion.so/f/f/b55c22ee-fac0-43f5-b763-ad205bab0599/8cc1a9e1-4326-4ca2-8372-a97cf16e3ed9/get_vs_post_take2.mov?table=block&id=fcce6099-1999-4356-800a-db640da1a49d&spaceId=b55c22ee-fac0-43f5-b763-ad205bab0599&expirationTimestamp=1728064800000&signature=0570wwmoAnOApx5JuKfQN9asQxsAvvdmRLeHVFIq3v8&downloadName=get_vs_post_take2.mov)
 
 https://youtu.be/jjwQQGIR1RU
 
