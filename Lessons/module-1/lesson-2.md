@@ -55,12 +55,43 @@ See the boilerplate and video walkthrough below for step-by-step instructions on
 
 ## Code References 📀
 
+## What is a virtual environment? 
+
+### Setup your Virtual Environment 
+
+Create venv
+```
+python3 -m venv venv/
+```
+
+Once you have created your virtual environment, you must activate it to use it. Activate it with the following line in the terminal: 
+
+```
+source venv/bin/activate
+```
+
+You should see `(venv)` in front of you terminal prompt, it might look something like: `(venv) mitchellhudson@mitchells-MBP module-1`. 
+
+With your virtual environment activated, install Flask with: 
+
+```
+pip3 install flask
+```
+
+This adds the Flask dependency to the virtual environment. 
+
+
+
 ### Terminal Commands:
 
 - installation command = `pip3 install flask`
 - running a local server = `python3 fileName.py`
 
 ### Boilerplates
+
+Create `main.py`. Add the code below to that file. 
+
+Run the file with: `python3 main.py`
 
 ```python
 # standard flask boilerplate
