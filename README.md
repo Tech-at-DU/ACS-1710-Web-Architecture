@@ -45,8 +45,8 @@ By the end of the course, you will be able to ...
 |  8 | Thu, Nov 14 | **Finished Quiz 2 (HARD DEADLINE - CLOSES END OF WEEK)** |
 |  9 | Tue, Nov 19 | [Module 4](Lessons/module-4/) |
 | 10 | Thu, Nov 21 | [Finished Module 4 Assignment](Assignments/03-APIs.md) |
-| 11 | Tue, Nov 26 | **Thanks Giving Holiday** |
-| 12 | Thu, Nov 28  | [Module 5](Lessons/module-5/) |
+| 11 | Tue, Nov 26 | [Module 5](Lessons/module-5/) |
+| 12 | Thu, Nov 28  | **Thanks Giving Holiday** |
 | 13 | Tue, Nov  3  | - |
 | 14 | Thu, Dec  5  | [Finished Module 5 Assignment](Assignments/04-Databases.md) |
 | 15 | Tue, Dec 12  | - |
