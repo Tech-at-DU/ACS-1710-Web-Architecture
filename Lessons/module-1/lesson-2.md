@@ -93,6 +93,8 @@ Create `main.py`. Add the code below to that file.
 
 Run the file with: `python3 main.py`
 
+With this Flask server running, you should see the address it is running at in the terminal, something like: `http://127.0.0.1:3000`. Paste this address into your web browser. You should see the words `Hello, World!` in the window. 
+
 ```python
 # standard flask boilerplate
 
