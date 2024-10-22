@@ -80,7 +80,20 @@ pip3 install flask
 
 This adds the Flask dependency to the virtual environment. 
 
+## Be sure to GitIgnore Virtual Environment
+Its important that you NOT commit your virtual environment! Do this by adding .gitignore file. 
 
+Create a new file named: `.gitignore`
+
+Add the following to this file: 
+
+```
+venv/
+```
+
+Now commit and push!
+
+If you made a commit after creating the `venv` before adding the `.gitignore` You will need to remove `venv` from your cache. Follow the instructions here: https://stackoverflow.com/questions/14409299/does-git-remove-files-from-version-control-after-they-are-added-to-gitignore
 
 ### Terminal Commands:
 
