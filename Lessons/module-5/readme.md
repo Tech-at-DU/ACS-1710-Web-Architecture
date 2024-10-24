@@ -1,4 +1,4 @@
-# MODULE 5: Databases
+# MODULE 5: Introduction to databases and connecting servers to them
 
 # Module Learning Objectives
 
