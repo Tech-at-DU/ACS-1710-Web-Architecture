@@ -1,4 +1,4 @@
-# MODULE 4: Level Up your Development Environment
+# MODULE 4: Developing secure and distributable web applications
 
 # Module Learning Objectives
 
