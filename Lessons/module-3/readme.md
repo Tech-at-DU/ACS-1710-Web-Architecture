@@ -1,4 +1,4 @@
-# MODULE 3: APIs
+# MODULE 3: Building robust services that connect to platforms via API's
 
 # Module Learning Objectives
 
