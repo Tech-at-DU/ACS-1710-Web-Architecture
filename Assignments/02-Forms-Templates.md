@@ -53,6 +53,12 @@ You should see `(venv)` in yout command prompt. It might look something like thi
 (venv) mitchellhudson@mitchells-MBP assignment %
 ```
 
+**Install Flask**:
+
+```
+pip3 install flask
+```
+
 ## Part 1: Forms
 
 ### Fro-Yo Ordering
