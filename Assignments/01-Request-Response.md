@@ -21,10 +21,28 @@ Download the [starter code](https://github.com/Tech-at-DU/ACS-1710-Homework-1-St
 
 Refresh the page in your newly-created GitHub repo to make sure your changes were successfully pushed.
 
+Setup your virtual environment: 
+
+```
+python3 -m venv venv/
+```
+
+Now activate your virtual environment: 
+
+```
+source venv/bin/activate
+```
+
+You should see `(venve)` in yout command prompt. It might look something like this: 
+
+```
+(venv) mitchellhudson@mitchells-MBP assignment %
+```
+
 Finally, make sure you have installed Flask:
 
 ```
-$ pip3 install flask
+pip3 install flask
 ```
 
 ## Instructions - Core Challenges
