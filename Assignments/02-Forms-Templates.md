@@ -133,7 +133,7 @@ Update the `secret_message` route to show a form for the user to enter a secret 
 
 Then, update the `message_results` route to show the secret message -- with its letters **sorted in alphabetical order**.
 
-**HINT**: Call the `.sort_letters()` method that's included in the starter code!
+**HINT**: Call the `sort_letters(message)` method that's included in the starter code!
 
 So, if I enter the phrase `Make School Rocks` into the form field and press submit, I should see the result of:
 
