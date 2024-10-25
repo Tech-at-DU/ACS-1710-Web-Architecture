@@ -25,7 +25,25 @@ Download the [starter code](https://github.com/Tech-at-DU/ACS-1710-Homework-3-Fo
 
 Refresh the page in your newly-created GitHub repo to make sure your changes were successfully pushed.
 
-Run the following in your project directory to install dependencies: 
+**Setup your virtual environment**: 
+
+```
+python3 -m venv venv/
+```
+
+Now activate your virtual environment: 
+
+```
+source venv/bin/activate
+```
+
+You should see `(venv)` in yout command prompt. It might look something like this: 
+
+```
+(venv) mitchellhudson@mitchells-MBP assignment %
+```
+
+**Install dependencies**: Run the following in your project directory to install dependencies: 
 
 ```
 pip3 install -r requirements.txt
@@ -117,9 +135,9 @@ No tests for this one (yet) but feel free to try writing your own!
 When you're ready to submit your work, make sure you push all of your changes to GitHub:
 
 ```bash
-$ git add .
-$ git commit -m'Completed all challenges'
-$ git push
+git add .
+git commit -m'Completed all challenges'
+git push
 ```
 
 Then, submit your assignment using [Gradescope](https://gradescope.com).
