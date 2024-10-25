@@ -195,6 +195,17 @@ To test the correctness of your code, first make sure you've installed unittest:
 pip3 install unittest
 ```
 
+**NOTE** When I ran the command above I got this error: 
+
+```
+ERROR: Could not find a version that satisfies the requirement unittest (from versions: none)
+ERROR: No matching distribution found for unittest
+```
+
+After a search I found: **The unittest module is part of Python's standard library, so you don't need to install it with pip. It’s already included in Python and can be imported directly.**
+
+It looks like you won't need to install `unittest`. I'm leaving this here in case it is needed for some systems or versions of Python. 
+
 Then, run the tests:
 
 ```bash
