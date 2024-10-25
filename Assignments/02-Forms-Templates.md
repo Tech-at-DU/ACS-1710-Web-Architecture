@@ -186,19 +186,19 @@ Complete the `horoscope_results` route to:
 To test the correctness of your code, first make sure you've installed unittest:
 
 ```bash
-$ pip3 install unittest
+pip3 install unittest
 ```
 
 Then, run the tests:
 
 ```bash
-$ python3 test_app.py
+python3 test_app.py
 ```
 
 If you'd like to run just a single test, you can run:
 
 ```bash
-$ python3 test_app.py TestApp.test_froyo
+python3 test_app.py TestApp.test_froyo
 ```
 
 To see what tests are available to run, open the `test_app.py` file in your starter code and take a look!
@@ -224,9 +224,9 @@ If that doesn't work try read this and see if it solves any issues: https://bobb
 When you're ready to submit your work, make sure you push all of your changes to GitHub:
 
 ```bash
-$ git add .
-$ git commit -m'Completed all challenges'
-$ git push
+git add .
+git commit -m'Completed all challenges'
+git push
 ```
 
 Then, submit your assignment using [Gradescope](https://gradescope.com).
