@@ -33,7 +33,7 @@ Now activate your virtual environment:
 source venv/bin/activate
 ```
 
-You should see `(venve)` in yout command prompt. It might look something like this: 
+You should see `(venv)` in yout command prompt. It might look something like this: 
 
 ```
 (venv) mitchellhudson@mitchells-MBP assignment %
