@@ -88,7 +88,7 @@ if __name__ == '__main__':
 Now we're ready to run the code! Open up your terminal, in your project folder, and type the following:
 
 ```
-$ python3 app.py
+python3 app.py
 ```
 
 You should see something like this in your Terminal output:
@@ -177,19 +177,19 @@ Write a route `dicegame` that chooses a random number from 1 to 6. If the user r
 To test the correctness of your code, first make sure you've installed pytest:
 
 ```bash
-$ pip3 install pytest
+pip3 install pytest
 ```
 
 Then, run the tests:
 
 ```bash
-$ pytest
+pytest
 ```
 
 If you'd like to run just a single test, you can run:
 
 ```bash
-$ pytest -k 'test_dicegame'
+pytest -k 'test_dicegame'
 ```
 
 To see what tests are available to run, open the `test_app.py` file in your starter code and take a look!
@@ -199,9 +199,9 @@ To see what tests are available to run, open the `test_app.py` file in your star
 When you're ready to submit your work, make sure you push all of your changes to GitHub:
 
 ```bash
-$ git add .
-$ git commit -m'Completed all challenges'
-$ git push
+git add .
+git commit -m'Completed all challenges'
+git push
 ```
 
 Then, submit your assignment using [Gradescope](https://gradescope.com).
