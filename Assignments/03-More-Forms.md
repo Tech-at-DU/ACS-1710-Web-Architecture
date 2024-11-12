@@ -49,13 +49,55 @@ You should see `(venv)` in yout command prompt. It might look something like thi
 pip3 install -r requirements.txt
 ```
 
-Finally, for this assignment, you'll need to install the Pillow and Requests libraries:
+Test your app with:
+
+```
+python3 app.py
+```
+
+You may see an error! This will most likely, provided you haven't edited `app.py`, be problem with a missing dependency. Something like:
+
+```
+ModuleNotFoundError: No module named 'flask'
+```
+
+To resolve this error you need to install Flask! I know it looks like we already did that with requirements.txt but Python says its still missing. Do this: 
+
+```
+pip3 install flask
+```
+
+Test your app again. If there is another error, like: 
+
+```
+ModuleNotFoundError: No module named 'PIL'
+```
+
+You'll need to install this module. In this case 'PIL' is NOT the module name! This time the missing module is: pillow. 
 
 ```
 pip3 install pillow
-pip3 install requests
-pip3 install flask
 ```
+
+Test again! This time I see: 
+
+```
+ModuleNotFoundError: No module named 'dotenv'
+```
+
+The missing module in this case is: `python-dotenv` not `dotenv`:
+
+```
+pip3 install python-dotenv
+```
+
+I also had to install requests: 
+
+```
+pip3 install requests
+```
+
+From here my app was working! I'm not sure why this is, I've searched the internet and have not found any satisfying answers, many of the answers did not work. The steps above did work for me! 
 
 ## Instructions
 
