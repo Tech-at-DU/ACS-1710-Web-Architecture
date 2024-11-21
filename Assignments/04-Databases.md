@@ -109,6 +109,8 @@ Note that this route is a little bit special, as it accepts both a `GET` and a `
 
 **HINT**: If you're having trouble with this step, look at examples of using the [insert_one](https://api.mongodb.com/python/current/api/pymongo/collection.html#pymongo.collection.Collection.insert_one) operation!
 
+When you use `insert_one()` it *returns* a reference to the object that was just created in the database. You can get the id of that object `inserted_id`.  
+
 Use the [Robo 3T program](https://robomongo.org/) to inspect the contents of your database and verify that the data was added.
 
 For the details page to see the plant you just created you need to give it the id of that plant. Every new record created in the Mongo database will be assigned a unique id. **The details page will NOT show the plant details until you tackle that problem below**. You can check that the id is working correctly by looking at the url in the details page, it should read something like: `http://127.0.0.1:5000/plant/673fa679c69ddf9b95e566b3`. The value `673fa679c69ddf9b95e566b3` is a Mongo id. 
