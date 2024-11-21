@@ -111,6 +111,8 @@ Note that this route is a little bit special, as it accepts both a `GET` and a `
 
 Use the [Robo 3T program](https://robomongo.org/) to inspect the contents of your database and verify that the data was added.
 
+For the details page to see the plant you just created you need to give it the id of that plant. Every new record created in the Mongo database will be assigned a unique id. **The details page will NOT show the plant details until you tackle that problem below**. You can check that the id is working correctly by looking at the url in the details page, it should read something like: `http://127.0.0.1:5000/plant/673fa679c69ddf9b95e566b3`. The value `673fa679c69ddf9b95e566b3` is a Mongo id. 
+
 ### List Plants
 
 Now that we've got a few plants in the database, the next step is to show all plants on the homepage!
