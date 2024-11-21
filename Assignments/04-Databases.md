@@ -146,6 +146,8 @@ Complete the TODOs in the `detail()` route, as well as in the `detail.html` temp
 
 **HINT**: If you're having trouble with this step, look at examples of using the [find_one](https://api.mongodb.com/python/current/api/pymongo/collection.html#pymongo.collection.Collection.find_one) operation!
 
+Looking closely at the details route, you will see that the route receives `plant_id` as a param. This is a string and must be converted to an object id for use with Mongo. Something like: `mongo.db.plants.find_one(ObjectId(plant_id))`. 
+
 ### Add a Harvest
 
 Complete the TODOs in the `harvest()` route to process the results of the form on the detail page. Then, modify the `detail.html` page to use a for loop to display all harvests.
