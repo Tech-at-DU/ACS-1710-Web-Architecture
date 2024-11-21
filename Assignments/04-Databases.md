@@ -170,6 +170,12 @@ Complete the TODOs in the `edit()` route to take the results of the form and use
 
 **HINT**: If you're having trouble with this step, look at examples of using the [update_one](https://api.mongodb.com/python/current/api/pymongo/collection.html#pymongo.collection.Collection.update_one) operation!
 
+To update a plant use `mongo.db.plants.update_one()`. This method takes search-params and changes. Both are dictionaries, the first describes the object you want to update, and the second contains the properties and values that should be updated in that object. 
+
+The `changes` dictionary should look the same as the `new_plant` in the create route but, you will update the properties with values from the form, get those values from the `request` object. You'll need to wrap this in the another dictionary with one key `$set`. Something like: `{ '$set': updated_plant }`
+
+The search-params should include the `_id` of the plant you are editing. You should take the string `plant_id` and pass that to the `ObjectId()` function to turn it into a Mongo id. 
+ 
 ### Delete Plant
 
 Complete the TODOs in the `delete()` route to delete the plant with the given id.
