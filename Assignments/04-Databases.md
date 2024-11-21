@@ -125,6 +125,19 @@ Complete the TODOs in the app's `plants_list()` route to get all plants in the d
 
 In your Jinja template you can access the id of a plant with the key `_id`. 
 
+The template creates a listing for each plant in the database. Each listing is in the form of a card that includes:
+
+- An image wrapped in an anchor (link) tag.
+- Div with an anchor that shows the name of the plant.
+
+You need to include the `_id` of each plant at the end of the url in the anchor tags (there are two of these).
+
+The name of the plant should be inserted into into the second anchor tag. 
+
+The `img` tag needs to have the photo_url in it's `src` attribute. 
+
+The starter code shows a few plants to mock up what the page should look like. Delete all but one of these and use that one as the starting place for your template. 
+
 ### Plants Detail
 
 Usually if a website lists many objects, you'll want to have a way to "zoom in" on a single object and see all of its relevant details.
