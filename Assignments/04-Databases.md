@@ -25,20 +25,6 @@ Download the [starter code](https://github.com/Tech-at-DU/ACS-1710-Homework-5-Da
 
 Refresh the page in your newly-created GitHub repo to make sure your changes were successfully pushed.
 
-#### Set Upstream
-
-Next, let's connect your local clone of this course repo to the upstream repo on GitHub so that you can pull in any changes or updates made.
-
-Add the starter code’s upstream repo as another remote to your local repo:
-
-```
-git remote add upstream git@github.com:Make-School-Labs/WEB-1.1-Homework-4-Starter.git
-```
-
-Verify that you have two remotes: `origin` (with your username in the URL) and `upstream` (with Make-School-Labs) with `git remote -v`.
-
-When you want to access new starter code for future assignments, first be sure you’ve committed and pushed your recent work (run `git status` to check) and then pull from the course’s upstream repo with `git pull upstream master`.
-
 ### Running a MongoDB Server
 
 Follow the [MongoDB Setup Instructions](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/) to install and run a MongoDB server on your computer.
