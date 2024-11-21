@@ -32,16 +32,22 @@ Follow the [MongoDB Setup Instructions](https://docs.mongodb.com/manual/tutorial
 Install with the command:
 
 ```
-brew install mongodb-community@4.4
+brew install mongodb-community@8.0
 ```
 
 And run with the command:
 
 ```
-brew services start mongodb-community@4.4
+brew services stop mongodb-community@8.0
 ```
 
 This will run a MongoDB server on the local URL `localhost:27017`, which will only be reachable from your machine. That's fine for now, because you'll also be running the Flask server on your machine, on `localhost:5000`.
+
+You can stop the MongoDB server with: 
+
+```
+brew services stop mongodb-community@8.0
+```
 
 ### Installing Packages - Virtual Environment
 
