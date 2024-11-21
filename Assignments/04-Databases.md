@@ -146,7 +146,17 @@ Complete the TODOs in the `detail()` route, as well as in the `detail.html` temp
 
 **HINT**: If you're having trouble with this step, look at examples of using the [find_one](https://api.mongodb.com/python/current/api/pymongo/collection.html#pymongo.collection.Collection.find_one) operation!
 
-Looking closely at the details route, you will see that the route receives `plant_id` as a param. This is a string and must be converted to an object id for use with Mongo. Something like: `mongo.db.plants.find_one(ObjectId(plant_id))`. 
+Looking closely at the details route, you will see that the route receives `plant_id` as a param. This is a string and must be converted to an object id for use with Mongo. Something like: `mongo.db.plants.find_one(ObjectId(plant_id))`.
+
+Fix the `details.html` template by serching through the mockup for relevant elements and replace them with data passed to the template from your route. These are: 
+
+- plant name
+- image needs the photo url
+- date planted
+- variety
+- edit url needs the plant id (`_id`)
+- harvest form action needs the plant id
+- Delete form needs the plant id
 
 ### Add a Harvest
 
