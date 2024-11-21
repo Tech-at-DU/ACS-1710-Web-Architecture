@@ -121,6 +121,8 @@ Complete the TODOs in the app's `plants_list()` route to get all plants in the d
 
 **HINT**: If you're having trouble with this step, look at examples of using the [find](https://api.mongodb.com/python/current/api/pymongo/collection.html#pymongo.collection.Collection.find) operation!
 
+In your Jinja template you can access the id of a plant with the key `_id`. 
+
 ### Plants Detail
 
 Usually if a website lists many objects, you'll want to have a way to "zoom in" on a single object and see all of its relevant details.
