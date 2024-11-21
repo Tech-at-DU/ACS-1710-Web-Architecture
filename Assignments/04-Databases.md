@@ -38,7 +38,7 @@ brew install mongodb-community@8.0
 And run with the command:
 
 ```
-brew services stop mongodb-community@8.0
+brew services start mongodb-community@8.0
 ```
 
 This will run a MongoDB server on the local URL `localhost:27017`, which will only be reachable from your machine. That's fine for now, because you'll also be running the Flask server on your machine, on `localhost:5000`.
