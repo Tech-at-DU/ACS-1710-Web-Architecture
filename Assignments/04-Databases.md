@@ -176,6 +176,8 @@ Complete the TODOs in the `delete()` route to delete the plant with the given id
 
 **HINT**: If you're having trouble with this step, look at examples of using the [delete_one](https://api.mongodb.com/python/current/api/pymongo/collection.html#pymongo.collection.Collection.delete_one) operation!
 
+Notice that `delete_one` requires a dictionary with the properties of the record you wish to delete. The id is best to use here becuase it uniquely identifies a record. You might pass something like: `{ '_id': ObjectId(plant_id) }` to `delete_one()`. 
+
 ## Stretch challenges
 
 Stretch challenges are totally up to you! Here are some ideas you may want to consider:
