@@ -55,6 +55,8 @@ python3 -m venv env
 
 This will create a folder called `env` within your project directory that will hold a copy of all installed packages. **IMPORTANT: DO NOT SUBMIT YOUR VIRTUAL ENVIRONMENT TO GRADESCOPE.** If you do, it'll freeze the website and I won't be able to grade your work. :-(
 
+Create a new file in the root directory of your project. Name this `.gitignore` (this file name beigns with a dot . ). Copy the text [here](https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore) to that file and save.  
+
 To activate your virtual environment, navigate to your project directory and enter the command:
 
 ```bash
