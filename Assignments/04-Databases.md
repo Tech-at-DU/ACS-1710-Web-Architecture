@@ -109,7 +109,7 @@ Note that this route is a little bit special, as it accepts both a `GET` and a `
 
 **HINT**: If you're having trouble with this step, look at examples of using the [insert_one](https://api.mongodb.com/python/current/api/pymongo/collection.html#pymongo.collection.Collection.insert_one) operation!
 
-When you use `insert_one()` it *returns* a reference to the object that was just created in the database. You can get the id of that object `inserted_id`.  
+When you use `insert_one()` it *returns* a reference to the object that was just created in the database. You can get the id of that object from the `inserted_id` property.  
 
 Use the [Robo 3T program](https://robomongo.org/) to inspect the contents of your database and verify that the data was added.
 
