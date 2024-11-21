@@ -138,6 +138,8 @@ The `img` tag needs to have the photo_url in it's `src` attribute.
 
 The starter code shows a few plants to mock up what the page should look like. Delete all but one of these and use that one as the starting place for your template. 
 
+See module 5: https://github.com/Tech-at-DU/ACS-1710-Web-Architecture/blob/master/Lessons/module-5/lesson-4.md#read--find-in-pymongo
+
 ### Plants Detail
 
 Usually if a website lists many objects, you'll want to have a way to "zoom in" on a single object and see all of its relevant details.
@@ -183,6 +185,8 @@ Complete the TODOs in the `delete()` route to delete the plant with the given id
 **HINT**: If you're having trouble with this step, look at examples of using the [delete_one](https://api.mongodb.com/python/current/api/pymongo/collection.html#pymongo.collection.Collection.delete_one) operation!
 
 Notice that `delete_one` requires a dictionary with the properties of the record you wish to delete. The id is best to use here becuase it uniquely identifies a record. You might pass something like: `{ '_id': ObjectId(plant_id) }` to `delete_one()`. 
+
+See Module 5: https://github.com/Tech-at-DU/ACS-1710-Web-Architecture/blob/master/Lessons/module-5/lesson-4.md#delete--delete_one-in-pymongo
 
 ## Stretch challenges
 
