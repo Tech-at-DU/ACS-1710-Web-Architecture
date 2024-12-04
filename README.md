@@ -49,7 +49,8 @@ By the end of the course, you will be able to ...
 | 12 | Thu, Nov 28  | **Thanks Giving Holiday** |
 | 13 | Tue, Nov  3  | - |
 | 14 | Thu, Dec  5  | [Finished Module 5 Assignment](Assignments/04-Databases.md) |
-| 15 | Tue, Dec 12  | - |
+| 15 | Tue, Dec 10  | - |
+| 16 | Tue, Dec 12  | - |
 
 ## Assignments
 Students will complete assignments at their own pace. 
