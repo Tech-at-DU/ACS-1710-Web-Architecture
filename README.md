@@ -29,27 +29,33 @@ By the end of the course, you will be able to ...
 
 ## Schedule
 
-**Course Dates:** October 21 – December 13, 2024
+**Course Dates:** August 25 – October 10, 2025
 
-**Class Times:** Tuesday, Thursday 1:00 PM – 3:45 PM
+**Class Times:** Monday and Wednesday, 1:30 PM – 4:00 PM
 
 | Class | Date | Pacing Recommendations (Complete all lessons up to - ) |
 | :---: | :--: | :-----: |
-|  1 | Tue, Oct 22 | [Module 1](Lessons/module-1/) |
-|  2 | Thu, Oct 24 | [Finished Module 1 Assignment](Assignments/01-Request-Response.md)  |
-|  3 | Tue, Oct 29 | [Module 2](Lessons/module-2/) |
-|  4 | Thu, Oct 31 | [Finished Module 2 Assignment](Assignments/02-Forms-Templates.md) |
-|  5 | Tue, Nov  5 | **Finished Quiz 1 (HARD DEADLINE - CLOSES END OF WEEK)** |
-|  6 | Thu, Nov  7 | [Module 3](Lessons/module-3/) |
-|  7 | Tue, Nov 12 | [Finished Module 3 Assignment](Assignments/03-More-Forms.md) |
-|  8 | Thu, Nov 14 | **Finished Quiz 2 (HARD DEADLINE - CLOSES END OF WEEK)** |
-|  9 | Tue, Nov 19 | [Module 4](Lessons/module-4/) |
-| 10 | Thu, Nov 21 | [Finished Module 4 Assignment](Assignments/03-APIs.md) |
-| 11 | Tue, Nov 26 | [Module 5](Lessons/module-5/) |
-| 12 | Thu, Nov 28  | **Thanks Giving Holiday** |
-| 13 | Tue, Nov  3  | - |
-| 14 | Thu, Dec  5  | [Finished Module 5 Assignment](Assignments/04-Databases.md) |
-| 15 | Tue, Dec 12  | - |
+|  - | Week 1 | - |
+|  1 | Mon, Aug 25 | [Module 1](Lessons/module-1/) |
+|  2 | Wed, Aug 27 | [Finished Module 1 Assignment](Assignments/01-Request-Response.md)  |
+|  - | Week 2 | - |
+|  3 | Mon, Sep  1 | [Module 2](Lessons/module-2/) |
+|  4 | Wed, Sep  3 | [Finished Module 2 Assignment](Assignments/02-Forms-Templates.md) |
+|  - | Week 3 | - |
+|  5 | Mon, Sep  8 | **Finished Quiz 1 (HARD DEADLINE - CLOSES END OF WEEK)** |
+|  6 | Wed, Sep 10 | [Module 3](Lessons/module-3/) |
+|  - | Week 4 | - |
+|  7 | Mon, Sep 15 | [Finished Module 3 Assignment](Assignments/03-More-Forms.md) |
+|  8 | Wed, Sep 17 | **Finished Quiz 2 (HARD DEADLINE - CLOSES END OF WEEK)** |
+|  - | Week 5 | - |
+|  9 | Mon, Sep 22 | [Module 4](Lessons/module-4/) |
+| 10 | Wed, Sep 24 | [Finished Module 4 Assignment](Assignments/03-APIs.md) |
+|  - | Week 6 | - |
+| 11 | Mon, Sep 29 | [Module 5](Lessons/module-5/) |
+| 12 | Wed, Oct  1 | TBD |
+|  - | Week 7 | - |
+| 13 | Mon, Oct  6 | TBD |
+| 14 | Wed, Oct  8 | [Finished Module 5 Assignment](Assignments/04-Databases.md) |
 
 ## Assignments
 Students will complete assignments at their own pace. 
