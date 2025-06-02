@@ -25,19 +25,79 @@ Download the [starter code](https://github.com/Tech-at-DU/ACS-1710-Homework-3-Fo
 
 Refresh the page in your newly-created GitHub repo to make sure your changes were successfully pushed.
 
-Run the following in your project directory to install dependencies: 
+**Setup your virtual environment**: 
+
+```
+python3 -m venv venv/
+```
+
+Now activate your virtual environment: 
+
+```
+source venv/bin/activate
+```
+
+You should see `(venv)` in yout command prompt. It might look something like this: 
+
+```
+(venv) mitchellhudson@mitchells-MBP assignment %
+```
+
+**Install dependencies**: Run the following in your project directory to install dependencies: 
 
 ```
 pip3 install -r requirements.txt
 ```
 
-Finally, for this assignment, you'll need to install the Pillow and Requests libraries:
+Test your app with:
+
+```
+python3 app.py
+```
+
+You may see an error! This will most likely, provided you haven't edited `app.py`, be problem with a missing dependency. Something like:
+
+```
+ModuleNotFoundError: No module named 'flask'
+```
+
+To resolve this error you need to install Flask! I know it looks like we already did that with requirements.txt but Python says its still missing. Do this: 
+
+```
+pip3 install flask
+```
+
+Test your app again. If there is another error, like: 
+
+```
+ModuleNotFoundError: No module named 'PIL'
+```
+
+You'll need to install this module. In this case 'PIL' is NOT the module name! This time the missing module is: pillow. 
 
 ```
 pip3 install pillow
-pip3 install requests
-pip3 install flask
 ```
+
+Test again! This time I see: 
+
+```
+ModuleNotFoundError: No module named 'dotenv'
+```
+
+The missing module in this case is: `python-dotenv` not `dotenv`:
+
+```
+pip3 install python-dotenv
+```
+
+I also had to install requests: 
+
+```
+pip3 install requests
+```
+
+From here my app was working! I'm not sure why this is, I've searched the internet and have not found any satisfying answers, many of the answers did not work. The steps above did work for me! 
 
 ## Instructions
 
@@ -117,9 +177,9 @@ No tests for this one (yet) but feel free to try writing your own!
 When you're ready to submit your work, make sure you push all of your changes to GitHub:
 
 ```bash
-$ git add .
-$ git commit -m'Completed all challenges'
-$ git push
+git add .
+git commit -m'Completed all challenges'
+git push
 ```
 
 Then, submit your assignment using [Gradescope](https://gradescope.com).
