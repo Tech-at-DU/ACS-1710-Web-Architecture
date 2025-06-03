@@ -34,27 +34,27 @@ By the end of the course, you will be able to ...
 **Class Times:** Monday and Wednesday, 1:30 PM – 4:00 PM
 
 | Class | Date | Pacing Recommendations (Complete all lessons up to - ) |
-| :---: | :--: | :-----: |
-|  - | Week 1 | - |
+|:---:|:--:|:-----:|
+|  - | Week 1      | - |
 |  1 | Mon, Aug 25 | [Module 1](Lessons/module-1/) |
 |  2 | Wed, Aug 27 | [Finished Module 1 Assignment](Assignments/01-Request-Response.md)  |
-|  - | Week 2 | - |
-|  3 | Mon, Sep  1 | [Module 2](Lessons/module-2/) |
-|  4 | Wed, Sep  3 | [Finished Module 2 Assignment](Assignments/02-Forms-Templates.md) |
-|  - | Week 3 | - |
-|  5 | Mon, Sep  8 | **Finished Quiz 1 (HARD DEADLINE - CLOSES END OF WEEK)** |
-|  6 | Wed, Sep 10 | [Module 3](Lessons/module-3/) |
-|  - | Week 4 | - |
-|  7 | Mon, Sep 15 | [Finished Module 3 Assignment](Assignments/03-More-Forms.md) |
-|  8 | Wed, Sep 17 | **Finished Quiz 2 (HARD DEADLINE - CLOSES END OF WEEK)** |
-|  - | Week 5 | - |
-|  9 | Mon, Sep 22 | [Module 4](Lessons/module-4/) |
-| 10 | Wed, Sep 24 | [Finished Module 4 Assignment](Assignments/03-APIs.md) |
-|  - | Week 6 | - |
-| 11 | Mon, Sep 29 | [Module 5](Lessons/module-5/) |
-| 12 | Wed, Oct  1 | TBD |
-|  - | Week 7 | - |
-| 13 | Mon, Oct  6 | TBD |
+|  - | Week 2      | - |
+|  3 | Mon, Sep  1 | ******LABOR DAY****** |
+|  4 | Wed, Sep  3 | [Module 2](Lessons/module-2/) |
+|  - | Week 3      | - |
+|  5 | Mon, Sep  8 | [Finished Module 2 Assignment](Assignments/02-Forms-Templates.md) |
+|  6 | Wed, Sep 10 | **Finished Quiz 1 (HARD DEADLINE - CLOSES END OF WEEK)** |
+|  - | Week 4      | - |
+|  7 | Mon, Sep 15 | [Module 3](Lessons/module-3/) |
+|  8 | Wed, Sep 17 | [Finished Module 3 Assignment](Assignments/03-More-Forms.md) |
+|  - | Week 5      | - |
+|  9 | Mon, Sep 22 | **Finished Quiz 2 (HARD DEADLINE - CLOSES END OF WEEK)** |
+| 10 | Wed, Sep 24 | [Module 4](Lessons/module-4/) |
+|  - | Week 6      | - |
+| 11 | Mon, Sep 29 | [Finished Module 4 Assignment](Assignments/03-APIs.md) |
+| 12 | Wed, Oct  1 | [Module 5](Lessons/module-5/) |
+|  - | Week 7      | - |
+| 13 | Mon, Oct  6 | LAB DAY |
 | 14 | Wed, Oct  8 | [Finished Module 5 Assignment](Assignments/04-Databases.md) |
 
 ## Assignments
