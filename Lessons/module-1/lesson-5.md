@@ -12,13 +12,13 @@ By the end of this lesson, you should be able to...
 
 ## Videos 🎥
 
-Vid 1 - Route variables walkthrough
+<!-- [Vid 1 - Route variables walkthrough](https://file.notion.so/f/f/b55c22ee-fac0-43f5-b763-ad205bab0599/159db231-fa66-43e1-bd62-ddd5cdd2a685/4_Route_Variables.mov?table=block&id=30e20935-990f-4b35-82d9-adb4755bbff7&spaceId=b55c22ee-fac0-43f5-b763-ad205bab0599&expirationTimestamp=1728064800000&signature=swJQ52qB9HH39s0cSBGtmxKv7Pi_3P9WYjJdMnZpAhw&downloadName=4_Route_Variables.mov) -->
 
-https://youtu.be/RvsTEm4Y8L4
+[Vid 1 - Route variables walkthrough](https://youtu.be/RvsTEm4Y8L4)
 
-Vid 1 - Route variables walkthrough
+<!-- [Vid 2 - Forms walkthrough](https://file.notion.so/f/f/b55c22ee-fac0-43f5-b763-ad205bab0599/5ecf8d34-586b-462e-9ae1-30956adfd1bf/5_Form_Introduction.mov?table=block&id=c2f3047c-95ee-4f56-b806-f4fc3775563d&spaceId=b55c22ee-fac0-43f5-b763-ad205bab0599&expirationTimestamp=1728064800000&signature=t3Lgqa0iEK2vsDwT4Vh5asGIchTQTMoBLRJ25WtDXH0&downloadName=5_Form_Introduction.mov) -->
 
-https://youtu.be/PqBZ9hKGaKQ
+[Vid 2 - Forms walkthrough](https://youtu.be/PqBZ9hKGaKQ)
 
 ## Exercises 💪
 
@@ -97,6 +97,3 @@ def simple_pizza_results():
 *Fig 5 (Python) - the route utilized by the <form> tag in fig 4* 
 
 - *Note: in the above example, the `<form>` data was not utilized in any way! We'll look at how to do that in the next lesson.*
-
-
-

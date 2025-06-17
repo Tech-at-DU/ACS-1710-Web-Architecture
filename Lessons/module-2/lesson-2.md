@@ -48,4 +48,3 @@ def submit_pizza():
         crust_type=request.args.get('crust'),
         pizza_size=request.args.get('size'))
 ```
-

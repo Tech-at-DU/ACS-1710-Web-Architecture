@@ -10,8 +10,6 @@ This course covers language-independent web server frameworks and patterns in fu
 
 <!-- ### 👉 [ Introduction to WEB 1.1 (Web Architecture)](https://handsome-air-ad0.notion.site/Introduction-to-WEB-1-1-Web-Architecture-eb65692e73e04a7784e6b39b8c962488) 🚀 -->
 
-
-
 ## Prerequisites:
 
 1. ACS 1700 (Web Foundations)
@@ -26,6 +24,65 @@ By the end of the course, you will be able to ...
 1. Read and write to the MongoDB database using the PyMongo Object Document Mapper (ODM).
 1. Implement Flask route tests to verify the correctness of routes.
 1. Understand how the “create, read, update, deletion” (C.R.U.D) operations form the basis of user interactions in web architecture.
+
+## Schedule
+
+**Course Dates:** August 25 – October 10, 2025
+
+**Class Times:** Monday and Wednesday, 1:30 PM – 4:00 PM
+
+| Class | Date | Pacing Recommendations (Complete all lessons up to - ) |
+|:---:|:--:|:-----:|
+|  - | Week 1      | - |
+|  1 | Mon, Aug 25 | [Module 1](Lessons/module-1/) |
+|  2 | Wed, Aug 27 | [Finished Module 1 Assignment](Assignments/01-Request-Response.md)  |
+|  - | Week 2      | - |
+|  3 | Mon, Sep  1 | ******LABOR DAY****** |
+|  4 | Wed, Sep  3 | [Module 2](Lessons/module-2/) |
+|  - | Week 3      | - |
+|  5 | Mon, Sep  8 | [Finished Module 2 Assignment](Assignments/02-Forms-Templates.md) |
+|  6 | Wed, Sep 10 | **Finished Quiz 1 (HARD DEADLINE - CLOSES END OF WEEK)** |
+|  - | Week 4      | - |
+|  7 | Mon, Sep 15 | [Module 3](Lessons/module-3/) |
+|  8 | Wed, Sep 17 | [Finished Module 3 Assignment](Assignments/03-More-Forms.md) |
+|  - | Week 5      | - |
+|  9 | Mon, Sep 22 | **Finished Quiz 2 (HARD DEADLINE - CLOSES END OF WEEK)** |
+| 10 | Wed, Sep 24 | [Module 4](Lessons/module-4/) |
+|  - | Week 6      | - |
+| 11 | Mon, Sep 29 | [Finished Module 4 Assignment](Assignments/03-APIs.md) |
+| 12 | Wed, Oct  1 | [Module 5](Lessons/module-5/) |
+|  - | Week 7      | - |
+| 13 | Mon, Oct  6 | LAB DAY |
+| 14 | Wed, Oct  8 | [Finished Module 5 Assignment](Assignments/04-Databases.md) |
+
+## Assignments
+Students will complete assignments at their own pace. 
+
+Assignments **must be turned in via [Gradescope](https://gradescope.com) for credit!**
+
+### Assignments should be completed by the recommended date in the above **schedules** section. Students falling behind should connect with the instructor for help staying on pace!
+
+### Any assignments not complete by the final day of class (Wed, Mar 3 & Thu, Mar 4) will be given a score of **0**.
+
+Quizzes can be found on [Gradescope](https://gradescope.com) for credit during the week of their listing.
+
+### Quizzes have a **HARD DEADLINE** date and will close on the Friday of its listed week. 
+
+Quizzes can be retaken once, with the final grade being the average of the two final scores. 
+
+### Students that have completed all assignments with a score of 3 or higher and earned an 80% or greater on their quizzes **AUTOMATICALLY PASS QUIZ 3** and will not be required to take it! 🤩
+
+| Topic | Pacing Date | Assignment |
+| :--: | :------------: | :----: |
+| 1 | Tue, Oct 25 | [Module 1 Assignment: Request/Response](Assignments/01-Request-Response.md) |
+| 2 | Tue, Nov  1 | [Module 2 Assignment: Forms & Templates](Assignments/02-Forms-Templates.md) |
+| 3 | Thu, Nov  3 | [**Quiz 1**](Assessments/quiz-1-study-guide.md) |
+| 4 | Thu, Nov 10 | [Module 3 Assignment: More Forms](Assignments/03-More-Forms.md) |
+| 5 | Tue, Nov 15 | [**Quiz 2**](Assessments/quiz-2.md) |
+| 6 | Thu, Dec  1 | [Module 4 Assignment: APIs](Assignments/03-APIs.md) |
+| 7 | Thu, Dec  7 | [Module 5: Databases](Assignments/04-Databases.md) |
+
+5. [Pymongo Todo List](Assignments/module-5-tutorial.md)
 
 ## Learning Modules
 
@@ -73,62 +130,6 @@ This course has been broken down into 5 modules for students to approach at thei
 5. [Pymongo Todo List](Assignments/module-5-tutorial.md)
 
 
-## Schedule
-
-**Course Dates:** October 21 – December 13, 2024
-
-**Class Times:** Tuesday, Thursday 1:00 PM – 3:45 PM
-
-| Class | Date | Pacing Recommendations (Complete all lessons up to - ) |
-| :---: | :--: | :-----: |
-|  1 | Tue, Oct 22 | [Module 1](Lessons/module-1/) |
-|  2 | Thu, Oct 24 | [Finished Module 1 Assignment](Assignments/01-Request-Response.md)  |
-|  3 | Tue, Oct 29 | [Module 2](Lessons/module-2/) |
-|  4 | Thu, Oct 31 | [Finished Module 2 Assignment](Assignments/02-Forms-Templates.md) |
-|  5 | Tue, Nov  5 | **Finished Quiz 1 (HARD DEADLINE - CLOSES END OF WEEK)** |
-|  6 | Thu, Nov  7 | [Module 3](Lessons/module-3/) |
-|  7 | Tue, Nov 12 | [Finished Module 3 Assignment](Assignments/03-More-Forms.md) |
-|  8 | Thu, Nov 14 | **Finished Quiz 2 (HARD DEADLINE - CLOSES END OF WEEK)** |
-|  9 | Tue, Nov 19 | [Module 4](Lessons/module-4/) |
-| 10 | Thu, Nov 21 | [Finished Module 4 Assignment](Assignments/03-APIs.md) |
-| 11 | Tue, Nov 26 | **Thanks Giving Holiday** |
-| 12 | Thu, Nov 28  | [Module 5](Lessons/module-5/) |
-| 13 | Tue, Nov  3  | - |
-| 14 | Thu, Dec  5  | [Finished Module 5 Assignment](Assignments/04-Databases.md) |
-| 15 | Tue, Dec 12  | - |
-
-## Assignments
-Students will complete assignments at their own pace. 
-
-Assignments **must be turned in via [Gradescope](https://gradescope.com) for credit!**
-
-### Assignments should be completed by the recommended date in the above **schedules** section. Students falling behind should connect with the instructor for help staying on pace!
-
-### Any assignments not complete by the final day of class (Wed, Mar 3 & Thu, Mar 4) will be given a score of **0**.
-
-Quizzes can be found on [Gradescope](https://gradescope.com) for credit during the week of their listing.
-
-### Quizzes have a **HARD DEADLINE** date and will close on the Friday of its listed week. 
-
-Quizzes can be retaken once, with the final grade being the average of the two final scores. 
-
-### Students that have completed all assignments with a score of 3 or higher and earned an 80% or greater on their quizzes **AUTOMATICALLY PASS QUIZ 3** and will not be required to take it! 🤩
-
-| Topic | Pacing Date | Assignment |
-| :--: | :------------: | :----: |
-| 1 | Tue, Oct 25 | [Module 1 Assignment: Request/Response](Assignments/01-Request-Response.md) |
-| 2 | Tue, Nov  1 | [Module 2 Assignment: Forms & Templates](Assignments/02-Forms-Templates.md) |
-| 3 | Thu, Nov  3 | [**Quiz 1**](Assessments/quiz-1-study-guide.md) |
-| 4 | Thu, Nov 10 | [Module 3 Assignment: More Forms](Assignments/03-More-Forms.md) |
-| 5 | Tue, Nov 15 | [**Quiz 2**](Assessments/quiz-2.md) |
-| 6 | Thu, Dec  1 | [Module 4 Assignment: APIs](Assignments/03-APIs.md) |
-| 7 | Thu, Dec  7 | [Module 5: Databases](Assignments/04-Databases.md) |
-
-5. [Pymongo Todo List](Assignments/module-5-tutorial.md)
-
-## Class Recordings
-
-All class recordings will be available [here](https://drive.google.com/drive/folders/1v1sNRXbrF7VmKUxK0U-6V8CgXM4zwpvE?usp=sharing) no later than 24 hours after the class session. For privacy reasons, please do not share the recordings outside of the Make School student body.
 
 ## Evaluation
 

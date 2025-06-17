@@ -11,13 +11,13 @@ By the end of this lesson, you should be able to...
 
 # Video Companions 🎥
 
+<!-- [Vid 1 - Creating `JSON` objects in Python](https://file.notion.so/f/f/6004cc36-d69e-461f-a1c5-8e5078ac8f6b/3dc7b9d7-e726-446e-af99-d96b51921a0f/11_JSON.mov?table=block&id=2217a171-86fc-4225-8817-8aed6ab69b50&spaceId=6004cc36-d69e-461f-a1c5-8e5078ac8f6b&expirationTimestamp=1728064800000&signature=HFVYwWo3eUUZDUZaC6YEDJUfXxN0WGLJ6P1SIqIVqrw&downloadName=11_JSON.mov) -->
+
 [Vid 1 - Creating `JSON` objects in Python](https://youtu.be/t1t6crpMRgo)
 
-Vid 1 - Creating `JSON` objects in Python
+<!-- [Vid 2 - Returning `JSON` objects in a Flask route](https://file.notion.so/f/f/6004cc36-d69e-461f-a1c5-8e5078ac8f6b/491014e3-67e4-48f6-a672-ceabdefb296a/12_JSON_Route.mov?table=block&id=baf6fc02-2472-4e1f-a975-c7fd2c8c11be&spaceId=6004cc36-d69e-461f-a1c5-8e5078ac8f6b&expirationTimestamp=1728064800000&signature=-G616wNhVlg_v02bD3_CQ6F3CWbxWLhW2B8IU2vlLWQ&downloadName=12_JSON_Route.mov) -->
 
 [Vid 2 - Returning `JSON` objects in a Flask route](https://youtu.be/HztSwyxdQzo)
-
-Vid 2 - Returning `JSON` objects in a Flask route
 
 <!-- # Exercises 💪
 
@@ -27,7 +27,6 @@ Complete the exercise in [this repl.it](https://repl.it/team/WebArchitecture/Mod
 
 <aside>
 🤔 How do we efficently package information so that tens of thousands of users can be served as quickly as possible?
-
 </aside>
 
 ---
@@ -36,12 +35,10 @@ Complete the exercise in [this repl.it](https://repl.it/team/WebArchitecture/Mod
 
 <aside>
 🚨 A `JSON` object can be used by languages other than Javascript! `JSON` objects find their origins in Javascript and therefore look similar to them—but `JSON` objects also look quite similar to Python objects too.
-
 </aside>
 
 <aside>
 💡 Many programming languages can interpret `JSON` objects because they are nothing more then an **object notation**—which means that the object always uses the same predictable **key-value** pairs.
-
 </aside>
 
 ```json
@@ -61,7 +58,6 @@ Fig *1 - a `JSON` object with several **key-value** pairs.*
 
 <aside>
 🚨 Notice that the `JSON` object in *Fig 1* does not have any variable declarations! `JSON` objects exist to be packaged and/or sent across the internet. As a result, a `JSON` file only contains object data **to be assigned by the requesting function.**
-
 </aside>
 
 Since `JSON` objects always use the same notation pattern and can be transported efficently, they have become a standard API format to utilize for passing data across networks.

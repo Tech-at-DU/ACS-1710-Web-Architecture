@@ -1,4 +1,4 @@
-# MODULE 2: Templates
+# MODULE 2: Creating scalable web applications and templating
 
 # Module Learning Objectives
 

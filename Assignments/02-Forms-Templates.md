@@ -24,16 +24,40 @@ If you haven't yet, create a folder to contain your work for this course. If you
 
 Download the or copy the [starter code](https://github.com/Tech-at-DU/ACS-1710-Homework-2-Starter).
 
-Initialize your own GitHub repo in the folder with the starter code. 
+**Initialize your own GitHub repo** in the folder with the starter code. 
 
 Next, go to [GitHub.com](https://github.com) and create a new repository for your project. **IMPORTANT: Make sure the box for "Initialize with a README" is NOT checked**. Then, run the following commands to push your starter code to GitHub:
 
 ```
-$ git remote set-url origin git@github.com:YOUR_USERNAME/YOUR_REPO_NAME.git
-$ git push -u origin master
+git remote set-url origin git@github.com:YOUR_USERNAME/YOUR_REPO_NAME.git
+git push -u origin master
 ```
 
 Refresh the page in your newly-created GitHub repo to make sure your changes were successfully pushed.
+
+**Setup your virtual environment**: 
+
+```
+python3 -m venv venv/
+```
+
+Now activate your virtual environment: 
+
+```
+source venv/bin/activate
+```
+
+You should see `(venv)` in yout command prompt. It might look something like this: 
+
+```
+(venv) mitchellhudson@mitchells-MBP assignment %
+```
+
+**Install Flask**:
+
+```
+pip3 install flask
+```
 
 ## Part 1: Forms
 
@@ -109,7 +133,7 @@ Update the `secret_message` route to show a form for the user to enter a secret 
 
 Then, update the `message_results` route to show the secret message -- with its letters **sorted in alphabetical order**.
 
-**HINT**: Call the `.sort_letters()` method that's included in the starter code!
+**HINT**: Call the `sort_letters(message)` method that's included in the starter code!
 
 So, if I enter the phrase `Make School Rocks` into the form field and press submit, I should see the result of:
 
@@ -168,19 +192,30 @@ Complete the `horoscope_results` route to:
 To test the correctness of your code, first make sure you've installed unittest:
 
 ```bash
-$ pip3 install unittest
+pip3 install unittest
 ```
+
+**NOTE** When I ran the command above I got this error: 
+
+```
+ERROR: Could not find a version that satisfies the requirement unittest (from versions: none)
+ERROR: No matching distribution found for unittest
+```
+
+After a search I found: **The unittest module is part of Python's standard library, so you don't need to install it with pip. It’s already included in Python and can be imported directly.**
+
+It looks like you won't need to install `unittest`. I'm leaving this here in case it is needed for some systems or versions of Python. 
 
 Then, run the tests:
 
 ```bash
-$ python3 test_app.py
+python3 test_app.py
 ```
 
 If you'd like to run just a single test, you can run:
 
 ```bash
-$ python3 test_app.py TestApp.test_froyo
+python3 test_app.py TestApp.test_froyo
 ```
 
 To see what tests are available to run, open the `test_app.py` file in your starter code and take a look!
@@ -206,9 +241,9 @@ If that doesn't work try read this and see if it solves any issues: https://bobb
 When you're ready to submit your work, make sure you push all of your changes to GitHub:
 
 ```bash
-$ git add .
-$ git commit -m'Completed all challenges'
-$ git push
+git add .
+git commit -m'Completed all challenges'
+git push
 ```
 
 Then, submit your assignment using [Gradescope](https://gradescope.com).

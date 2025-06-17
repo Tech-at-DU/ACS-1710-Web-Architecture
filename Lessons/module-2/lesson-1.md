@@ -12,13 +12,13 @@ By the end of this lesson, you should be able to...
 
 ## Videos 🎥
 
-Vid 1 - Walking through templates and the render_template() function in Python
+<!-- [Vid 1 - Walking through templates and the render_template() function in Python](https://file.notion.so/f/f/6004cc36-d69e-461f-a1c5-8e5078ac8f6b/1a93f993-1970-4ed6-9400-d668b657a5cc/7_Templates_Introduction.mov?table=block&id=7a83b83e-173b-481d-a738-1806390c3588&spaceId=6004cc36-d69e-461f-a1c5-8e5078ac8f6b&expirationTimestamp=1728064800000&signature=aky--IprgXrRGmuKFJhXvhpq7eJ9AmcfuO3Zt7I46Q4&downloadName=7_Templates_Introduction.mov) -->
 
-https://youtu.be/fHhuLnDJ7N0
+[Vid 1 - Walking through templates and the render_template() function in Python](https://youtu.be/fHhuLnDJ7N0)
 
-Vid 2 - Using the context object to provide templates access to `<form>` data
+<!-- [Vid 2 - Using the context object to provide templates access to `<form>` data](https://file.notion.so/f/f/6004cc36-d69e-461f-a1c5-8e5078ac8f6b/b40b6759-49cb-47e5-b6fd-bd83efe51344/8_Context_Object.mov?table=block&id=8957e9b6-75ac-4ebc-9238-6c3088d1aadb&spaceId=6004cc36-d69e-461f-a1c5-8e5078ac8f6b&expirationTimestamp=1728064800000&signature=hbED_JPFsbVw4tyw0X-WhoH-xO8YUjIqWJfsguz5INk&downloadName=8_Context_Object.mov) -->
 
-https://youtu.be/p6BqrImSjrY
+[Vid 2 - Using the context object to provide templates access to `<form>` data](https://youtu.be/p6BqrImSjrY)
 
 <!-- # Exercises 💪
 
@@ -132,4 +132,3 @@ with the following toppings: {{ toppings }}
 ```
 
 Note that the Jinja2 templating syntax wraps all the key names coming in from the context object with double curly brackets:`{{ keyName }}`
-

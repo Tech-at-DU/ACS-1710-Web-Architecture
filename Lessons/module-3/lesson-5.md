@@ -11,6 +11,8 @@ By the end of this lesson, you should be able to...
 
 # Videos 🎥
 
+<!-- [Vid 1 - walking through how to create requests via the `Requests` Python library](https://file.notion.so/f/f/6004cc36-d69e-461f-a1c5-8e5078ac8f6b/9b7579b7-c564-4bee-be36-0dbd4352a7bf/14_Requests_Library.mov?table=block&id=343d29d7-c8f8-4030-853e-a5a93ec86997&spaceId=6004cc36-d69e-461f-a1c5-8e5078ac8f6b&expirationTimestamp=1728064800000&signature=RkqEevW6I5D-wzN-gsBB5xvtBQQ0MtlNsZbbi1Q2rjA&downloadName=14_Requests_Library.mov) -->
+
 [Vid 1 - walking through how to create requests via the `Requests` Python library](https://youtu.be/sJOmt33lq4E)
 
 <!-- # Exercises 💪
@@ -54,7 +56,6 @@ joke_json = result.json()
 
 <aside>
 🚨 Although less common, a payload may contain data in a raw `.txt` format instead of a `json` object! To work with a `.txt` payload—use `result.text` (notice that `text` intentionally does not have parentheses).
-
 </aside>
 
 ---
@@ -63,12 +64,10 @@ joke_json = result.json()
 
 <aside>
 💡 Requests can be combined with Flask routes for a variety of results!
-
 </aside>
 
 <aside>
 🤔 What happens when we take the results of a `request.get()` query and return it as the output of a Flask route?
-
 </aside>
 
 ```python
@@ -97,7 +96,6 @@ def make_joke():
 
 <aside>
 💡 Combining requests with Flask routes creates an intermediary step for users! They request information from the Flask route, the Flask route requests data from another service and cleans it up, then returns that data as another response.
-
 </aside>
 
 ![Fig 3 - An image representing how intermediary steps get leveraged](Untitled-3.png)

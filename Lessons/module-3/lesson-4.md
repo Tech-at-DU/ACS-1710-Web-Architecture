@@ -11,6 +11,8 @@ By the end of this lesson, you should be able to...
 
 # Video Companions 🎥
 
+<!-- [Vid 1 - Using Postman to test Flask routes](https://file.notion.so/f/f/6004cc36-d69e-461f-a1c5-8e5078ac8f6b/53801a21-a6bb-4f3a-b84b-a4231ceb0b4a/13_Postman.mov?table=block&id=8a97c6d2-9437-43a5-8cfe-744336be2ffb&spaceId=6004cc36-d69e-461f-a1c5-8e5078ac8f6b&expirationTimestamp=1728064800000&signature=7j9P9J8_LjDR7uAjumYv9q20tHin5uj_nSYq1QLhYBI&downloadName=13_Postman.mov) -->
+
 [Vid 1 - Using Postman to test Flask routes](https://youtu.be/dzdKkd_as7o)
 
 # Exercises 💪

@@ -1,4 +1,4 @@
-# MODULE 1: **Intro to Flask + Forms**
+# MODULE 1: Introduction to internet communication patterns, C.R.U.D, and servers
 
 # Module Learning Objectives
 

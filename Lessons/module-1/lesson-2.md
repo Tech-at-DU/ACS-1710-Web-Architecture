@@ -14,15 +14,21 @@ By the end of this lesson, you should be able to...
 
 Building our first Flask server step-by-step video walkthrough
 
-https://youtu.be/PoHWcq1pLhM
+<!-- [Vid 1 - First Flask server walkthrough](https://file.notion.so/f/f/b55c22ee-fac0-43f5-b763-ad205bab0599/73aa7d96-2b1b-48ad-a993-2a229e23a5b3/1_Flask_Introduction.mov?table=block&id=f5d7bb61-fc2e-4c27-b0ab-40593c5c4c9d&spaceId=b55c22ee-fac0-43f5-b763-ad205bab0599&expirationTimestamp=1728064800000&signature=JFa9-3u6ekLXMhtaj_a7foaNzlQlRl-YHQ6m___QIZ4&downloadName=1_Flask_Introduction.mov) -->
+
+[Vid 1 - First Flask server walkthrough](https://youtu.be/PoHWcq1pLhM)
 
 Diving deeper into Python's Decorator @ syntax
 
-https://youtu.be/xLy7D3CaHps
+<!-- [Vid 2 - exploring Python's Decorator syntax](https://file.notion.so/f/f/b55c22ee-fac0-43f5-b763-ad205bab0599/c2c210e6-86e3-4c2b-a455-e8ba870f6bbc/2_Decorators.mov?table=block&id=ecac1118-a8b4-4a9a-b882-99d40adcb7ab&spaceId=b55c22ee-fac0-43f5-b763-ad205bab0599&expirationTimestamp=1728064800000&signature=FPKDpuqVZ55JIiKJq8qM-AfgCZsRfr9ZYD72oRecLOQ&downloadName=2_Decorators.mov) -->
+
+[Vid 2 - exploring Python's Decorator syntax](https://youtu.be/xLy7D3CaHps)
 
 Diving deeper into Python's `__name__` keyword
 
-https://youtu.be/okQzZJD-lbg
+<!-- [Vid 3 - exploring the `__name__` keyword](https://file.notion.so/f/f/b55c22ee-fac0-43f5-b763-ad205bab0599/63bd2804-9ad5-4385-ae3f-866dbd646dae/3_Name_Keyword.mov?table=block&id=b7e6ede1-e878-418a-aacd-ebd9ec69d9d3&spaceId=b55c22ee-fac0-43f5-b763-ad205bab0599&expirationTimestamp=1728064800000&signature=ZNAJriaf421QJ03IgKO8DR89nubO4WQWwdlnqeWQh-o&downloadName=3_Name_Keyword.mov) -->
+
+[Vid 2 - exploring Python's Decorator syntax](https://youtu.be/okQzZJD-lbg)
 
 ## Exercises 💪
 
@@ -49,12 +55,58 @@ See the boilerplate and video walkthrough below for step-by-step instructions on
 
 ## Code References 📀
 
+## What is a virtual environment? 
+
+### Setup your Virtual Environment 
+
+Create venv
+```
+python3 -m venv venv/
+```
+
+Once you have created your virtual environment, you must activate it to use it. Activate it with the following line in the terminal: 
+
+```
+source venv/bin/activate
+```
+
+You should see `(venv)` in front of you terminal prompt, it might look something like: `(venv) mitchellhudson@mitchells-MBP module-1`. 
+
+With your virtual environment activated, install Flask with: 
+
+```
+pip3 install flask
+```
+
+This adds the Flask dependency to the virtual environment. 
+
+## Be sure to GitIgnore Virtual Environment
+Its important that you NOT commit your virtual environment! Do this by adding .gitignore file. 
+
+Create a new file named: `.gitignore`
+
+Add the following to this file: 
+
+```
+venv/
+```
+
+Now commit and push!
+
+If you made a commit after creating the `venv` before adding the `.gitignore` You will need to remove `venv` from your cache. Follow the instructions here: https://stackoverflow.com/questions/14409299/does-git-remove-files-from-version-control-after-they-are-added-to-gitignore
+
 ### Terminal Commands:
 
 - installation command = `pip3 install flask`
 - running a local server = `python3 fileName.py`
 
 ### Boilerplates
+
+Create `main.py`. Add the code below to that file. 
+
+Run the file with: `python3 main.py`
+
+With this Flask server running, you should see the address it is running at in the terminal, something like: `http://127.0.0.1:3000`. Paste this address into your web browser. You should see the words `Hello, World!` in the window. 
 
 ```python
 # standard flask boilerplate
@@ -77,5 +129,3 @@ def homepage():
 if __name__ == '__main__':
     app.run(debug=True, port=3000)
 ```
-
-

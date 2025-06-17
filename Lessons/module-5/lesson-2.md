@@ -13,6 +13,8 @@ By the end of this lesson, you should be able to...
 
 # Video Companions 🎥
 
+<!-- [Video 1 - Exploring the differences and use cases of SQL vs NoSQL](https://file.notion.so/f/f/6004cc36-d69e-461f-a1c5-8e5078ac8f6b/a2bb5cdd-3a87-4278-aa4a-8ecaefab3337/RPReplay_Final1611091771.mp4?table=block&id=6ddd64d3-1fde-4310-9711-01ff06ecab19&spaceId=6004cc36-d69e-461f-a1c5-8e5078ac8f6b&expirationTimestamp=1728064800000&signature=gvK4TIoZWUHwpX15DPeedd-Wf3JpUL0UVIk8juU8XTk&downloadName=RPReplay_Final1611091771.mp4) -->
+
 [Video 1 - Exploring the differences and use cases of SQL vs NoSQL](https://youtu.be/38ebgY7QKt8)
 
 Video 1 - Exploring the differences and use cases of SQL vs NoSQL
@@ -25,7 +27,6 @@ Answer the questions in the `README` file in [this Repl.it](https://repl.it/team
 
 <aside>
 🤔 What would be a good first database technology to implement?
-
 </aside>
 
 ---
@@ -53,7 +54,6 @@ A NoSQL database works best for lightly-connected, non-relational data (stored i
 
 <aside>
 💡 In this class we will be using low-complexity, lightly connected data so a noSQL database would be the best choice.
-
 </aside>
 
 ### Introduction to MongoDB
@@ -101,7 +101,6 @@ A document's `ObjectId` gets stored as a **value** with a **key** of `'_id'`.
 
 <aside>
 🚨 An `ObjectId` does not use a string value. Instead, it uses the built in MongoDB BSON object method `ObjectId`. Always keep this in mind when creating an `ObjectId` as assigning the `'_id'` property of a document anything but this `ObjectId` will result in an error!
-
 </aside>
 
 ```python
@@ -126,5 +125,4 @@ The `BSON` object is MongoDB's unique data structure for managing documents and 
 
 <aside>
 💡 In the context of this course, all we need to know about the `BSON` object is that MongoDB uses it and operates similarly to the `JSON` object. We will be mainly using to create `ObjectId`'s as needed.
-
 </aside>

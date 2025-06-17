@@ -11,9 +11,9 @@ By the end of this lesson, you should be able to...
 
 # Videos 🎥
 
-[Vid 1 - Exploring the nature of API's via Gincord.io](https://youtu.be/zXOMHpTOpJM)
+<!-- [Vid 1 - Exploring the nature of API's via Gincord.io](https://file.notion.so/f/f/6004cc36-d69e-461f-a1c5-8e5078ac8f6b/9f0481bd-104b-4105-9479-d253291931ab/RPReplay_Final1610466811.mp4?table=block&id=57d33dcb-fe3d-47f6-ba64-037eda1e70b6&spaceId=6004cc36-d69e-461f-a1c5-8e5078ac8f6b&expirationTimestamp=1728064800000&signature=Uc7NyScdTsdeBgC_mgrA-YcA1KzxAX8ytBBSR9OZtRU&downloadName=RPReplay_Final1610466811.mp4) -->
 
-Vid 1 - Exploring the nature of API's via Gincord.io
+[Vid 1 - Exploring the nature of API's via Gincord.io](https://youtu.be/zXOMHpTOpJM)
 
 <!-- # Exercises 💪
 
@@ -38,5 +38,4 @@ Fig 1 - A user requesting `song_lyrics` through an API to get data about songs f
 
 <aside>
 💡 An API is nothing more then a server route which returns information from as a database as a response!
-
 </aside>

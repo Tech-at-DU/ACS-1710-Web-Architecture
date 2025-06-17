@@ -11,9 +11,9 @@ By the end of this lesson, you should be able to...
 
 # Videos 🎥
 
-Vid 1 - A walkthrough of using template inheritance to create reusable components across a website 
+<!-- [Vid 1 - A walkthrough of using template inheritance to create reusable components across a website](https://file.notion.so/f/f/6004cc36-d69e-461f-a1c5-8e5078ac8f6b/ebc15213-c43a-46fd-9303-72167757d35e/10_Template_Inheir.mov?table=block&id=775abbe4-2e25-4feb-a1b6-52821b1f4b54&spaceId=6004cc36-d69e-461f-a1c5-8e5078ac8f6b&expirationTimestamp=1728064800000&signature=MQYT8EHl1ScbKHloKrN8uciSMuT1pttkRMybt7j-Tnw&downloadName=10_Template_Inheir.mov) -->
 
-https://youtu.be/H0als3BogTs
+[Vid 1 - A walkthrough of using template inheritance to create reusable components across a website](https://youtu.be/H0als3BogTs)
 
 <!-- # Exercises 💪
 

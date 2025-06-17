@@ -10,6 +10,8 @@ By the end of this lesson, you should be able to...
 
 # Video Companions 🎥
 
+<!-- [Video 1 - Introducing databases technologies and how they fit into an application](https://file.notion.so/f/f/6004cc36-d69e-461f-a1c5-8e5078ac8f6b/9ad0641a-4b88-4a68-8b15-ec119e08c204/RPReplay_Final1611090729.mp4?table=block&id=f428d7aa-f9d2-4414-992b-72fe01c2fa86&spaceId=6004cc36-d69e-461f-a1c5-8e5078ac8f6b&expirationTimestamp=1728064800000&signature=kJMjO2CCkbc2GBhuTP0nk2zPx-swKaAcvg00lPB1M2s&downloadName=RPReplay_Final1611090729.mp4) -->
+
 [Video 1 - Introducing databases technologies and how they fit into an application](https://youtu.be/2K8eT3VfnuA)
 
 Video 1 - Introducing databases technologies and how they fit into an application
