@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Event Handling</title>
+	<style>
+		body {
+			font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		}
+
+    .container {
+      display: flex;
+	gap: 2rem;
+    }
+
+		#click-me {
+			font-size: 1em;
+			padding: 0.5em;
+			background-color: rgb(200, 221, 221);
+			border: 1px solid;
+			margin: 1em 0;
+		}
+
+		#message {
+			color: rgb(228, 7, 7);
+		}
+
+		#box {
+			width: 200px;
+			height: 200px;
+			background-color: rgb(54, 154, 154);
+		}
+
+		input {
+			font-size: 1em;
+			padding: 0.5em;
+			border: 1px solid;
+			margin: 1em 0;
+		}
+	</style>
+</head>
+<body>
+  <div class="container">
+    <div>
+      <button id="click-me">Click Me</button>
+
+      <div id="box">Box</div>
+
+      <input id="input-text" type="text" placeholder="input text">
+      <input type="text">
+      <h1>Events: What just happened?</h1>
+      <p id="message"></p>
+    </div>
+    <div>
+      <pre>
+        <code>
+const clickMe = document.querySelector('#click-me')
+const message = document.querySelector('#message')
+const box = document.querySelector('#box')
+const inputText = document.querySelector('#input-text')
+
+clickMe.addEventListener('mouseover', (e) => {
+  message.innerHTML = 'button "mouseover"'
+})
+
+clickMe.addEventListener('mouseout', (e) => {
+  message.innerHTML = 'button "mouseout"'
+})
+
+clickMe.addEventListener('click', (e) => {
+  message.innerHTML = 'button "click"'
+})
+
+box.addEventListener('mousemove', (e) => {
+  message.innerHTML = `box "mousemove" clientX:${e.clientX} clientY:${e.clientY}`
+})
+
+inputText.addEventListener('focus', (e) => {
+  message.innerHTML = 'input "focus"'
+})
+
+inputText.addEventListener('input', (e) => {
+  message.innerHTML = `input "input": ${e.target.value}`
+})
+
+window.addEventListener('resize', (e) => {
+  message.innerHTML = `window "resize" width:${window.innerWidth} height:${window.innerHeight}`
+})
+        </code>
+      </pre>
+    </div>
+  </div>
+
+	<script>
+    console.log('Hello World')
+    console.log('Foo Bar')
+    // Use querySelector to get references to some elements in the DOM
+    // match the ID names here to the ID names in the tags. 
+    // I assigned these to variables so they can be used more than once. 
+    // I declared them with const because these variables will not be reassigned!
+    const clickMe = document.querySelector('#click-me')
+    const message = document.querySelector('#message')
+    const box = document.querySelector('#box')
+    const inputText = document.querySelector('#input-text')
+
+    // Create a listener that listens for a 'mouseover' on the button
+    clickMe.addEventListener('mouseover', () => {
+      // Display this message on a 'mouseover'
+      message.innerHTML = 'button "mouseover"'
+    })
+
+clickMe.addEventListener('mouseout', () => {
+	// Display this message on a 'mouseout'
+	message.innerHTML = 'button "mouseout"'
+})
+
+    // Add a listener for 'click' events to the button
+    clickMe.addEventListener('click', () => {
+      message.innerHTML = 'button "click"'
+    })
+
+    // Add a listener for 'mousemove' events on the box
+    box.addEventListener('mousemove', (e) => {
+      // Event handlers receive an event object. This has info about the event.
+      // I'm using the event object e to get the position of the cursor
+      message.innerHTML = `box "mousemove" clientX:${e.clientX} clientY:${e.clientY}`
+    })
+
+    // Listen for a 'focus' event at the input. Focus happens when you click or tab
+    // a text field and the keyboard will entertext there. 
+    inputText.addEventListener('focus', () => {
+      console.log('Input text focus')
+      message.innerHTML = 'input "focus"'
+    })
+
+    // Listen for an 'input' event at the input. Input occurs when the value of the
+    // input changes!
+    inputText.addEventListener('input', (e) => {
+      console.log('Input event')
+      console.log(e)
+      // Use the event object e to get the value and display it. 
+      message.innerHTML = `input "input": ${e.target.value}`
+    })
+
+    inputText.addEventListener('blur', (e) => {
+      console.log('Text input loses focus (blur)')
+    })
+
+    // Listen for a 'resize' event at the window. Resize occurs when the window
+    // changes size. The window is the parent of your HTML document. 
+    window.addEventListener('resize', () => {
+      message.innerHTML = `window "resize" width:${window.innerWidth} height:${window.innerHeight}`
+    })
+
+    document.body.addEventListener('click', (e) => {
+      console.log('Body Click event')
+      console.log(e.target)
+    })
+
+    // The events you have seen above were: mouseover, click, mousemove, focus
+    // input, and resize. There are many more. 
+    
+    // Some events work only on certain elements. For example input doesn't work 
+    // on window or button becuase you can't enter text in the window or button. 
+    // The input element can listen for input events becuase you can enter text. 
+    // CONTEXT matters! 
+
+    // Read this page: https://javascript.info/introduction-browser-events
+    // These example show a couple other ways to add event listeners: 
+    
+    // inline: <button onclick="handlerFunction()">Click me</button>
+    // or someElement.onclick = handlerFunction
+    
+    // Best practice is to use the form shown in the examples here:
+    // someElement.addEventListener('eventName', handlerFunction)
+
+    // Challenge: Make your own event listener. Define your own event listener 
+    // here. 
+
+    // Try one of this: 
+    // Add a mouseout event to the button/clickMe this will occur when the cursor moves off the element! 
+
+    // Try this: 
+    // Add a new button to body above. Give it an ID
+    // Create a reference to the new button. Declare a variable and use querySelector()
+    // Add a click event to the new button. 
+    // Display a message when the button is clicked. 
+
+    // Add your own event listeners use the list in the link above. 
+
+	</script>
+</body>
+</html>
