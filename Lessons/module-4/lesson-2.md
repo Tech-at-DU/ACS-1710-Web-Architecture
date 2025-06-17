@@ -11,9 +11,9 @@ By the end of this lesson, you should be able to...
 
 # Videos 🎥
 
-[Vid 1 - Walking through a virtual environment and accessing a `SECRET_KEY`](https://file.notion.so/f/f/6004cc36-d69e-461f-a1c5-8e5078ac8f6b/4b30d583-b100-4707-a44b-a758e73b92bf/15_dotenv_code.mov?table=block&id=f25a0231-3a7b-4514-ae03-809009b5f1ee&spaceId=6004cc36-d69e-461f-a1c5-8e5078ac8f6b&expirationTimestamp=1728064800000&signature=uS5MHHLDIP7a3o8w1_fYOXyXrHho7ld6AfOmwtCc0xk&downloadName=15_dotenv_code.mov)
+<!-- [Vid 1 - Walking through a virtual environment and accessing a `SECRET_KEY`](https://file.notion.so/f/f/6004cc36-d69e-461f-a1c5-8e5078ac8f6b/4b30d583-b100-4707-a44b-a758e73b92bf/15_dotenv_code.mov?table=block&id=f25a0231-3a7b-4514-ae03-809009b5f1ee&spaceId=6004cc36-d69e-461f-a1c5-8e5078ac8f6b&expirationTimestamp=1728064800000&signature=uS5MHHLDIP7a3o8w1_fYOXyXrHho7ld6AfOmwtCc0xk&downloadName=15_dotenv_code.mov) -->
 
-https://www.youtube.com/watch?v=9bMDFVkhOnA
+[Vid 1 - Walking through a virtual environment and accessing a `SECRET_KEY`](https://www.youtube.com/watch?v=9bMDFVkhOnA)
 
 # Exercises 💪
 
@@ -23,7 +23,6 @@ Go back to your Homework 3 (More Forms) submission and use a `.env` file to hide
 
 <aside>
 🤔 How can we easily manage configuration values, such as the URL for a database connection or the production server information, spread out in multiple files of a project?
-
 </aside>
 
 ---
@@ -32,7 +31,6 @@ Any project that utilizes servers and databases, or multiple global constants, w
 
 <aside>
 💡 A variable that contains information required in a global scope that references details about how to connect to external components or internal settings repeated in multiple files can be definied as a **environment variable.**
-
 </aside>
 
 Examples of **environment variables:**
@@ -46,7 +44,6 @@ Examples of **environment variables:**
 
 <aside>
 🚨 If another developer got a copy of our API security tokens—they could utilize the licences we purchased or make data requests in our name!
-
 </aside>
 
 Creating and managing **environment variables** in Python can be easily performed utilizing the `dotenv` library.

@@ -11,9 +11,9 @@ By the end of this lesson, you should be able to...
 
 # Videos 🎥
 
-[Vid 1 - using `datetime` objects](https://file.notion.so/f/f/6004cc36-d69e-461f-a1c5-8e5078ac8f6b/1c38acb9-9167-41eb-a4a1-960e75f55a15/16_Datetimes.mov?table=block&id=f1da28a3-510e-4b77-a14e-eea87bacd1c9&spaceId=6004cc36-d69e-461f-a1c5-8e5078ac8f6b&expirationTimestamp=1728064800000&signature=81dkYL2UXJ13Jb1gMhKZZn9XEkyxFVTghki4ZXq-arE&downloadName=16_Datetimes.mov)
+<!-- [Vid 1 - using `datetime` objects](https://file.notion.so/f/f/6004cc36-d69e-461f-a1c5-8e5078ac8f6b/1c38acb9-9167-41eb-a4a1-960e75f55a15/16_Datetimes.mov?table=block&id=f1da28a3-510e-4b77-a14e-eea87bacd1c9&spaceId=6004cc36-d69e-461f-a1c5-8e5078ac8f6b&expirationTimestamp=1728064800000&signature=81dkYL2UXJ13Jb1gMhKZZn9XEkyxFVTghki4ZXq-arE&downloadName=16_Datetimes.mov) -->
 
-https://youtu.be/febQEicMPfU
+[Vid 1 - using `datetime` objects](https://youtu.be/febQEicMPfU)
 
 Vid 1 - using `datetime` objects
 
