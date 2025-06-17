@@ -11,7 +11,6 @@
 
 <aside>
 💡 C.R.U.D operations work their way into just about every aspect of web applications! Including the way developers interact with other platforms/services.
-
 </aside>
 
 Let's breakdown some examples of how C.R.U.D manifests in API's:
