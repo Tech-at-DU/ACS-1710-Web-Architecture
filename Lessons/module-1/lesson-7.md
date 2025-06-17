@@ -16,17 +16,17 @@ In the next module, you will be using keyword arguments to pass in data to a tem
 
 ## Videos 🎥
 
-[Vid 1 - Named Parameters](https://file.notion.so/f/f/b55c22ee-fac0-43f5-b763-ad205bab0599/51ca59cb-45c4-4a83-8ac9-e32da1fa51f6/Named_Parameters.mov?table=block&id=08e68b0c-c45f-4be9-b0b4-ba1e6cc7d253&spaceId=b55c22ee-fac0-43f5-b763-ad205bab0599&expirationTimestamp=1728064800000&signature=fzgQsqtvN1HDvW9yAYNAis98F119zrTZHFe_wqoCO6U&downloadName=Named_Parameters.mov)
+<!-- [Vid 1 - Named Parameters](https://file.notion.so/f/f/b55c22ee-fac0-43f5-b763-ad205bab0599/51ca59cb-45c4-4a83-8ac9-e32da1fa51f6/Named_Parameters.mov?table=block&id=08e68b0c-c45f-4be9-b0b4-ba1e6cc7d253&spaceId=b55c22ee-fac0-43f5-b763-ad205bab0599&expirationTimestamp=1728064800000&signature=fzgQsqtvN1HDvW9yAYNAis98F119zrTZHFe_wqoCO6U&downloadName=Named_Parameters.mov) -->
 
-https://youtu.be/YLIiqiMmx6Q
+[Vid 1 - Named Parameters](https://youtu.be/YLIiqiMmx6Q)
 
-[Vid 2 - `*args`](https://file.notion.so/f/f/b55c22ee-fac0-43f5-b763-ad205bab0599/5e55a965-3ebb-4c12-ab36-bd3a62b8c3ab/Star_Args.mov?table=block&id=df36497e-6b79-4ce8-884f-cffd03ac722b&spaceId=b55c22ee-fac0-43f5-b763-ad205bab0599&expirationTimestamp=1728064800000&signature=Avo-GTdQvu1v6UTS79JhRiTisgU6833SvrEMBzyPDmM&downloadName=Star_Args.mov)
+<!-- [Vid 2 - `*args`](https://file.notion.so/f/f/b55c22ee-fac0-43f5-b763-ad205bab0599/5e55a965-3ebb-4c12-ab36-bd3a62b8c3ab/Star_Args.mov?table=block&id=df36497e-6b79-4ce8-884f-cffd03ac722b&spaceId=b55c22ee-fac0-43f5-b763-ad205bab0599&expirationTimestamp=1728064800000&signature=Avo-GTdQvu1v6UTS79JhRiTisgU6833SvrEMBzyPDmM&downloadName=Star_Args.mov) -->
 
-https://youtu.be/1E7DyY2hWmM
+[Vid 2 - `*args`](https://youtu.be/1E7DyY2hWmM)
 
-[Vid 3 - **kwargs (keyword arguments)](https://file.notion.so/f/f/b55c22ee-fac0-43f5-b763-ad205bab0599/be04dd6f-be16-40fb-bb56-672860ed32a3/Keyword_Args.mov?table=block&id=e3e66292-3a35-4bcd-aa96-077f42816578&spaceId=b55c22ee-fac0-43f5-b763-ad205bab0599&expirationTimestamp=1728064800000&signature=ZG1_nW2RXqx5SQv4duMuAlHXImjLDdGT6XxXI_nzdCc&downloadName=Keyword_Args.mov)
+<!-- [Vid 3 - **kwargs (keyword arguments)](https://file.notion.so/f/f/b55c22ee-fac0-43f5-b763-ad205bab0599/be04dd6f-be16-40fb-bb56-672860ed32a3/Keyword_Args.mov?table=block&id=e3e66292-3a35-4bcd-aa96-077f42816578&spaceId=b55c22ee-fac0-43f5-b763-ad205bab0599&expirationTimestamp=1728064800000&signature=ZG1_nW2RXqx5SQv4duMuAlHXImjLDdGT6XxXI_nzdCc&downloadName=Keyword_Args.mov) -->
 
-https://youtu.be/SZTz33iOq00
+[Vid 3 - **kwargs (keyword arguments)](https://youtu.be/SZTz33iOq00)
 
 ## Exercises 💪
 
@@ -165,5 +165,3 @@ Phone is 9876543210
 ```
 
 Since we do not know how much data a user might be submitting, **kwargs will often be employed to ensure that everything gets processed!
-
-

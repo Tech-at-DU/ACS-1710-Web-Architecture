@@ -11,9 +11,9 @@ By the end of this lesson, you should be able to...
 
 ## Videos 🎥
 
-[Vid 1 - Breaking down the Request/Response Cycle with Meow.io](https://file.notion.so/f/f/b55c22ee-fac0-43f5-b763-ad205bab0599/0bcfbd95-79ed-4184-b36c-d849beb3a4ce/RPReplay_Final1610465677.mp4?table=block&id=190f592a-ef75-45db-bb74-cc8f313e8a7c&spaceId=b55c22ee-fac0-43f5-b763-ad205bab0599&expirationTimestamp=1728064800000&signature=_G9gV-hTHvHCk7LXVmYFFYSUOiFhJ1jWnj3uBy40rZc&downloadName=RPReplay_Final1610465677.mp4)
+<!-- [Vid 1 - Breaking down the Request/Response Cycle with Meow.io](https://file.notion.so/f/f/b55c22ee-fac0-43f5-b763-ad205bab0599/0bcfbd95-79ed-4184-b36c-d849beb3a4ce/RPReplay_Final1610465677.mp4?table=block&id=190f592a-ef75-45db-bb74-cc8f313e8a7c&spaceId=b55c22ee-fac0-43f5-b763-ad205bab0599&expirationTimestamp=1728064800000&signature=_G9gV-hTHvHCk7LXVmYFFYSUOiFhJ1jWnj3uBy40rZc&downloadName=RPReplay_Final1610465677.mp4) -->
 
-https://youtu.be/2CYu4d0-YJk
+[Vid 1 - Breaking down the Request/Response Cycle with Meow.io](https://youtu.be/2CYu4d0-YJk)
 
 ## Exercises 💪
 
@@ -50,11 +50,8 @@ Once the client receives the response from the server—communication ends and t
 
 Regardless of what the request by the client contains (for example, it could be a request to store an image) the server must always return a response! Even if that response contains nothing more than a success/fail status code.
 
-A **response** will often times be a numerical status code. Some common status codes include:
+A **response** includes a numerical status code. Some common status codes include:
 
 - 200 = OK - successful execution of the request
 - 404 = Server not found
 - 500 = Server failed to execute the request
-
-
-

@@ -11,9 +11,9 @@ By the end of this lesson, you should be able to...
 
 ## Videos 🎥
 
-[Vid 1 - Exploring applications and differences between the HTTP GET and POST and methods via Grumble.io](https://file.notion.so/f/f/b55c22ee-fac0-43f5-b763-ad205bab0599/8cc1a9e1-4326-4ca2-8372-a97cf16e3ed9/get_vs_post_take2.mov?table=block&id=fcce6099-1999-4356-800a-db640da1a49d&spaceId=b55c22ee-fac0-43f5-b763-ad205bab0599&expirationTimestamp=1728064800000&signature=0570wwmoAnOApx5JuKfQN9asQxsAvvdmRLeHVFIq3v8&downloadName=get_vs_post_take2.mov)
+<!-- [Vid 1 - Exploring applications and differences between the HTTP GET and POST and methods via Grumble.io](https://file.notion.so/f/f/b55c22ee-fac0-43f5-b763-ad205bab0599/8cc1a9e1-4326-4ca2-8372-a97cf16e3ed9/get_vs_post_take2.mov?table=block&id=fcce6099-1999-4356-800a-db640da1a49d&spaceId=b55c22ee-fac0-43f5-b763-ad205bab0599&expirationTimestamp=1728064800000&signature=0570wwmoAnOApx5JuKfQN9asQxsAvvdmRLeHVFIq3v8&downloadName=get_vs_post_take2.mov) -->
 
-https://youtu.be/jjwQQGIR1RU
+[Vid 1 - Exploring applications and differences between the HTTP GET and POST and methods via Grumble.io](https://youtu.be/jjwQQGIR1RU)
 
 ## Exercises 💪
 
@@ -27,7 +27,7 @@ Clients can create many types of requests.
 
 Try to imagine some of the user situations in which different requests might get made. For example, perhaps the user wants to get a list of shopping items from a website—while other times the user wants to upload their item for sale.
 
-In this article, we will be exploring the two most common request methods— GET and POST.
+In this article, we will be exploring the two most common request methods — GET and POST.
 
 The GET method provides data to the client, from the server, while the POST method provides data from the client, to the server. 
 
@@ -56,6 +56,3 @@ Examples:
 When the user needs to **read** data—`GET` should typically be employed.
 
 **Creating, updating, and deleting** operations traditionally utilized the `POST` method. However, other HTTP methods have emerged such as `PUT` (for updating) and `DELETE` (for deleting)—leaving `POST` as the go-to for creation operations.
-
-
-

@@ -36,4 +36,3 @@ For example, a user interacting with Facebook might:
 - delete - remove a friend from their friends list or delete a post
 
 We will be seeing these C.R.U.D. operations come up in many ways across different contexts. Whenever you see an operation performed—try to connect it to one of the C.R.U.D. concepts!
-

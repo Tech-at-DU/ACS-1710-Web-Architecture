@@ -10,8 +10,6 @@ This course covers language-independent web server frameworks and patterns in fu
 
 <!-- ### 👉 [ Introduction to WEB 1.1 (Web Architecture)](https://handsome-air-ad0.notion.site/Introduction-to-WEB-1-1-Web-Architecture-eb65692e73e04a7784e6b39b8c962488) 🚀 -->
 
-
-
 ## Prerequisites:
 
 1. ACS 1700 (Web Foundations)
