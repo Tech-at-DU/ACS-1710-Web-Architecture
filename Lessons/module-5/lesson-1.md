@@ -6,15 +6,85 @@
 
 By the end of this lesson, you should be able to...
 
+- Describe Restful Routes
 - Explain why a database is useful to a large-scale application.
+
+## What is REST?
+
+**REST** stands for **Representational State Transfer**. It’s a set of rules used to organize how web applications communicate with each other.
+
+Think of REST as a common language that helps different systems talk clearly and consistently over the internet — especially when working with data like users, posts, or weather info.
+
+## REST and Resources
+
+In REST, we treat pieces of data (like a book, a user, or a plant) as **resources**. Each resource has a **URL** (like an address), and we use **HTTP methods** to perform actions on them.
+
+## The 4 Main HTTP Methods
+
+| Method | What it Does | Example                    |
+| ------ | ------------ | -------------------------- |
+| GET    | Read data    | `GET /books` (list books)  |
+| POST   | Create data  | `POST /books` (add book)   |
+| PUT    | Update data  | `PUT /books/1` (edit book) |
+| DELETE | Remove data  | `DELETE /books/1`          |
+
+## RESTful Routing
+
+**RESTful routing** means using URLs and methods in a consistent and predictable way. For example:
+
+* `GET /plants` → list of plants
+* `GET /plants/2` → details for plant with ID 2
+* `POST /plants` → create a new plant
+* `DELETE /plants/2` → delete plant 2
+
+This style makes it easier to build, understand, and maintain web apps.
 
 # Restful Routes
 
-Absolutely! Here’s a short, beginner-friendly lesson on **how to name RESTful routes**:
+# RESTful Routing & Naming Best Practices – Worksheet
 
----
+## Introduction
 
-## 🧭 Lesson: Naming RESTful Routes
+In web development, a **route** connects a URL to a function in your code. In Flask, routes define how your app responds to different web requests.
+
+RESTful routing is a set of **conventions** that help make your routes clear, predictable, and easy to understand.
+
+Instead of using verbs in your URLs like `/getWeather` or `/createUser`, RESTful routing uses **nouns for resources** (like `/weather`, `/users`) and **HTTP methods** (GET, POST, PUT, DELETE) to describe the actions.
+
+## 📘 Common RESTful Routes
+
+Imagine you’re working with a `plants` resource.
+
+| Action           | Method      | Route                 | Description                      |
+| ---------------- | ----------- | --------------------- | -------------------------------- |
+| View all plants  | GET         | `/plants`             | Show a list of all plants        |
+| View one plant   | GET         | `/plants/<id>`        | Show details about one plant     |
+| Create new plant | POST        | `/plants`             | Add a new plant                  |
+| Show form to add | GET         | `/plants/new`         | Show a form to create a plant    |
+| Edit a plant     | GET         | `/plants/<id>/edit`   | Show a form to edit a plant      |
+| Update a plant   | PUT/POST    | `/plants/<id>`        | Save the updated plant data      |
+| Delete a plant   | DELETE/POST | `/plants/<id>/delete` | Remove a plant from the database |
+
+## ✨ Naming Tips
+
+* ✅ Use **nouns** for your URLs (e.g., `/weather`, not `/getWeather`)
+* ✅ Use **plural** for collections (`/plants`, not `/plant`)
+* ❌ Avoid verbs in the route (`/delete-user`) — the HTTP method already tells you the action
+* ✅ Use **nested routes** to show relationships (e.g., `/plants/<id>/harvests`)
+
+## 🧪 Practice Examples
+
+Here are some routes. Identify if they follow RESTful naming and suggest improvements if needed.
+
+1. `/getUserInfo`
+2. `/posts/123`
+3. `/createComment`
+4. `/products`
+5. `/delete/789`
+
+Answer the RESTful route questions on gradescope!
+
+## Route Names
 
 ### 📌 What is REST?
 
