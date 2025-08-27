@@ -43,7 +43,10 @@ Create a new file named: .gitignore
 
 Add the following to this file:
 
+```
 venv/
+```
+
 Now commit and push!
 
 Finally, make sure you have installed Flask:
