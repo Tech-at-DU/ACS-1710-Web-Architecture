@@ -46,7 +46,7 @@ By the end of the course, you will be able to ...
 |  7 | Mon, Sep 15 | [Module 3](Lessons/module-3/) |
 |  8 | Wed, Sep 17 | [Finished Module 3 Assignment](Assignments/03-More-Forms.md) |
 |  - | Week 5      | - |
-|  9 | Mon, Sep 22 | **Finished Quiz 2 (HARD DEADLINE - CLOSES END OF WEEK)** |
+|  9 | Mon, Sep 22 | **Finished [Quiz 2](https://github.com/Tech-at-DU/ACS-1710-Web-Architecture/blob/master/Assessments/quiz-2.md) (HARD DEADLINE - CLOSES END OF WEEK)** |
 | 10 | Wed, Sep 24 | [Module 4](Lessons/module-4/) |
 |  - | Week 6      | - |
 | 11 | Mon, Sep 29 | [Finished Module 4 Assignment](Assignments/03-APIs.md) |

@@ -21,9 +21,9 @@ There's quite a lot of setup for this assignment! I've broken it down into a few
 
 If you haven't yet, create a folder to contain your work for this course. If you put it in the `/dev/courses` folder, then the full path would be something like `/dev/courses/web1.1`.
 
-Download the [starter code](https://github.com/Tech-at-DU/ACS-1710-Homework-5-Databases-Starter) and initialize a new git repo.
+Follow the instructions here to setup the [starter code](https://github.com/Tech-at-DU/ACS-1710-Homework-5-Databases-Starter). 
 
-Refresh the page in your newly-created GitHub repo to make sure your changes were successfully pushed.
+Initialize a new git repo, commit and push your work. 
 
 ### Running a MongoDB Server
 
@@ -81,15 +81,18 @@ When you're finished working on this project, you can deactivate your virtual en
 deactivate
 ```
 
-### Installing Packages - No Virtual Environment
+With the starter code created you should be able to launch your project with: 
 
-If you choose not to use a virtual environment, simply navigate to your project's directory and enter the following command to install all required packages:
-
-```bash
-pip3 install -r requirements.txt
+```python
+python3 app.py
 ```
 
+Viewing: http://127.0.0.1:5000 in your browser will show site. 
+
+The template pages mock up the way the pages should look when they are functioning. You'll remove the placeholder elements and replace them with code that you write that generates elements from your database, creates new records in the database, and updates records.  
+
 ## Instructions
+With the starter code setup your goal is to solve the challenges below. These challenge problems are also outlined in the comment in the starter code. 
 
 ### Getting Used to the Codebase
 

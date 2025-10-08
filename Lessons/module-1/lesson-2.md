@@ -93,7 +93,7 @@ venv/
 
 Now commit and push!
 
-If you made a commit after creating the `venv` before adding the `.gitignore` You will need to remove `venv` from your cache. Follow the instructions here: https://stackoverflow.com/questions/14409299/does-git-remove-files-from-version-control-after-they-are-added-to-gitignore
+> NOTE! If you made a commit after creating the `venv`, and before adding the `.gitignore` You will need to remove `venv` from your git cache. Follow the instructions here: https://stackoverflow.com/questions/14409299/does-git-remove-files-from-version-control-after-they-are-added-to-gitignore
 
 ### Terminal Commands:
 
