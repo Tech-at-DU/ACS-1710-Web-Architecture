@@ -1,5 +1,3 @@
-
-
 # Product College Course Template 
 
 This guide applies to courses taught at the PC/Make School. Tutorials or other resources 
