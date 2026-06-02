@@ -27,33 +27,33 @@ By the end of the course, you will be able to ...
 
 ## Schedule
 
-**Course Dates:** August 25 – October 10, 2025
+**Course Dates:** August 24 – October 9, 2025
 
 **Class Times:** Monday and Wednesday, 1:30 PM – 4:00 PM
 
 | Class | Date | Pacing Recommendations (Complete all lessons up to - ) |
 |:---:|:--:|:-----:|
 |  - | Week 1      | - |
-|  1 | Mon, Aug 25 | [Module 1](Lessons/module-1/) |
-|  2 | Wed, Aug 27 | [Finished Module 1 Assignment](Assignments/01-Request-Response.md)  |
+|  1 | Mon, Aug 24 | [Module 1](Lessons/module-1/) |
+|  2 | Wed, Aug 26 | [Finished Module 1 Assignment](Assignments/01-Request-Response.md)  |
 |  - | Week 2      | - |
-|  3 | Mon, Sep  1 | ******LABOR DAY****** |
-|  4 | Wed, Sep  3 | [Module 2](Lessons/module-2/) |
+|  3 | Mon, Aug 31 | ******LABOR DAY****** |
+|  4 | Wed, Sep  2 | [Module 2](Lessons/module-2/) |
 |  - | Week 3      | - |
-|  5 | Mon, Sep  8 | [Finished Module 2 Assignment](Assignments/02-Forms-Templates.md) |
-|  6 | Wed, Sep 10 | **Finished Quiz 1 (HARD DEADLINE - CLOSES END OF WEEK)** |
+|  5 | Mon, Sep  7 | [Finished Module 2 Assignment](Assignments/02-Forms-Templates.md) |
+|  6 | Wed, Sep  9 | **Finished Quiz 1 (HARD DEADLINE - CLOSES END OF WEEK)** |
 |  - | Week 4      | - |
-|  7 | Mon, Sep 15 | [Module 3](Lessons/module-3/) |
-|  8 | Wed, Sep 17 | [Finished Module 3 Assignment](Assignments/03-More-Forms.md) |
+|  7 | Mon, Sep 14 | [Module 3](Lessons/module-3/) |
+|  8 | Wed, Sep 16 | [Finished Module 3 Assignment](Assignments/03-More-Forms.md) |
 |  - | Week 5      | - |
-|  9 | Mon, Sep 22 | **Finished [Quiz 2](https://github.com/Tech-at-DU/ACS-1710-Web-Architecture/blob/master/Assessments/quiz-2.md) (HARD DEADLINE - CLOSES END OF WEEK)** |
-| 10 | Wed, Sep 24 | [Module 4](Lessons/module-4/) |
+|  9 | Mon, Sep 21 | **Finished [Quiz 2](https://github.com/Tech-at-DU/ACS-1710-Web-Architecture/blob/master/Assessments/quiz-2.md) (HARD DEADLINE - CLOSES END OF WEEK)** |
+| 10 | Wed, Sep 23 | [Module 4](Lessons/module-4/) |
 |  - | Week 6      | - |
-| 11 | Mon, Sep 29 | [Finished Module 4 Assignment](Assignments/03-APIs.md) |
-| 12 | Wed, Oct  1 | [Module 5](Lessons/module-5/) |
+| 11 | Mon, Sep 28 | [Finished Module 4 Assignment](Assignments/03-APIs.md) |
+| 12 | Wed, Sep 30 | [Module 5](Lessons/module-5/) |
 |  - | Week 7      | - |
-| 13 | Mon, Oct  6 | LAB DAY |
-| 14 | Wed, Oct  8 | [Finished Module 5 Assignment](Assignments/04-Databases.md) |
+| 13 | Mon, Oct  5 | LAB DAY |
+| 14 | Wed, Oct  7 | [Finished Module 5 Assignment](Assignments/04-Databases.md) |
 
 ## Assignments
 Students will complete assignments at their own pace. 
