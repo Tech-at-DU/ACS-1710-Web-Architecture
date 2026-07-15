@@ -4,12 +4,12 @@ Working plan to keep ACS 1710 relevant for students entering the field. Course s
 
 ## Module 1 — Introduction to internet communication patterns, C.R.U.D, and servers
 
-- [ ] Lesson 2 (Setting up and Using Flask Servers):
-  - [ ] Remove the duplicate Flask install step — reorder so venv setup comes first, install Flask once inside it
-  - [ ] Fix Video 3 link text (currently copy-pasted "Vid 2 - exploring Python's Decorator syntax" instead of describing the `__name__` video)
-  - [ ] Fix typo: "in front of you terminal prompt" → "your"
-  - [ ] Add a Learning Outcome bullet covering virtual environments
-  - [ ] Fill in or remove the empty "What is a virtual environment?" and "Code References" headers
+- [x] Lesson 2 (Setting up and Using Flask Servers):
+  - [x] Remove the duplicate Flask install step — reorder so venv setup comes first, install Flask once inside it
+  - [x] Fix Video 3 link text (currently copy-pasted "Vid 2 - exploring Python's Decorator syntax" instead of describing the `__name__` video)
+  - [x] Fix typo: "in front of you terminal prompt" → "your"
+  - [x] Add a Learning Outcome bullet covering virtual environments
+  - [x] Fill in or remove the empty "What is a virtual environment?" and "Code References" headers (also added Windows activation command and `deactivate`)
 
 ## Module 2 — Creating scalable web applications and templating
 

@@ -7,6 +7,7 @@ ACS 1710 - Module 1: Lesson 2
 By the end of this lesson, you should be able to...
 
 - Create and run a Flask server using Visual Studio Code
+- Create and activate a Python virtual environment to manage a project's dependencies
 - (Optional) Explain how Python's decorator `@` symbol aids in writing routes
 - (Optional) Explain how Python's `__name__` keyword allows us to write code that will run when the program starts
 
@@ -28,7 +29,7 @@ Diving deeper into Python's `__name__` keyword
 
 <!-- [Vid 3 - exploring the `__name__` keyword](https://file.notion.so/f/f/b55c22ee-fac0-43f5-b763-ad205bab0599/63bd2804-9ad5-4385-ae3f-866dbd646dae/3_Name_Keyword.mov?table=block&id=b7e6ede1-e878-418a-aacd-ebd9ec69d9d3&spaceId=b55c22ee-fac0-43f5-b763-ad205bab0599&expirationTimestamp=1728064800000&signature=ZNAJriaf421QJ03IgKO8DR89nubO4WQWwdlnqeWQh-o&downloadName=3_Name_Keyword.mov) -->
 
-[Vid 2 - exploring Python's Decorator syntax](https://youtu.be/okQzZJD-lbg)
+[Vid 3 - exploring the `__name__` keyword](https://youtu.be/okQzZJD-lbg)
 
 ## Exercises 💪
 
@@ -48,14 +49,13 @@ Always feel free to ask for help when learning new technologies and frameworks. 
 
 ## Installing Flask
 
-1. Open a terminal on your computer (this can either be a dedicated terminal app on the terminal in your code editor).
-2. run the following installation command: `pip3 install flask`
+We'll install Flask inside of a virtual environment, so that this project's dependencies stay isolated from any other Python project on your computer. See below for what a virtual environment is and how to set one up.
 
 See the boilerplate and video walkthrough below for step-by-step instructions on creating our first Flask server.
 
-## Code References 📀
-
 ## What is a virtual environment? 
+
+A **virtual environment** (or `venv`) is an isolated copy of Python and its installed packages, kept separate from the rest of your computer. Different projects often need different versions of the same package—without a virtual environment, installing a package for one project could silently break another. Creating a new virtual environment for each project keeps their dependencies from conflicting.
 
 ### Setup your Virtual Environment 
 
@@ -66,11 +66,17 @@ python3 -m venv venv/
 
 Once you have created your virtual environment, you must activate it to use it. Activate it with the following line in the terminal: 
 
+On Mac/Linux:
 ```
 source venv/bin/activate
 ```
 
-You should see `(venv)` in front of you terminal prompt, it might look something like: `(venv) mitchellhudson@mitchells-MBP module-1`. 
+On Windows:
+```
+venv\Scripts\activate
+```
+
+You should see `(venv)` in front of your terminal prompt, it might look something like: `(venv) mitchellhudson@mitchells-MBP module-1`. 
 
 With your virtual environment activated, install Flask with: 
 
@@ -79,6 +85,12 @@ pip3 install flask
 ```
 
 This adds the Flask dependency to the virtual environment. 
+
+When you're done working, you can exit the virtual environment with:
+
+```
+deactivate
+```
 
 ## Be sure to GitIgnore Virtual Environment
 Its important that you NOT commit your virtual environment! Do this by adding .gitignore file. 
