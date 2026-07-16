@@ -17,9 +17,24 @@ By the end of this lesson, you should be able to...
 
 ## Exercises 💪
 
-Answer “Request Response Questions” on Gradescope. 
+Test your understanding of the Request/Response Cycle with the questions below. Try to answer each one yourself before checking the answer key.
 
-Questions coming soon!
+1. In the mail-order catalogue example from this lesson, who plays the role of the **client**, and who plays the role of the **server**?
+2. Which side of a web communication always **starts** the exchange — the client or the server?
+3. A user types `www.example.com` into their browser and a page loads. Which part of this interaction is the **request**, and which part is the **response**?
+4. What does a status code of `200` mean? What about `404`? What about `500`?
+5. True or False: A server can skip sending a response if the client's request doesn't need any data back.
+
+<details>
+<summary>Answer Key</summary>
+
+1. The **buyer** is the client (they start the communication); the **seller** is the server (they reply to the communication).
+2. The **client** always starts the exchange by sending a request.
+3. The **request** is the browser asking the server at `www.example.com` for the page; the **response** is the data the server sends back that the browser uses to display the page.
+4. `200` = OK, the request succeeded. `404` = the server (or resource) could not be found. `500` = the server failed to execute the request.
+5. **False** — a server must always send back a response, even if it's just a success/fail status code with no other data.
+
+</details>
 
 ## Written Companion 🗒
 

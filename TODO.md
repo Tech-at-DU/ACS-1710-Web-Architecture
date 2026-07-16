@@ -10,7 +10,7 @@ Working plan to keep ACS 1710 relevant for students entering the field. Course s
   - [x] Fix typo: "in front of you terminal prompt" → "your"
   - [x] Add a Learning Outcome bullet covering virtual environments
   - [x] Fill in or remove the empty "What is a virtual environment?" and "Code References" headers (also added Windows activation command and `deactivate`)
-- [ ] Lesson 1: exercise section still says "Questions coming soon!" — a stale placeholder; write the questions or remove the line
+- [x] Lesson 1: exercise section still says "Questions coming soon!" — a stale placeholder; write the questions or remove the line (replaced Gradescope submission with a self-check + collapsible answer key, since the course is moving off Gradescope)
 - [ ] Lesson 5: Exercises section is headed "Route Variables" only, but the lesson also covers Forms — add an exercise pointer for the Forms half
 - [ ] Standardize the port used in `lesson-2.md`'s boilerplate (currently 3000) against `Assignments/01-Request-Response.md`'s tutorial (shows Flask's default 5000), and add a callout that macOS (Monterey+) reserves port 5000 for AirPlay Receiver — a common silent "server won't start" trap for Mac students
 
