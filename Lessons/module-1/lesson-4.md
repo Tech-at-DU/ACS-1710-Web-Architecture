@@ -17,7 +17,24 @@ By the end of this lesson, you should be able to...
 
 ## Exercises 💪
 
-Answer the review questions for Module 1 section 3 on GradeScope. 
+Test your understanding of GET vs POST with the questions below. Try to answer each one yourself before checking the answer key.
+
+1. Which HTTP method is used to **retrieve** data from a server, and which is used to **send** data to a server?
+2. True or False: Data sent via a `GET` request can be seen in the URL.
+3. A user submits a login form with their username and password. Should this be a `GET` or `POST` request? Why?
+4. A user searches for "pizza" in a search bar and the results page shows `?query=pizza` in the URL. Was this form submitted using `GET` or `POST`?
+5. Which C.R.U.D. operation is most closely associated with the `GET` method?
+
+<details>
+<summary>Answer Key</summary>
+
+1. `GET` retrieves/receives data from the server; `POST` sends data to the server.
+2. **True** — `GET` request data is visible in the URL.
+3. `POST` — sensitive data like a password shouldn't be visible in the URL, which is what a `GET` request would do.
+4. `GET` — the query is visible in the URL, which only happens with `GET` requests.
+5. **Read** — `GET` is typically used whenever the user needs to read data.
+
+</details>
 
 ## Written Companion 🗒
 

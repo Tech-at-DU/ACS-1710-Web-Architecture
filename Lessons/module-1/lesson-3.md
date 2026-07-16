@@ -11,7 +11,24 @@ By the end of this lesson, you should be able to...
 
 ## Exercises 💪
 
-Answer the review questions for Module 1 section 2 on Gradescope. 
+Test your understanding of C.R.U.D with the questions below. Try to answer each one yourself before checking the answer key.
+
+1. What does each letter in C.R.U.D. stand for?
+2. A user searches for a product on an e-commerce site and views a list of results. Which C.R.U.D. operation is this?
+3. A user edits their profile bio on a social media app. Which C.R.U.D. operation is this?
+4. A user removes an item from their shopping cart. Which C.R.U.D. operation is this?
+5. A user uploads a new photo to their profile. Which C.R.U.D. operation is this?
+
+<details>
+<summary>Answer Key</summary>
+
+1. **C**reate, **R**ead, **U**pdate, **D**elete.
+2. **Read** — the user is retrieving existing data.
+3. **Update** — the user is modifying an existing data point.
+4. **Delete** — the user is removing an element from a set of data (their cart).
+5. **Create** — the user is inserting a new element (the photo) into a set of data.
+
+</details>
 
 ## Written Companion 🗒
 

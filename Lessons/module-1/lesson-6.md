@@ -17,7 +17,30 @@ By the end of this lesson, you should be able to...
 
 # Exercises 💪
 
-Answer the review questions for Module 1 Section 5 on [Gradescope](http://gradescope.com).
+Test your understanding of working with form data in Flask with the questions below. Try to answer each one yourself before checking the answer key.
+
+1. Which `request` method do you use to access form data submitted via a `GET` request? Which one do you use for a `POST` request?
+2. What's wrong with the following route, if it only accepts `POST` requests?
+
+```python
+@app.route('/results', methods=['POST'])
+def show_results():
+    flavor = request.args.get('flavor')
+    return f'You chose {flavor}'
+```
+
+3. On an `<input>` tag, which attribute becomes the **key** you look up when calling `request.args.get()` or `request.form.get()`?
+4. Can the `methods` parameter of `@app.route()` accept more than one HTTP method at a time? How would you write a route that accepts both `GET` and `POST`?
+
+<details>
+<summary>Answer Key</summary>
+
+1. `request.args.get()` for `GET` requests; `request.form.get()` for `POST` requests.
+2. The route only accepts `POST`, but the code uses `request.args.get()` (the `GET` method). It should use `request.form.get()` instead — otherwise it will return `None` even when the form was submitted correctly.
+3. The `name` attribute — it becomes the key used to look up that input's submitted value.
+4. Yes — pass a list of methods, e.g. `methods=['GET', 'POST']`.
+
+</details>
 
 # Written Companion 🗒
 

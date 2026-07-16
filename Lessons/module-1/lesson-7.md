@@ -30,7 +30,24 @@ In the next module, you will be using keyword arguments to pass in data to a tem
 
 ## Exercises 💪
 
-Answer the questions in Module 1 Section 6 on [Gradescope](http://gradescope.com).
+Test your understanding of named parameters, `*args`, and `**kwargs` with the questions below. Try to answer each one yourself before checking the answer key.
+
+1. What does using named parameters allow you to do when calling a function?
+2. Inside a function, what data type does a parameter defined with `*args` become?
+3. Inside a function, what data type does a parameter defined with `**kwargs` become?
+4. Using the `add_all(*args)` function from this lesson, what would `add_all(2, 4, 6)` return?
+5. Why might `**kwargs` be useful when writing a Flask route that needs to accept many different form fields, some of which might not always be present?
+
+<details>
+<summary>Answer Key</summary>
+
+1. It lets you pass arguments to a function out of order, by explicitly naming which parameter each value belongs to.
+2. A tuple containing all of the positional arguments passed in.
+3. A dictionary, where each keyword argument becomes a key-value pair.
+4. `12` (2 + 4 + 6).
+5. Because `**kwargs` accepts any number of labeled arguments, it works even when you don't know the exact set of fields ahead of time — you're not locked into a fixed list of parameters.
+
+</details>
 
 # Written Companion 🗒
 
