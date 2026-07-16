@@ -10,22 +10,28 @@ Working plan to keep ACS 1710 relevant for students entering the field. Course s
   - [x] Fix typo: "in front of you terminal prompt" → "your"
   - [x] Add a Learning Outcome bullet covering virtual environments
   - [x] Fill in or remove the empty "What is a virtual environment?" and "Code References" headers (also added Windows activation command and `deactivate`)
+- [ ] Lesson 1: exercise section still says "Questions coming soon!" — a stale placeholder; write the questions or remove the line
+- [ ] Lesson 5: Exercises section is headed "Route Variables" only, but the lesson also covers Forms — add an exercise pointer for the Forms half
+- [ ] Standardize the port used in `lesson-2.md`'s boilerplate (currently 3000) against `Assignments/01-Request-Response.md`'s tutorial (shows Flask's default 5000), and add a callout that macOS (Monterey+) reserves port 5000 for AirPlay Receiver — a common silent "server won't start" trap for Mac students
 
 ## Module 2 — Creating scalable web applications and templating
 
-- [ ] No changes planned — content holds up as-is
+- [ ] No content changes planned — content holds up as-is
+- [ ] Lessons 1, 3, 4, 5: "Exercises" sections are HTML-commented-out dead Repl.it remnants — students get no lesson-level checkpoint for this entire module (practice is deferred to the one big Module 2 Assignment). Consider adding a small live self-check exercise per lesson.
 
 ## Module 3 — Building robust services that connect to platforms via APIs
 
 - [ ] New Lesson 4: "Returning JSON Responses with `jsonify`" — cover `jsonify()` and returning status-code tuples (`return data, 201`); renumber existing Lesson 4 (Postman) → 5, Lesson 5 (Requests library) → 6
 - [ ] Lesson 5 / Postman lesson: replace remaining `api.icndb.com` references with `api.chucknorris.io` to match the exercise
 - [ ] Update Module Learning Objectives to add: "Return properly-formatted JSON responses from a Flask route using `jsonify` and appropriate HTTP status codes."
+- [ ] Lessons 1, 3, 5: "Exercises" sections are HTML-commented-out dead Repl.it remnants — same lesson-checkpoint gap as Module 2
 
 ## Module 4 — Developing secure, tested, and distributable web applications
 
 - [ ] Update module title/theme to include "tested"
-- [ ] New Lesson 4: "Testing Flask Routes with Pytest" — Flask test client, basic `test_*.py`, asserting on status codes and response data
+- [ ] New Lesson 4: "Testing Flask Routes with Pytest" — Flask test client, basic `test_*.py`, asserting on status codes and response data. Note: `Assignments/05-Testing.md` already exists and is graded, but currently just says "submit your Flask Testing code completed in class" with no written lesson behind it — self-paced/async students have nothing to learn from
 - [ ] Update Module Learning Objectives to add: "Write a Pytest test that verifies a Flask route returns the expected status code and content."
+- [ ] `Assignments/05-Testing.md` links to `github.com/Make-School-Labs/Flask-Testing-Starter` — every other assignment (01-04) has migrated to the `Tech-at-DU` org; verify/move this starter repo
 
 ## Module 5 — Introduction to databases and connecting servers to them
 
@@ -34,11 +40,38 @@ Working plan to keep ACS 1710 relevant for students entering the field. Course s
 - [ ] Lesson 3 (SQL vs NoSQL / MongoDB): fix subtitle mislabeled "Module 3" → "Module 5"; remove dead repl.it link
 - [ ] Lesson 4 (Connecting Flask to MongoDB): fix subtitle mislabeled "Module 3" → "Module 5"
 - [ ] Lesson 5 (PyMongo C.R.U.D): fix Learning Outcomes (currently copy-pasted from lessons 2/3, don't mention insert/find/update/delete)
-- [ ] New Lesson 6: "Deploying Your Flask Application" — deploy a Mongo-backed Flask app to a free host (Render), set `MONGO_URI` as an environment variable on the host; course capstone
+- [ ] New Lesson 6: "Deploying Your Flask Application" — **`Labs/deployment-howto.md` already contains a full deployment walkthrough**, so this is a rescue-and-modernize job, not a from-scratch lesson:
+  - [ ] Replace Heroku (free tier has required a credit card since late 2022) with a currently-free host such as Render or Railway
+  - [ ] Move/link the lesson into Module 5 and reference it from the module readme and top-level README schedule (currently completely unlinked from anywhere)
+  - [ ] Keep the MongoDB Atlas connection-string steps, which are still current
 - [ ] Update Module Learning Objectives to add: "Deploy a Flask application with a live database connection to a hosting provider."
+
+## Assignments folder
+
+- [ ] `06-Final-Project.md` links to `github.com/Make-School-Labs/WEB-1.1-Final-Project-Starter` — same old-org concern as the Testing assignment above; verify/move this starter repo
+- [ ] `02-Forms-Templates.md` points students to "the Repl.It activity we completed during class" (a personal `repl.it/@MeredithMurphy1/...` link) as the reference for refactoring into templates — no written equivalent exists for self-paced/async students who missed that session
+- [ ] `03-More-Forms.md` (lines ~94-100): replace the instructor's raw first-person debugging narrative ("I'm not sure why this is, I've searched the internet...") with a clear troubleshooting table for the missing-dependency errors
+- [ ] Delete or clearly mark as instructor-only templates: `zzz-Templates.md` (abandoned draft, placeholder `git clone ...` with no URL, empty "Template Inheritance" section, unreferenced anywhere), `Sample_Project.md`, `Sample_Rubric.md` (generic boilerplate, not real course content, unreferenced anywhere)
+
+## Assessments folder
+
+- [ ] `quiz-2-study-guide.md` requires reviewing four personal `repl.it/@MeredithMurphy1/...` links as exam prep — replace with current/working resources
+- [ ] `final-assessment.md` hardcodes a specific term's date ("Wed Oct 7") — part of the broader recurring-dates problem below
+
+## Labs / Activities folders (exist but aren't linked from anywhere a self-paced student would find them)
+
+- [ ] `Labs/deployment-howto.md` — see Module 5 deployment item above (rescue from Heroku, link in)
+- [ ] `Activities/MongoDB-Setup-Tutorial.md` — empty stub (just a title, no body); finish it or delete it
+
+## Formatting / portability (Notion → GitHub migration artifacts)
+
+- [ ] Dozens of `<aside>` 🤔/💡/🚨 callouts across Modules 2–5 were authored for Notion's UI, where they render as colored callout boxes. On GitHub/plain markdown they render as unstyled plain text, so the intended "pause and think here" visual signal is currently invisible. Consider replacing with GitHub-native blockquote-style callouts (`> **Note:**` etc.)
+- [ ] `README.md:3` still has the Notion-era instruction "Hold down SHIFT and press Refresh to get the latest version" — meaningless on GitHub
 
 ## Repo-level cleanup (found during review, separate from lesson content)
 
 - [ ] `README.md` "Learning Modules" section links out to stale `notion.site`/`makeschool` URLs instead of the local `Lessons/module-X/lesson-Y.md` files
 - [ ] `README.md` has conflicting date sets: course header (Aug 24–Oct 9, 2025), schedule table (ends Oct 7), assignments table (Oct 25–Dec 7), late-policy text ("Mar 3 & Mar 4") — reconcile to one term's dates
+- [ ] Hardcoded per-term dates are scattered across `README.md` and `Assessments/final-assessment.md` with no single source of truth, so they drift out of sync between terms — consider a single "current term dates" section that everything else references
 - [ ] Remove orphaned `Lessons/module-1/module-5-lesson-4.md` (outdated draft of `module-5/lesson-4.md`, wrong folder, unreferenced)
+- [ ] Repo root has ~10 files/folders unrelated to this course (`box-model.html`, `flex-box.html`, `position.html`, `text-styles.html`, `watering.html`, `background-image.html`, `events.html`, `assessment/`, `exercises/`, `projects/`, `images/`) — look like leftovers from a different (prerequisite HTML/CSS) course; confirm and remove if truly unused
