@@ -35,10 +35,10 @@ Your work will be evaluated according to the following rubric:
 
 ## Starter Code
 
-Clone the code [here](https://github.com/Make-School-Labs/WEB-1.1-Final-Project-Starter) to start:
+Clone the code [here](https://github.com/Tech-at-DU/WEB-1.1-Final-Project-Starter) to start:
 
 ```bash
-git clone git@github.com:Make-School-Labs/WEB-1.1-Final-Project-Starter.git
+git clone git@github.com:Tech-at-DU/WEB-1.1-Final-Project-Starter.git
 ```
 
 ## Step-by-Step Instructions

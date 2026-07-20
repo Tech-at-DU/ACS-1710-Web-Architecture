@@ -40,11 +40,11 @@ Any lesson currently pointing to "Answer questions on Gradescope" or a dead Repl
 
 ## Module 4 — Developing secure, tested, and distributable web applications
 
-- [ ] Update module title/theme to include "tested"
-- [ ] New Lesson 4: "Testing Flask Routes with Pytest" — Flask test client, basic `test_*.py`, asserting on status codes and response data. Note: `Assignments/05-Testing.md` already exists and is graded, but currently just says "submit your Flask Testing code completed in class" with no written lesson behind it — self-paced/async students have nothing to learn from
-- [ ] Update Module Learning Objectives to add: "Write a Pytest test that verifies a Flask route returns the expected status code and content."
-- [ ] `Assignments/05-Testing.md` links to `github.com/Make-School-Labs/Flask-Testing-Starter` — every other assignment (01-04) has migrated to the `Tech-at-DU` org; verify/move this starter repo
-- [ ] Lesson 3 (Datetime): exercise links to a dead `repl.it/team/WebArchitecture/Module-401DatetimePractice` — convert to the self-check pattern above
+- [x] Update module title/theme to include "tested"
+- [x] New Lesson 4: "Testing Flask Routes with Pytest" — Flask test client, basic `test_*.py`, asserting on status codes and response data. Note: `Assignments/05-Testing.md` already exists and is graded, but currently just says "submit your Flask Testing code completed in class" with no written lesson behind it — self-paced/async students have nothing to learn from (linked the new lesson from the assignment as a written refresher)
+- [x] Update Module Learning Objectives to add: "Write a Pytest test that verifies a Flask route returns the expected status code and content."
+- [x] `Assignments/05-Testing.md` links to `github.com/Make-School-Labs/Flask-Testing-Starter` — every other assignment (01-04) has migrated to the `Tech-at-DU` org; verify/move this starter repo (checked via WebFetch: both the old and a `Tech-at-DU` fork exist and are public, so it wasn't actually broken — switched the link to `Tech-at-DU` anyway for org consistency)
+- [x] Lesson 3 (Datetime): exercise links to a dead `repl.it/team/WebArchitecture/Module-401DatetimePractice` — convert to the self-check pattern above
 
 ## Module 5 — Introduction to databases and connecting servers to them
 
@@ -65,7 +65,7 @@ Any lesson currently pointing to "Answer questions on Gradescope" or a dead Repl
 
 ## Assignments folder
 
-- [ ] `06-Final-Project.md` links to `github.com/Make-School-Labs/WEB-1.1-Final-Project-Starter` — same old-org concern as the Testing assignment above; verify/move this starter repo
+- [x] `06-Final-Project.md` links to `github.com/Make-School-Labs/WEB-1.1-Final-Project-Starter` — same old-org concern as the Testing assignment above; verify/move this starter repo (verified via WebFetch: a `Tech-at-DU` fork exists and is public; switched the link and `git clone` command to it for org consistency)
 - [ ] `02-Forms-Templates.md` points students to "the Repl.It activity we completed during class" (a personal `repl.it/@MeredithMurphy1/...` link) as the reference for refactoring into templates — no written equivalent exists for self-paced/async students who missed that session
 - [ ] `03-More-Forms.md` (lines ~94-100): replace the instructor's raw first-person debugging narrative ("I'm not sure why this is, I've searched the internet...") with a clear troubleshooting table for the missing-dependency errors
 - [ ] Delete or clearly mark as instructor-only templates: `zzz-Templates.md` (abandoned draft, placeholder `git clone ...` with no URL, empty "Template Inheritance" section, unreferenced anywhere), `Sample_Project.md`, `Sample_Rubric.md` (generic boilerplate, not real course content, unreferenced anywhere)

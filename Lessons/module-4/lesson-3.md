@@ -19,7 +19,22 @@ Vid 1 - using `datetime` objects
 
 # Exercises 💪
 
-Complete the exercise in [this repl.it](https://repl.it/team/WebArchitecture/Module-401DatetimePractice) and submit your work.
+Test your understanding of the `datetime` library with the questions below. Try to answer each one yourself before checking the answer key.
+
+1. How do you create a `datetime` object representing the current date and time?
+2. Which method converts a `datetime` object into a formatted string? Which method does the reverse, converting a string into a `datetime` object?
+3. What format code represents a 4-digit year? What about a 2-digit day?
+4. Write the format string you'd pass to `strftime()` to get a date in the form `09/02/2020` (month/day/year).
+
+<details>
+<summary>Answer Key</summary>
+
+1. `datetime.now()`, e.g. `datetime_obj = datetime.now()`.
+2. `strftime()` converts a `datetime` object to a string; `strptime()` converts a string to a `datetime` object.
+3. `%Y` for a 4-digit year; `%d` for a 2-digit day.
+4. `'%m/%d/%Y'`
+
+</details>
 
 # Written Companion 🗒
 
