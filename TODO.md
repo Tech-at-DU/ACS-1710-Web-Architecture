@@ -66,10 +66,10 @@ Big enough to split into 4 reviewable chunks, done in order (each depends on the
 
 ### Chunk 3: New Lesson 6 — Deployment
 
-- [ ] **`Labs/deployment-howto.md` already contains a full deployment walkthrough**, so this is a rescue-and-modernize job, not a from-scratch lesson:
-  - [ ] Replace Heroku (free tier has required a credit card since late 2022) with a currently-free host such as Render or Railway
-  - [ ] Move the file into `Lessons/module-5/lesson-6.md` and adapt it to match this course's lesson format (Learning Outcomes, Exercises/self-check, Written Companion)
-  - [ ] Keep the MongoDB Atlas connection-string steps, which are still current
+- [x] **`Labs/deployment-howto.md` already contains a full deployment walkthrough**, so this is a rescue-and-modernize job, not a from-scratch lesson:
+  - [x] Replace Heroku (free tier has required a credit card since late 2022) with a currently-free host such as Render or Railway (used Render)
+  - [x] Move the file into `Lessons/module-5/lesson-6.md` and adapt it to match this course's lesson format (Learning Outcomes, Exercises/self-check, Written Companion) — also moved the two Atlas screenshots from `Labs/Assets/` into `Lessons/module-5/` and removed the now-empty `Labs/` folder
+  - [x] Keep the MongoDB Atlas connection-string steps, which are still current
 
 ### Chunk 4: Module readme + wrap-up
 
@@ -90,7 +90,7 @@ Big enough to split into 4 reviewable chunks, done in order (each depends on the
 
 ## Labs / Activities folders (exist but aren't linked from anywhere a self-paced student would find them)
 
-- [ ] `Labs/deployment-howto.md` — see Module 5, Chunk 3 above (rescue from Heroku, move into `Lessons/module-5/lesson-6.md`)
+- [x] `Labs/deployment-howto.md` — see Module 5, Chunk 3 above (rescued from Heroku, moved into `Lessons/module-5/lesson-6.md`; the now-empty `Labs/` folder was removed)
 - [ ] `Activities/MongoDB-Setup-Tutorial.md` — empty stub (just a title, no body); finish it or delete it
 
 ## Formatting / portability (Notion → GitHub migration artifacts)
