@@ -164,7 +164,7 @@ You chose to add 2 and 5. Your result is: 7
 
 Refactor the `froyo` and `froyo_results` routes to render a template. Any relevant variables should be included in a `context` dictionary as key-value pairs and passed to `render_template`.
 
-If you need a refresher on how to do this, check out the [Repl.It activity](https://repl.it/@MeredithMurphy1/JinjaRefactor#main.py) we completed during class.
+If you need a refresher on how to do this, check out this [worked example of refactoring a route to use a template](templates-refactor-example.md).
 
 ### Refactor Calculator
 
