@@ -118,7 +118,7 @@ Create `main.py`. Add the code below to that file.
 
 Run the file with: `python3 main.py`
 
-With this Flask server running, you should see the address it is running at in the terminal, something like: `http://127.0.0.1:3000`. Paste this address into your web browser. You should see the words `Hello, World!` in the window. 
+With this Flask server running, you should see the address it is running at in the terminal, something like: `http://127.0.0.1:5000`. Paste this address into your web browser. You should see the words `Hello, World!` in the window. 
 
 ```python
 # standard flask boilerplate
@@ -137,7 +137,11 @@ app = Flask(__name__)
 def homepage():
     return "Hello, world!"
 
-# the server can be accessed in your web browser using the URL localhost:3000/
+# the server can be accessed in your web browser using the URL localhost:5000/
 if __name__ == '__main__':
-    app.run(debug=True, port=3000)
+    app.run(debug=True)
 ```
+
+> 🚨 **Mac users:** if the server won't start, or you get a `403 Forbidden` error when visiting `localhost:5000`, macOS itself is probably using port 5000 for its AirPlay Receiver feature (this is true on Monterey and later). You have two options:
+> 1. Turn off AirPlay Receiver in System Settings → General → AirDrop & Handoff, or
+> 2. Run your server on a different port by changing the last line to `app.run(debug=True, port=5001)` (and using `localhost:5001` in your browser instead).

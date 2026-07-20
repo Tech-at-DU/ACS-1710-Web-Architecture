@@ -22,9 +22,24 @@ By the end of this lesson, you should be able to...
 
 ## Exercises 💪
 
-### Route Variables
+Test your understanding of route variables and forms with the questions below. Try to answer each one yourself before checking the answer key. (Processing submitted form data is covered in the next lesson's self-check.)
 
-Answer the review questions for Module 1 Section 4 on [Gradescope](http://gradescope.com).
+1. In the route `@app.route('/profile/<users_name>')`, what is `<users_name>` called, and how do you access its value inside the route function?
+2. What are the two `<input>` tags that every `<form>` must have at minimum?
+3. What does the `name` attribute on an `<input>` tag get used for on the server side?
+4. What does the `action` attribute on a `<form>` tag specify? What about the `method` attribute?
+5. If a `<form>` tag doesn't include a `method` attribute, which HTTP method does it default to?
+
+<details>
+<summary>Answer Key</summary>
+
+1. It's called a **route variable**. Its value is passed into the route function as an argument with the same name (`users_name`).
+2. At least one `<input>` for entering data, and one `<input type="submit">` for submitting the form.
+3. It becomes the **key** used to look up that input's submitted value on the server (e.g., with `request.args.get()`).
+4. `action` specifies the route URL the form's data will be sent to; `method` specifies which HTTP method (`GET` or `POST`) will be used to send it.
+5. `GET`.
+
+</details>
 
 ## Written Companion 🗒
 

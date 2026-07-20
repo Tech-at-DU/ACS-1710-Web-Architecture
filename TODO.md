@@ -22,8 +22,8 @@ Any lesson currently pointing to "Answer questions on Gradescope" or a dead Repl
   - [x] Fill in or remove the empty "What is a virtual environment?" and "Code References" headers (also added Windows activation command and `deactivate`)
 - [x] Lesson 1: exercise section still says "Questions coming soon!" — a stale placeholder; write the questions or remove the line (replaced Gradescope submission with a self-check + collapsible answer key, since the course is moving off Gradescope)
 - [x] Lessons 3, 4, 6, 7: currently point to "Answer the review questions... on Gradescope" — convert each to the self-check pattern above
-- [ ] Lesson 5: currently points to Gradescope, and the Exercises section is headed "Route Variables" only even though the lesson also covers Forms — convert to self-check pattern and cover both topics
-- [ ] Standardize the port used in `lesson-2.md`'s boilerplate (currently 3000) against `Assignments/01-Request-Response.md`'s tutorial (shows Flask's default 5000), and add a callout that macOS (Monterey+) reserves port 5000 for AirPlay Receiver — a common silent "server won't start" trap for Mac students
+- [x] Lesson 5: currently points to Gradescope, and the Exercises section is headed "Route Variables" only even though the lesson also covers Forms — convert to self-check pattern and cover both topics (scoped to route variables + HTML form syntax only; form *processing* is already tested in Lesson 6's self-check, so it wasn't duplicated here)
+- [x] Standardize the port used in `lesson-2.md`'s boilerplate (currently 3000) against `Assignments/01-Request-Response.md`'s tutorial (shows Flask's default 5000), and add a callout that macOS (Monterey+) reserves port 5000 for AirPlay Receiver — a common silent "server won't start" trap for Mac students (dropped the explicit `port=3000`, now matches Flask's default of 5000 used everywhere else in the course; added a callout with both the AirPlay-Receiver fix and a port-override fallback)
 
 ## Module 2 — Creating scalable web applications and templating
 
