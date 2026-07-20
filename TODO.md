@@ -73,8 +73,8 @@ Big enough to split into 4 reviewable chunks, done in order (each depends on the
 
 ### Chunk 4: Module readme + wrap-up
 
-- [ ] Update `module-5/readme.md`: reordered/renumbered Lessons list (1, 2, 3, 4, 5, 6), and add Learning Objective: "Deploy a Flask application with a live database connection to a hosting provider."
-- [ ] Remove orphaned `Lessons/module-1/module-5-lesson-4.md` (outdated draft of this module's PyMongo C.R.U.D. lesson, wrong folder, unreferenced) — also listed under Repo-level cleanup below
+- [x] Update `module-5/readme.md`: reordered/renumbered Lessons list (1, 2, 3, 4, 5, 6), and add Learning Objective: "Deploy a Flask application with a live database connection to a hosting provider." (also added a RESTful routing objective for the new Lesson 2, which wasn't previously reflected at the module level)
+- [x] Remove orphaned `Lessons/module-1/module-5-lesson-4.md` (outdated draft of this module's PyMongo C.R.U.D. lesson, wrong folder, unreferenced) — also listed under Repo-level cleanup below
 
 ## Assignments folder
 
@@ -103,5 +103,5 @@ Big enough to split into 4 reviewable chunks, done in order (each depends on the
 - [ ] `README.md` "Learning Modules" section links out to stale `notion.site`/`makeschool` URLs instead of the local `Lessons/module-X/lesson-Y.md` files
 - [ ] `README.md` has conflicting date sets: course header (Aug 24–Oct 9, 2025), schedule table (ends Oct 7), assignments table (Oct 25–Dec 7), late-policy text ("Mar 3 & Mar 4") — reconcile to one term's dates
 - [ ] Hardcoded per-term dates are scattered across `README.md` and `Assessments/final-assessment.md` with no single source of truth, so they drift out of sync between terms — consider a single "current term dates" section that everything else references
-- [ ] Remove orphaned `Lessons/module-1/module-5-lesson-4.md` (outdated draft of `module-5/lesson-4.md`, wrong folder, unreferenced)
+- [x] Remove orphaned `Lessons/module-1/module-5-lesson-4.md` (outdated draft of `module-5/lesson-4.md`, wrong folder, unreferenced) — done as part of Module 5, Chunk 4
 - [ ] Repo root has ~10 files/folders unrelated to this course (`box-model.html`, `flex-box.html`, `position.html`, `text-styles.html`, `watering.html`, `background-image.html`, `events.html`, `assessment/`, `exercises/`, `projects/`, `images/`) — look like leftovers from a different (prerequisite HTML/CSS) course; confirm and remove if truly unused
