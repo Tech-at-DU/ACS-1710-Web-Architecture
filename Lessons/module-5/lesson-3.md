@@ -1,6 +1,6 @@
-# Connecting a Flask Server to MongoDB Cluster
+# SQL vs NoSQL and Introduction to MongoDB
 
-## ACS 1710 - Module 3: Lesson 3
+## ACS 1710 - Module 5: Lesson 3
 
 # Learning Outcomes 💫
 
@@ -9,54 +9,135 @@ By the end of this lesson, you should be able to...
 - Conceptually create a data query
 - Identify relationships in data
 - Explain the trade-offs between a SQL and NoSQL database
-- Connect a Flask server to a MongoDB cluster
+- Utilize MongoDB and the `ObjectId`
 
 # Video Companions 🎥
 
-<!-- [Setting Up MongoDB Atlas Video](https://youtu.be/0ENeevQ_1e) (recommended before you watch the rest of this lesson) -->
+<!-- [Video 1 - Exploring the differences and use cases of SQL vs NoSQL](https://file.notion.so/f/f/6004cc36-d69e-461f-a1c5-8e5078ac8f6b/a2bb5cdd-3a87-4278-aa4a-8ecaefab3337/RPReplay_Final1611091771.mp4?table=block&id=6ddd64d3-1fde-4310-9711-01ff06ecab19&spaceId=6004cc36-d69e-461f-a1c5-8e5078ac8f6b&expirationTimestamp=1728064800000&signature=gvK4TIoZWUHwpX15DPeedd-Wf3JpUL0UVIk8juU8XTk&downloadName=RPReplay_Final1611091771.mp4) -->
 
-<!-- [Video Lesson](https://file.notion.so/f/f/6004cc36-d69e-461f-a1c5-8e5078ac8f6b/176ba85b-3222-4a08-98f8-2d78692ee243/17_Connecting_to_MongoDB.mov?table=block&id=8d1fb9d4-8241-454d-8ac7-7cffe6e9b1db&spaceId=6004cc36-d69e-461f-a1c5-8e5078ac8f6b&expirationTimestamp=1728064800000&signature=8utux3BOvV_GAYMtio2ljnQc2Mc4Q68wmLqbnIsE3Wk&downloadName=17_Connecting_to_MongoDB.mov) -->
+[Video 1 - Exploring the differences and use cases of SQL vs NoSQL](https://youtu.be/38ebgY7QKt8)
 
-[Video Lesson: MongoDB](https://youtu.be/05_dDRR9TyA)
+Video 1 - Exploring the differences and use cases of SQL vs NoSQL
 
-To create a mongodb "cluster" (this is a database hosted on the mongodb site) follow the guide here: https://www.mongodb.com/docs/guides/atlas/cluster/
+# Exercises 💪
 
-<!-- # Exercises 💪
+Test your understanding of SQL vs NoSQL and MongoDB with the questions below. Try to answer each one yourself before checking the answer key.
 
-Solve the #TODO's in this [this Repl.it](https://repl.it/team/WebArchitecture/Module-53Connecting-Flask-to-MongoDB) and submit your work.
--->
+1. What's the key structural difference between how an SQL database stores data versus how a NoSQL database stores data?
+2. Which one scales "vertically" (moving to a more powerful machine), and which scales "horizontally" (adding more machines) — SQL or NoSQL?
+3. In MongoDB, what's the relationship between a document, a collection, and a database, from smallest to largest?
+4. What is an `ObjectId`, and under which key is it stored in a MongoDB document?
+
+<details>
+<summary>Answer Key</summary>
+
+1. SQL stores highly-connected relational data in tables; NoSQL stores lightly-connected, non-relational data in individual key-value pairs called documents.
+2. SQL scales vertically (a more powerful machine); NoSQL scales horizontally (more machines/databases).
+3. A **document** is a single record; a **collection** is a group of similar documents; a **database** is the container that holds all the collections in a project.
+4. A unique identifier assigned to every MongoDB document (automatically, or manually by the developer) so it can be looked up individually. It's stored under the `_id` key.
+
+</details>
 
 # Written Companion 🗒
 
 <aside>
-🤔 How do we connect a Flask server with API routes to a MongoDB database cluster?
+🤔 What would be a good first database technology to implement?
 </aside>
 
 ---
 
-The `Flask` object has a built-in property called `config` which allows developers to easily create **configuration variables** (see the **environment variables** lesson for relevant information) with the Python dictionary syntax: `app.config['URL_ROUTE'] = 'URLdestination'`
+Many database technologies exist, and each database has its own set of professional trade-offs. 
 
-Using this `config` property, developers can create globally accessible URL connection points to help the Flask server find the MongoDB cluster destination.
+A developer interacts with data in a database by making a **query.** These queries can be formed in many ways, with each database language approaching it in a different method.
+
+Data can also have **relationships**. For example, if a database contains information about musicians and songs, a **relationship** property might exist between the musicians and songs called "composer". Relationships can exist between many types of data, such as teachers and school departments!
+
+![untitled-2](Untitled-2.png)
+
+*Fig 1 - a relationship diagram representing the relationship between teachers (with an ID, name, and subject to teach) and departments (with an ID and name).*
 
 <aside>
-💡 Once a Flask server gets connected to a MongoDB cluster—we must use the PyMongo library to create a `mongo` object capable of interfacing between the server and database!
+🚨 Always consider if the database technology employs a relational centric **structured query language (SQL)** or a non-relational centric **"not only" structured query language (noSQL)—**as this will form the basis of the data's structure and potential tradeoffs of the technology.
+
+</aside>
+
+### SQL vs NoSQL Tradeoffs
+
+An SQL database works best for highly-connected relational data (stored in **tables**) that requires quick queries and scales by moving the central data storage to a more powerful machine (aka vertically scaling). 
+
+A NoSQL database works best for lightly-connected, non-relational data (stored in individual key-value pairs called **documents)** that requires dynamic or unstructured data queries and scales by adding additional virtual machines/databases to the system (aka horizontal scaling). 
+
+<aside>
+💡 In this class we will be using low-complexity, lightly connected data so a noSQL database would be the best choice.
+</aside>
+
+### Introduction to MongoDB
+
+MongoDB uses the document-based noSQL approach and a simple query language—making it a great starting technology. It also stores data using **key-value** pairs!
+
+Each **key-value** pair gets referred to as a **document,** and a series of similar documents would be stored together in a **collection.**
+
+```python
+# four song document objects in a MongoDB collection called `songs`
+{
+    'name': 'Can\’t Buy Me Love',
+    'artistId': ObjectId('12345'),
+    'avgRating': 4.7
+},
+{
+    'name': 'Teardrops on My Guitar',
+    'artistId': ObjectId('12342'),
+    'avgRating': 4.7
+},
+{
+    'name': 'Single Ladies',
+    'artistId': ObjectId('12347'),
+    'avgRating': 4.7
+},
+{
+    'name': 'Roar',
+    'artistId': ObjectId('12343'),
+    'avgRating': 4.7
+}
+```
+
+*Fig 2 - four **document** objects, each with three **key-value** attributes, contained in a single MongoDB **collection called `songs`***
+
+In MongoDB, the container which stores all the **collections** in a single project would be called the **database.**
+
+> individual document objects go in => collections, which grouped together go in => database
+> 
+
+### The `ObjectId`
+
+Every document has its own unique `ObjectId` property. This ensures that every document has a primary identifier for query operations. All new documents in MongoDB get a `ObjectId` assigned them during creation. If an `ObjectId` does not get assigned directly by the developer—MongoDB will create a random one for the document.
+
+A document's `ObjectId` gets stored as a **value** with a **key** of `'_id'`.
+
+<aside>
+🚨 An `ObjectId` does not use a string value. Instead, it uses the built in MongoDB BSON object method `ObjectId`. Always keep this in mind when creating an `ObjectId` as assigning the `'_id'` property of a document anything but this `ObjectId` will result in an error!
 </aside>
 
 ```python
-# create a Flask server, connect it to a MongoDB cluster, then make a mongo object
-from flask import Flask
-from flask_pymongo import PyMongo
+# creating a new document with a specified _id:ObjectId pair
+{
+   'first_name': 'Jay',
+   'role': 'instructor',
+   'teaches': 'WEB 1.1',
+	 '_id': ObjectId('5f5f871c9bca94a49d6e8956')
+}
 
-app = Flask(__name__)
+# having MongoDB automatically generate a random default ObjectId
+}
+   'first_name': 'Meredith',
+   'role': 'instructor',
+   'teaches': 'WEB 1.1'
+}
 
-# create a configuration variable called MONGO_URI,
-# this connects the Flask server to the MongoDB cluster location
-app.config["MONGO_URI"] = "mongodb://localhost:27017/myDatabase"
-
-# create a Mongo object using the PyMongo library that can interact with MongoDB
-mongo = PyMongo(app)
 ```
 
-*Fig 1 - importing the Flask and PyMongo Python libraries, creating a Flask server, and connecting the server to the MongoDB database via a `config` variable*
+The `BSON` object is MongoDB's unique data structure for managing documents and operates almost identically to the `JSON` object. 
 
-- *Note: all operations between the server and the MongoDB database must be performed through the `mongo` object!*
+<aside>
+💡 In the context of this course, all we need to know about the `BSON` object is that MongoDB uses it and operates similarly to the `JSON` object. We will be mainly using to create `ObjectId`'s as needed.
+</aside>

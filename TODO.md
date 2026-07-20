@@ -48,20 +48,33 @@ Any lesson currently pointing to "Answer questions on Gradescope" or a dead Repl
 
 ## Module 5 — Introduction to databases and connecting servers to them
 
-- [ ] Split Lesson 1 (Introduction to Databases): keep only the "what is a database" content (fridge analogy etc.)
-- [ ] New Lesson 2 (from de-duplicated content): "RESTful Routing & Naming Conventions" — consolidate the plants-resource table/naming rules currently repeated three times in Lesson 1 into one clean pass
-- [ ] Lesson 3 (SQL vs NoSQL / MongoDB): fix subtitle mislabeled "Module 3" → "Module 5"; remove dead repl.it link
-- [ ] Lesson 4 (Connecting Flask to MongoDB): fix subtitle mislabeled "Module 3" → "Module 5"
-- [ ] Lesson 5 (PyMongo C.R.U.D): fix Learning Outcomes (currently copy-pasted from lessons 2/3, don't mention insert/find/update/delete)
-- [ ] New Lesson 6: "Deploying Your Flask Application" — **`Labs/deployment-howto.md` already contains a full deployment walkthrough**, so this is a rescue-and-modernize job, not a from-scratch lesson:
+Big enough to split into 4 reviewable chunks, done in order (each depends on the renumbering from the one before it):
+
+### Chunk 1: Split Lesson 1 into Lesson 1 + new Lesson 2
+
+- [x] Trim Lesson 1 (Introduction to Databases) down to just the "what is a database" content (fridge analogy etc.) — remove the RESTful routing content, which is currently duplicated three times in this lesson
+- [x] New Lesson 2: "RESTful Routing & Naming Conventions" — consolidate the plants-resource table/naming rules from old Lesson 1 into one clean pass
+- [x] Move the existing "Practice Examples" (identify RESTful routes) into the new Lesson 2's Exercises section, and add the missing collapsible answer key per the self-check pattern above (replacing the Gradescope reference)
+- ⚠️ Note: initially wrote the new Lesson 2 content directly to `lesson-2.md` before renaming the *old* Lesson 2 (SQL vs NoSQL) out of the way, which overwrote it. Caught immediately, recovered the original content with `git checkout HEAD -- lesson-2.md` (nothing was lost since it hadn't been committed), then redid it in the correct order: rename old lessons 2→3, 3→4, 4→5 first, *then* write the new Lesson 2 into the now-empty slot.
+
+### Chunk 2: Renumber + fix Lessons 3–5 (were 2–4 before Chunk 1's insert)
+
+- [x] `git mv` old Lesson 2 (SQL vs NoSQL / MongoDB) → Lesson 3, old Lesson 3 (Connecting Flask to MongoDB) → Lesson 4, old Lesson 4 (PyMongo C.R.U.D) → Lesson 5 (done as part of recovering from the Chunk 1 mistake above)
+- [x] Lesson 3 (SQL vs NoSQL / MongoDB): fix subtitle mislabeled "Module 3" → "Module 5"; convert dead repl.it exercise link to the self-check pattern above
+- [x] Lesson 4 (Connecting Flask to MongoDB): fix subtitle mislabeled "Module 3" → "Module 5"; has no Exercises section at all — add a short self-check
+- [x] Lesson 5 (PyMongo C.R.U.D): fix Learning Outcomes (currently copy-pasted from lessons 2/3, don't mention insert/find/update/delete); convert dead repl.it exercise link (`Module-54CRUD-operations-in-PyMongo`) to the self-check pattern above
+
+### Chunk 3: New Lesson 6 — Deployment
+
+- [ ] **`Labs/deployment-howto.md` already contains a full deployment walkthrough**, so this is a rescue-and-modernize job, not a from-scratch lesson:
   - [ ] Replace Heroku (free tier has required a credit card since late 2022) with a currently-free host such as Render or Railway
-  - [ ] Move/link the lesson into Module 5 and reference it from the module readme and top-level README schedule (currently completely unlinked from anywhere)
+  - [ ] Move the file into `Lessons/module-5/lesson-6.md` and adapt it to match this course's lesson format (Learning Outcomes, Exercises/self-check, Written Companion)
   - [ ] Keep the MongoDB Atlas connection-string steps, which are still current
-- [ ] Update Module Learning Objectives to add: "Deploy a Flask application with a live database connection to a hosting provider."
-- [ ] Lesson 1: already has embedded "Practice Examples" (identify RESTful routes) but no answer key and still points to Gradescope — add a collapsible answer key per the self-check pattern above
-- [ ] Lessons 2, 4: exercises link to dead `repl.it/team/WebArchitecture/...` and `repl.it/team/WEB11/...` links — convert to the self-check pattern above
-- [ ] Lesson 3: has no Exercises section at all — add a short self-check
-- [ ] Lesson 5 (PyMongo C.R.U.D): exercise links to a dead `repl.it/team/WebArchitecture/Module-54CRUD-operations-in-PyMongo` link — convert to the self-check pattern above
+
+### Chunk 4: Module readme + wrap-up
+
+- [ ] Update `module-5/readme.md`: reordered/renumbered Lessons list (1, 2, 3, 4, 5, 6), and add Learning Objective: "Deploy a Flask application with a live database connection to a hosting provider."
+- [ ] Remove orphaned `Lessons/module-1/module-5-lesson-4.md` (outdated draft of this module's PyMongo C.R.U.D. lesson, wrong folder, unreferenced) — also listed under Repo-level cleanup below
 
 ## Assignments folder
 
@@ -77,7 +90,7 @@ Any lesson currently pointing to "Answer questions on Gradescope" or a dead Repl
 
 ## Labs / Activities folders (exist but aren't linked from anywhere a self-paced student would find them)
 
-- [ ] `Labs/deployment-howto.md` — see Module 5 deployment item above (rescue from Heroku, link in)
+- [ ] `Labs/deployment-howto.md` — see Module 5, Chunk 3 above (rescue from Heroku, move into `Lessons/module-5/lesson-6.md`)
 - [ ] `Activities/MongoDB-Setup-Tutorial.md` — empty stub (just a title, no body); finish it or delete it
 
 ## Formatting / portability (Notion → GitHub migration artifacts)

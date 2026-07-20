@@ -1,128 +1,87 @@
-# SQL vs NoSQL and Introduction to MongoDB
+# RESTful Routing & Naming Conventions
 
-## ACS 1710 - Module 3: Lesson 2
+## ACS 1710 - Module 5: Lesson 2
 
 # Learning Outcomes 💫
 
 By the end of this lesson, you should be able to...
 
-- Conceptually create a data query
-- Identify relationships in data
-- Explain the trade-offs between a SQL and NoSQL database
-- Utilize MongoDB and the `ObjectId`
-
-# Video Companions 🎥
-
-<!-- [Video 1 - Exploring the differences and use cases of SQL vs NoSQL](https://file.notion.so/f/f/6004cc36-d69e-461f-a1c5-8e5078ac8f6b/a2bb5cdd-3a87-4278-aa4a-8ecaefab3337/RPReplay_Final1611091771.mp4?table=block&id=6ddd64d3-1fde-4310-9711-01ff06ecab19&spaceId=6004cc36-d69e-461f-a1c5-8e5078ac8f6b&expirationTimestamp=1728064800000&signature=gvK4TIoZWUHwpX15DPeedd-Wf3JpUL0UVIk8juU8XTk&downloadName=RPReplay_Final1611091771.mp4) -->
-
-[Video 1 - Exploring the differences and use cases of SQL vs NoSQL](https://youtu.be/38ebgY7QKt8)
-
-Video 1 - Exploring the differences and use cases of SQL vs NoSQL
+- Describe what RESTful routing is and why it's used.
+- Identify whether a given route follows RESTful naming conventions, and suggest an improvement if it doesn't.
 
 # Exercises 💪
 
-Answer the questions in the `README` file in [this Repl.it](https://repl.it/team/WebArchitecture/Module-52SQL-vs-NoSQL) and submit your work.
+Here are some routes. Identify whether each one follows RESTful naming conventions, and suggest an improvement if it doesn't. Try to answer each one yourself before checking the answer key.
+
+1. `/getUserInfo`
+2. `/posts/123`
+3. `/createComment`
+4. `/products`
+5. `/delete/789`
+
+<details>
+<summary>Answer Key</summary>
+
+1. `/getUserInfo` — **Not RESTful.** It uses a verb in the URL. A RESTful version would be something like `GET /users/<id>`.
+2. `/posts/123` — **RESTful.** A plural noun (`posts`) with an ID, typically paired with `GET` to view a single post's details.
+3. `/createComment` — **Not RESTful.** It uses a verb in the URL. A RESTful version would be `POST /comments`.
+4. `/products` — **RESTful.** A plural noun representing the whole collection, typically paired with `GET` to list all products (or `POST` to create one).
+5. `/delete/789` — **Not RESTful.** It uses a verb and doesn't name the resource. A RESTful version would be something like `DELETE /products/789`.
+
+</details>
 
 # Written Companion 🗒
 
 <aside>
-🤔 What would be a good first database technology to implement?
+🤔 If an API gives a developer a route to interface with data, what's a predictable, consistent way to name and organize those routes?
 </aside>
 
 ---
 
-Many database technologies exist, and each database has its own set of professional trade-offs. 
+## What is REST?
 
-A developer interacts with data in a database by making a **query.** These queries can be formed in many ways, with each database language approaching it in a different method.
+**REST** (Representational State Transfer) is a set of conventions for organizing how web applications communicate with each other. Think of it as a common language that helps different systems talk clearly and consistently over the internet—especially when working with data like users, posts, or plants.
 
-Data can also have **relationships**. For example, if a database contains information about musicians and songs, a **relationship** property might exist between the musicians and songs called "composer". Relationships can exist between many types of data, such as teachers and school departments!
+In REST, we treat pieces of data (like a book, a user, or a plant) as **resources**. Each resource has a **URL** (like an address), and we use **HTTP methods** to perform actions on it. The URL represents *what* resource you're working with; the HTTP method represents *what action* you want to take.
 
-![untitled-2](Untitled-2.png)
+### The 4 Main HTTP Methods
 
-*Fig 1 - a relationship diagram representing the relationship between teachers (with an ID, name, and subject to teach) and departments (with an ID and name).*
+| Method | What it Does | Example                      |
+| ------ | ------------- | ----------------------------- |
+| GET    | Read data     | `GET /books` (list books)     |
+| POST   | Create data   | `POST /books` (add a book)    |
+| PUT    | Update data   | `PUT /books/1` (edit a book)  |
+| DELETE | Remove data   | `DELETE /books/1`             |
 
-<aside>
-🚨 Always consider if the database technology employs a relational centric **structured query language (SQL)** or a non-relational centric **"not only" structured query language (noSQL)—**as this will form the basis of the data's structure and potential tradeoffs of the technology.
+## RESTful Routing
 
-</aside>
+**RESTful routing** means using URLs and HTTP methods together in a consistent, predictable way, instead of describing the action inside the URL itself. Imagine you're working with a `plants` resource:
 
-### SQL vs NoSQL Tradeoffs
+| Action                | Method         | Route                 | Description                       |
+| ---------------------- | -------------- | ---------------------- | ----------------------------------- |
+| View all plants        | GET            | `/plants`             | Show a list of all plants          |
+| View one plant         | GET            | `/plants/<id>`        | Show details about a single plant  |
+| Show the create form   | GET            | `/plants/new`         | Show a form to create a plant      |
+| Create a new plant     | POST           | `/plants`             | Add a new plant                    |
+| Show the edit form     | GET            | `/plants/<id>/edit`   | Show a form to edit a plant        |
+| Update a plant         | PUT or POST    | `/plants/<id>`        | Save updates to a plant            |
+| Delete a plant         | DELETE or POST | `/plants/<id>/delete` | Remove a plant                     |
 
-An SQL database works best for highly-connected relational data (stored in **tables**) that requires quick queries and scales by moving the central data storage to a more powerful machine (aka vertically scaling). 
+This style makes it easier to build, understand, and maintain web apps—anyone familiar with REST conventions can guess what a route does just by reading its method and URL, without needing to read the underlying code.
 
-A NoSQL database works best for lightly-connected, non-relational data (stored in individual key-value pairs called **documents)** that requires dynamic or unstructured data queries and scales by adding additional virtual machines/databases to the system (aka horizontal scaling). 
+## Naming Tips
 
-<aside>
-💡 In this class we will be using low-complexity, lightly connected data so a noSQL database would be the best choice.
-</aside>
+- ✅ Use **nouns** for your URLs (e.g., `/weather`, not `/getWeather`)
+- ✅ Use **plural nouns** for collections (`/plants`, not `/plant`)
+- ❌ Avoid verbs in the route (`/delete-user`) — the HTTP method already tells you the action
+- ✅ Use **nested routes** to show relationships (e.g., `/plants/<id>/harvests`, since harvests belong to a plant)
 
-### Introduction to MongoDB
+## Why It Matters
 
-MongoDB uses the document-based noSQL approach and a simple query language—making it a great starting technology. It also stores data using **key-value** pairs!
-
-Each **key-value** pair gets referred to as a **document,** and a series of similar documents would be stored together in a **collection.**
-
-```python
-# four song document objects in a MongoDB collection called `songs`
-{
-    'name': 'Can\’t Buy Me Love',
-    'artistId': ObjectId('12345'),
-    'avgRating': 4.7
-},
-{
-    'name': 'Teardrops on My Guitar',
-    'artistId': ObjectId('12342'),
-    'avgRating': 4.7
-},
-{
-    'name': 'Single Ladies',
-    'artistId': ObjectId('12347'),
-    'avgRating': 4.7
-},
-{
-    'name': 'Roar',
-    'artistId': ObjectId('12343'),
-    'avgRating': 4.7
-}
-```
-
-*Fig 2 - four **document** objects, each with three **key-value** attributes, contained in a single MongoDB **collection called `songs`***
-
-In MongoDB, the container which stores all the **collections** in a single project would be called the **database.**
-
-> individual document objects go in => collections, which grouped together go in => database
-> 
-
-### The `ObjectId`
-
-Every document has its own unique `ObjectId` property. This ensures that every document has a primary identifier for query operations. All new documents in MongoDB get a `ObjectId` assigned them during creation. If an `ObjectId` does not get assigned directly by the developer—MongoDB will create a random one for the document.
-
-A document's `ObjectId` gets stored as a **value** with a **key** of `'_id'`.
+- **Clear and predictable** — routes tell you exactly what's happening.
+- **Easy to maintain** — follows a common pattern developers already understand.
+- **Works well with frontend tools** — makes connecting APIs and frontends simpler.
 
 <aside>
-🚨 An `ObjectId` does not use a string value. Instead, it uses the built in MongoDB BSON object method `ObjectId`. Always keep this in mind when creating an `ObjectId` as assigning the `'_id'` property of a document anything but this `ObjectId` will result in an error!
-</aside>
-
-```python
-# creating a new document with a specified _id:ObjectId pair
-{
-   'first_name': 'Jay',
-   'role': 'instructor',
-   'teaches': 'WEB 1.1',
-	 '_id': ObjectId('5f5f871c9bca94a49d6e8956')
-}
-
-# having MongoDB automatically generate a random default ObjectId
-}
-   'first_name': 'Meredith',
-   'role': 'instructor',
-   'teaches': 'WEB 1.1'
-}
-
-```
-
-The `BSON` object is MongoDB's unique data structure for managing documents and operates almost identically to the `JSON` object. 
-
-<aside>
-💡 In the context of this course, all we need to know about the `BSON` object is that MongoDB uses it and operates similarly to the `JSON` object. We will be mainly using to create `ObjectId`'s as needed.
+💡 RESTful routes are named using nouns to represent the data, and HTTP methods to represent what you want to do with that data. Keep this pattern in mind for every route you write from here on!
 </aside>
