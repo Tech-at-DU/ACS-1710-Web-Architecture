@@ -20,9 +20,24 @@ By the end of this lesson, you should be able to...
 
 [Vid 1 - Generating different views via conditional statements in the Jinja2 template syntax](https://youtu.be/QnY-WcDyE4k)
 
-<!-- # Exercises 💪
+# Exercises 💪
 
-Complete the exercise in [this repl.it](https://repl.it/team/WebArchitecture/Module-202JinjaIfStatements) and submit your work. -->
+Test your understanding of conditional rendering with the questions below. Try to answer each one yourself before checking the answer key.
+
+1. What is the Jinja2 syntax used to wrap an `if`/`elif`/`else` conditional statement?
+2. What tag must every Jinja2 `{% if %}` block end with?
+3. Given a template with `{% if animal == 'aardvark' %}...{% elif animal == 'penguin' %}...{% else %}...{% endif %}` and a context of `{'animal': 'giraffe'}`, which branch gets shown?
+4. True or False: Jinja2 conditional tags use double curly brackets `{{ }}`, just like variable output.
+
+<details>
+<summary>Answer Key</summary>
+
+1. `{% if/elif/else boolean_expression %}`
+2. `{% endif %}`
+3. The `{% else %}` branch — `'giraffe'` doesn't match `'aardvark'` or `'penguin'`, so it falls through to `else`.
+4. **False** — variable output uses `{{ }}`, but control-flow tags like `if`/`elif`/`else`/`endif` use `{% %}`.
+
+</details>
 
 # Written Companion 🗒
 

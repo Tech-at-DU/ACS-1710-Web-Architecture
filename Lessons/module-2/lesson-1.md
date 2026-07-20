@@ -20,9 +20,26 @@ By the end of this lesson, you should be able to...
 
 [Vid 2 - Using the context object to provide templates access to `<form>` data](https://youtu.be/p6BqrImSjrY)
 
-<!-- # Exercises 💪
+# Exercises 💪
 
-Complete the challenges in [this repl.it](https://repl.it/team/WebArchitecture/Module-201JinjaRefactor) and submit your work. -->
+Test your understanding of templating with the questions below. Try to answer each one yourself before checking the answer key.
+
+1. Why is mixing Python and HTML together in the same `return` string considered bad practice?
+2. What two pieces of information does `render_template()` need in order to render a page?
+3. What Flask function call renders a template named `submission_page.html` using a `context` dictionary?
+4. Inside a template file, how do you reference a value passed in via the `context` object?
+5. Why does `render_template()` use the `**context` syntax instead of just `context`?
+
+<details>
+<summary>Answer Key</summary>
+
+1. It leads to poor readability, no code editor support for the HTML (no syntax highlighting or autocomplete), and it violates the D.R.Y. principle — the same HTML snippet has to be duplicated everywhere it's needed instead of being reused.
+2. The template file to render, and the **context** — the Python data needed to populate that template.
+3. `render_template('submission_page.html', **context)`
+4. Wrap the key name in double curly brackets: `{{ keyName }}`
+5. Because `render_template()` doesn't know ahead of time how many key-value pairs the `context` object will contain — `**kwargs` syntax lets it accept any number of them.
+
+</details>
 
 # Written Companion 🗒
 

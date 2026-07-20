@@ -15,9 +15,24 @@ By the end of this lesson, you should be able to...
 
 [Vid 1 - A walkthrough of using template inheritance to create reusable components across a website](https://youtu.be/H0als3BogTs)
 
-<!-- # Exercises 💪
+# Exercises 💪
 
-Complete the challenge in [this repl.it](https://repl.it/team/WebArchitecture/Module-204JinjaInheritance) and submit your work. -->
+Test your understanding of template inheritance with the questions below. Try to answer each one yourself before checking the answer key.
+
+1. What tag marks a reusable section in a base template, and what tag must it be closed with?
+2. What tag lets a child template inherit from a base template, and where in the file does it need to go?
+3. In `templates/base.html`, a block is defined as `{% block content %}PLACEHOLDER TEXT{% endblock %}`. What happens to "PLACEHOLDER TEXT" in a child template that overrides this block?
+4. Why is template inheritance considered a D.R.Y. practice?
+
+<details>
+<summary>Answer Key</summary>
+
+1. `{% block blockName %}`, closed with `{% endblock %}`.
+2. `{% extends 'fileToInheritFrom' %}`, placed at the very top of the child template.
+3. It's replaced by whatever content the child template puts inside its own `{% block content %}...{% endblock %}`.
+4. Shared elements (headers, footers, page structure) only need to be written once in the base template, instead of being copied into every page that uses them.
+
+</details>
 
 # Written Companion 🗒
 

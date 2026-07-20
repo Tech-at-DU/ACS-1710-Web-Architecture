@@ -15,9 +15,29 @@ By the end of this lesson, you should be able to...
 
 </aside>
 
-<!-- # Exercises 💪
+# Exercises 💪
 
-Complete the exercise in [this repl.it](https://repl.it/team/WebArchitecture/Module-203JinjaLoops) and submit your work. -->
+Test your understanding of loops in templates with the questions below. Try to answer each one yourself before checking the answer key.
+
+1. What is the Jinja2 syntax for starting a `for` loop, and what tag must it end with?
+2. Given `context = {'colors': ['red', 'green', 'blue']}`, write the Jinja2 template code to display each color inside its own `<li>` tag.
+3. Inside a Jinja2 `{% for %}` loop, how do you access the current item's value in the output?
+
+<details>
+<summary>Answer Key</summary>
+
+1. `{% for item in items %}`, closed with `{% endfor %}`.
+2.
+```html
+<ul>
+{% for color in colors %}
+   <li>{{ color }}</li>
+{% endfor %}
+</ul>
+```
+3. Using the loop variable name defined after `for` (e.g., `color` in `{% for color in colors %}`), referenced with `{{ color }}`.
+
+</details>
 
 # Written Companion 🗒
 

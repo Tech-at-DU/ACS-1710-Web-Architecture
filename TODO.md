@@ -28,7 +28,7 @@ Any lesson currently pointing to "Answer questions on Gradescope" or a dead Repl
 ## Module 2 — Creating scalable web applications and templating
 
 - [ ] No content changes planned — content holds up as-is
-- [ ] Lessons 1, 3, 4, 5: "Exercises" sections are HTML-commented-out dead Repl.it remnants — convert each to the self-check pattern above (module still keeps its one big graded Assignment as the real checkpoint)
+- [x] Lessons 1, 3, 4, 5: "Exercises" sections are HTML-commented-out dead Repl.it remnants — convert each to the self-check pattern above (module still keeps its one big graded Assignment as the real checkpoint)
 
 ## Module 3 — Building robust services that connect to platforms via APIs
 
