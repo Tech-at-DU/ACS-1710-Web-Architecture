@@ -19,9 +19,22 @@ By the end of this lesson, you should be able to...
 
 [Vid 2 - Returning `JSON` objects in a Flask route](https://youtu.be/HztSwyxdQzo)
 
-<!-- # Exercises 💪
+# Exercises 💪
 
-Complete the exercise in [this repl.it](https://repl.it/team/WebArchitecture/Module-302DictionariesPractice) and submit your work. -->
+Test your understanding of JSON objects with the questions below. Try to answer each one yourself before checking the answer key.
+
+1. What does JSON stand for, and why can it be used by programming languages other than JavaScript?
+2. Given `my_info = {'name': 'Fluffy', 'address': {'street': '555 Post St', 'city': 'San Francisco'}}`, what expression would you use to access the city?
+3. Which built-in Python data structure is structurally identical to a JSON object?
+
+<details>
+<summary>Answer Key</summary>
+
+1. JavaScript Object Notation. It can be used by any language because it's just a predictable key-value pair format — nothing about it is tied to JavaScript-specific syntax.
+2. `my_info['address']['city']`
+3. A dictionary.
+
+</details>
 
 # Written Companion 🗒
 

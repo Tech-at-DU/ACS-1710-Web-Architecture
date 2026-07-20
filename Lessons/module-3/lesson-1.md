@@ -15,9 +15,22 @@ By the end of this lesson, you should be able to...
 
 [Vid 1 - Exploring the nature of API's via Gincord.io](https://youtu.be/zXOMHpTOpJM)
 
-<!-- # Exercises 💪
+# Exercises 💪
 
-Answer the questions in [this repl.it](https://repl.it/team/WebArchitecture/Module-301ApisQuestions) and submit your work. -->
+Test your understanding of APIs with the questions below. Try to answer each one yourself before checking the answer key.
+
+1. What does the acronym API stand for?
+2. In your own words, what is an API?
+3. Name two examples of data a company might expose to other developers through an API.
+
+<details>
+<summary>Answer Key</summary>
+
+1. Application Programming Interface.
+2. A server route that lets developers request and receive data from another company's or service's database, without needing direct access to that database.
+3. Answers will vary — examples include transit data, weather data, song lyrics, payment processing, or social media posts.
+
+</details>
 
 # Written Companion 🗒
 

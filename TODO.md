@@ -32,11 +32,11 @@ Any lesson currently pointing to "Answer questions on Gradescope" or a dead Repl
 
 ## Module 3 — Building robust services that connect to platforms via APIs
 
-- [ ] New Lesson 4: "Returning JSON Responses with `jsonify`" — cover `jsonify()` and returning status-code tuples (`return data, 201`); renumber existing Lesson 4 (Postman) → 5, Lesson 5 (Requests library) → 6
-- [ ] Lesson 5 / Postman lesson: replace remaining `api.icndb.com` references with `api.chucknorris.io` to match the exercise
-- [ ] Update Module Learning Objectives to add: "Return properly-formatted JSON responses from a Flask route using `jsonify` and appropriate HTTP status codes."
-- [ ] Lessons 1, 3, 5: "Exercises" sections are HTML-commented-out dead Repl.it remnants — convert to the self-check pattern above
-- [ ] Lesson 2 (C.R.U.D in APIs): has no Exercises section at all — add a short self-check
+- [x] New Lesson 4: "Returning JSON Responses with `jsonify`" — cover `jsonify()` and returning status-code tuples (`return data, 201`); renumber existing Lesson 4 (Postman) → 5, Lesson 5 (Requests library) → 6
+- [x] Lesson 5 / Postman lesson: replace remaining `api.icndb.com` references with `api.chucknorris.io` to match the exercise (also fixed the same dead API in Lesson 6's `requests` library examples, which weren't explicitly called out but had the identical problem — switched to `category: "dev"` since chucknorris.io doesn't have an ICNDB-style "nerdy" category, and flattened `joke_json["value"]["joke"]` → `joke_json["value"]` to match chucknorris.io's actual response shape)
+- [x] Update Module Learning Objectives to add: "Return properly-formatted JSON responses from a Flask route using `jsonify` and appropriate HTTP status codes."
+- [x] Lessons 1, 3, 5 (now 6): "Exercises" sections are HTML-commented-out dead Repl.it remnants — convert to the self-check pattern above
+- [x] Lesson 2 (C.R.U.D in APIs): has no Exercises section at all — add a short self-check
 
 ## Module 4 — Developing secure, tested, and distributable web applications
 
