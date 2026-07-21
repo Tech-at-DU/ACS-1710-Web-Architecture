@@ -55,49 +55,20 @@ Test your app with:
 python3 app.py
 ```
 
-You may see an error! This will most likely, provided you haven't edited `app.py`, be problem with a missing dependency. Something like:
+### Troubleshooting: Missing Dependencies
 
-```
-ModuleNotFoundError: No module named 'flask'
-```
+If you see a `ModuleNotFoundError` even after running `pip3 install -r requirements.txt`, it's usually because the name you `pip install` doesn't always match the name you `import` in Python. This project uses a few packages where those names differ:
 
-To resolve this error you need to install Flask! I know it looks like we already did that with requirements.txt but Python says its still missing. Do this: 
+| Error you see                                     | Command to fix it                                          |
+| --------------------------------------------------- | ------------------------------------------------------------ |
+| `ModuleNotFoundError: No module named 'flask'`     | `pip3 install flask`                                        |
+| `ModuleNotFoundError: No module named 'PIL'`       | `pip3 install pillow` — the `Pillow` package provides the `PIL` module |
+| `ModuleNotFoundError: No module named 'dotenv'`    | `pip3 install python-dotenv` — the `python-dotenv` package provides the `dotenv` module |
+| `ModuleNotFoundError: No module named 'requests'`  | `pip3 install requests`                                     |
 
-```
-pip3 install flask
-```
+If you hit a `ModuleNotFoundError` that isn't listed here, the pattern is the same: search "`ModuleNotFoundError: No module named 'X'` pypi" to find which package provides that module, then run `pip3 install packagename`.
 
-Test your app again. If there is another error, like: 
-
-```
-ModuleNotFoundError: No module named 'PIL'
-```
-
-You'll need to install this module. In this case 'PIL' is NOT the module name! This time the missing module is: pillow. 
-
-```
-pip3 install pillow
-```
-
-Test again! This time I see: 
-
-```
-ModuleNotFoundError: No module named 'dotenv'
-```
-
-The missing module in this case is: `python-dotenv` not `dotenv`:
-
-```
-pip3 install python-dotenv
-```
-
-I also had to install requests: 
-
-```
-pip3 install requests
-```
-
-From here my app was working! I'm not sure why this is, I've searched the internet and have not found any satisfying answers, many of the answers did not work. The steps above did work for me! 
+Once everything is installed, re-run `python3 app.py` — it should start without further `ModuleNotFoundError`s.
 
 ## Instructions
 
