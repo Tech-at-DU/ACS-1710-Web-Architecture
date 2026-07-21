@@ -38,10 +38,7 @@ Test your understanding of the `datetime` library with the questions below. Try 
 
 # Written Companion 🗒
 
-<aside>
-🤔 How can we easily create objects that represent specific times and dates in a universally accepted format?
-
-</aside>
+> 🤔 How can we easily create objects that represent specific times and dates in a universally accepted format?
 
 ---
 

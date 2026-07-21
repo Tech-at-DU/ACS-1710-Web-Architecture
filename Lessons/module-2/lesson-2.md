@@ -14,10 +14,7 @@ No exercises for this one, but if you want, try refactoring the previous exercis
 
 # Written Guide 🗒
 
-<aside>
-🤔 Wouldn't it sometimes be a better practice to pass in an entire **key-value** pair as a parameter instead of the `context` object? This could help in situations where the `context` object gets defined dynamically (i.e. we don't know the `context` values before run time)!
-
-</aside>
+> 🤔 Wouldn't it sometimes be a better practice to pass in an entire **key-value** pair as a parameter instead of the `context` object? This could help in situations where the `context` object gets defined dynamically (i.e. we don't know the `context` values before run time)!
 
 ```python
 # a Python route that returns a rendered template
@@ -33,10 +30,7 @@ def submit_pizza():
     return render_template('submission_page.html', **context)
 ```
 
-<aside>
-💡 Since we pass the `context` object to `render_template()` using the `**kwargs` syntax, we could also pass in a series of **key-value** pairs defined as parameters as in *Fig 2.*
-
-</aside>
+> 💡 Since we pass the `context` object to `render_template()` using the `**kwargs` syntax, we could also pass in a series of **key-value** pairs defined as parameters as in *Fig 2.*
 
 This example gives exactly the same result as the previous example.
 

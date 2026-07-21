@@ -35,10 +35,7 @@ Test your understanding of databases with the questions below. Try to answer eac
 
 # Written Companion 🗒
 
-<aside>
-🤔 How do we store massive amounts of data in an organized fashion that can also be accessed/modified quickly?
-
-</aside>
+> 🤔 How do we store massive amounts of data in an organized fashion that can also be accessed/modified quickly?
 
 ---
 
@@ -50,10 +47,7 @@ A technology designed to hold data can be defined as a **database.** Key feature
 - stored data can be queried and analyzed efficiently
 - data remains stable and non-volatile (aka values don't change in a power outage or application crash)
 
-<aside>
-💡 Separating databases from web servers allows each to perform a more specialized function! It also ensures that databases can better serve multiple destinations.
-
-</aside>
+> 💡 Separating databases from web servers allows each to perform a more specialized function! It also ensures that databases can better serve multiple destinations.
 
 A database has many uses, but some of the most commonly use cases include:
 

@@ -1,6 +1,6 @@
 # ACS 1710 Web Architecture
 
-<span class="refresh-instructions">This syllabus is a living document! Hold down the `SHIFT` key and press `Refresh` to get the latest version.</span>
+This syllabus is a living document! Check the [GitHub repo](https://github.com/Tech-at-DU/ACS-1710-Web-Architecture) for the latest version.
 
 ## Course Description
 

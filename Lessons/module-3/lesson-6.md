@@ -36,10 +36,7 @@ Test your understanding of the `requests` library with the questions below. Try 
 
 # Written Companion 🗒
 
-<aside>
-🤔 We can use tools like Postman to quickly make requests for API testing, but how do we create a request in Python?
-
-</aside>
+> 🤔 We can use tools like Postman to quickly make requests for API testing, but how do we create a request in Python?
 
 ---
 
@@ -68,21 +65,15 @@ joke_json = result.json()
 
 *Fig 1 - a standard request using the requests library to the `[api.chucknorris.io/jokes/random](https://api.chucknorris.io/jokes/random)` API.*
 
-<aside>
-🚨 Although less common, a payload may contain data in a raw `.txt` format instead of a `json` object! To work with a `.txt` payload—use `result.text` (notice that `text` intentionally does not have parentheses).
-</aside>
+> 🚨 Although less common, a payload may contain data in a raw `.txt` format instead of a `json` object! To work with a `.txt` payload—use `result.text` (notice that `text` intentionally does not have parentheses).
 
 ---
 
 ### Implementing a request into a Flask route
 
-<aside>
-💡 Requests can be combined with Flask routes for a variety of results!
-</aside>
+> 💡 Requests can be combined with Flask routes for a variety of results!
 
-<aside>
-🤔 What happens when we take the results of a `request.get()` query and return it as the output of a Flask route?
-</aside>
+> 🤔 What happens when we take the results of a `request.get()` query and return it as the output of a Flask route?
 
 ```python
 # the same request snippet from above combined with Flask
@@ -108,9 +99,7 @@ def make_joke():
 
 - *Note: the `/joke` itself route creates a request and recieves a response, then cleans up that data and returns it as a response to the user that queried `/joke`*
 
-<aside>
-💡 Combining requests with Flask routes creates an intermediary step for users! They request information from the Flask route, the Flask route requests data from another service and cleans it up, then returns that data as another response.
-</aside>
+> 💡 Combining requests with Flask routes creates an intermediary step for users! They request information from the Flask route, the Flask route requests data from another service and cleans it up, then returns that data as another response.
 
 ![Fig 3 - An image representing how intermediary steps get leveraged](Untitled-3.png)
 

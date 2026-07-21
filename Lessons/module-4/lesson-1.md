@@ -25,10 +25,7 @@ Try creating and using a virtual environment for one of your past homework assig
 
 # Written Companion 🗒
 
-<aside>
-🤔 How can we manage all of the development environments on our computer—especially if several projects have conflicting dependencies?
-
-</aside>
+> 🤔 How can we manage all of the development environments on our computer—especially if several projects have conflicting dependencies?
 
 ---
 
@@ -36,10 +33,7 @@ Large scale applications and projects will often times require multiple coding l
 
 How can all of these dependencies and environments get managed effectively?
 
-<aside>
-💡 Virtual environments allow different projects to have unique dependency "spaces" that ensures conflicts do not occur, and that each area of a product has exactly what it needs to function.
-
-</aside>
+> 💡 Virtual environments allow different projects to have unique dependency "spaces" that ensures conflicts do not occur, and that each area of a product has exactly what it needs to function.
 
 ### Creating Virtual Environments with `venv`
 

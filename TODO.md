@@ -81,7 +81,7 @@ Big enough to split into 4 reviewable chunks, done in order (each depends on the
 - [x] `06-Final-Project.md` links to `github.com/Make-School-Labs/WEB-1.1-Final-Project-Starter` — same old-org concern as the Testing assignment above; verify/move this starter repo (verified via WebFetch: a `Tech-at-DU` fork exists and is public; switched the link and `git clone` command to it for org consistency)
 - [x] `02-Forms-Templates.md` points students to "the Repl.It activity we completed during class" (a personal `repl.it/@MeredithMurphy1/...` link) as the reference for refactoring into templates — no written equivalent exists for self-paced/async students who missed that session (created `Assignments/templates-refactor-example.md`, a self-contained before/after worked example using a different scenario than Fro-Yo so it's a refresher, not an answer key; also cross-linked to Module 2 Lesson 1)
 - [x] `03-More-Forms.md` (lines ~94-100): replace the instructor's raw first-person debugging narrative ("I'm not sure why this is, I've searched the internet...") with a clear troubleshooting table for the missing-dependency errors (reframed around the real explanation — pip package names don't always match their import names — with a general search strategy for any error not covered)
-- [ ] Delete or clearly mark as instructor-only templates: `zzz-Templates.md` (abandoned draft, placeholder `git clone ...` with no URL, empty "Template Inheritance" section, unreferenced anywhere), `Sample_Project.md`, `Sample_Rubric.md` (generic boilerplate, not real course content, unreferenced anywhere)
+- [x] Delete or clearly mark as instructor-only templates: `zzz-Templates.md` (abandoned draft, placeholder `git clone ...` with no URL, empty "Template Inheritance" section, unreferenced anywhere), `Sample_Project.md`, `Sample_Rubric.md` (generic boilerplate, not real course content, unreferenced anywhere) — deleted `zzz-Templates.md` (fully superseded by `02-Forms-Templates.md`, no reuse value); moved the other two into `Assignments/_templates/` with an "instructor template, not a real assignment" note, and fixed a broken cross-link between them (`./assignment-rubric.md` → `./Sample_Rubric.md`)
 
 ## Assessments folder
 
@@ -95,8 +95,8 @@ Big enough to split into 4 reviewable chunks, done in order (each depends on the
 
 ## Formatting / portability (Notion → GitHub migration artifacts)
 
-- [ ] Dozens of `<aside>` 🤔/💡/🚨 callouts across Modules 2–5 were authored for Notion's UI, where they render as colored callout boxes. On GitHub/plain markdown they render as unstyled plain text, so the intended "pause and think here" visual signal is currently invisible. Consider replacing with GitHub-native blockquote-style callouts (`> **Note:**` etc.)
-- [ ] `README.md:3` still has the Notion-era instruction "Hold down SHIFT and press Refresh to get the latest version" — meaningless on GitHub
+- [x] Dozens of `<aside>` 🤔/💡/🚨 callouts across Modules 2–5 were authored for Notion's UI, where they render as colored callout boxes. On GitHub/plain markdown they render as unstyled plain text, so the intended "pause and think here" visual signal is currently invisible. Consider replacing with GitHub-native blockquote-style callouts (`> **Note:**` etc.) (converted all 61 `<aside>` blocks across 24 lesson files — Module 1 lessons 5-7 plus every lesson in Modules 2-5 — to native `>` blockquotes via a small script, keeping the original emoji/text; verified no `<aside>` tags remain and spot-checked the rendered output)
+- [x] `README.md:3` still has the Notion-era instruction "Hold down SHIFT and press Refresh to get the latest version" — meaningless on GitHub (replaced with a plain link back to the GitHub repo)
 
 ## Repo-level cleanup (found during review, separate from lesson content)
 

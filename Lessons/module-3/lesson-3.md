@@ -38,21 +38,15 @@ Test your understanding of JSON objects with the questions below. Try to answer 
 
 # Written Companion 🗒
 
-<aside>
-🤔 How do we efficently package information so that tens of thousands of users can be served as quickly as possible?
-</aside>
+> 🤔 How do we efficently package information so that tens of thousands of users can be served as quickly as possible?
 
 ---
 
 `JSON` stands for **JavaScript Object Notation**. 
 
-<aside>
-🚨 A `JSON` object can be used by languages other than Javascript! `JSON` objects find their origins in Javascript and therefore look similar to them—but `JSON` objects also look quite similar to Python objects too.
-</aside>
+> 🚨 A `JSON` object can be used by languages other than Javascript! `JSON` objects find their origins in Javascript and therefore look similar to them—but `JSON` objects also look quite similar to Python objects too.
 
-<aside>
-💡 Many programming languages can interpret `JSON` objects because they are nothing more then an **object notation**—which means that the object always uses the same predictable **key-value** pairs.
-</aside>
+> 💡 Many programming languages can interpret `JSON` objects because they are nothing more then an **object notation**—which means that the object always uses the same predictable **key-value** pairs.
 
 ```json
 {
@@ -69,9 +63,7 @@ Fig *1 - a `JSON` object with several **key-value** pairs.*
 
 - *Note: A `JSON` object looks identical to Python's `dictionary` data structure because both use the same **key-value** pair format*
 
-<aside>
-🚨 Notice that the `JSON` object in *Fig 1* does not have any variable declarations! `JSON` objects exist to be packaged and/or sent across the internet. As a result, a `JSON` file only contains object data **to be assigned by the requesting function.**
-</aside>
+> 🚨 Notice that the `JSON` object in *Fig 1* does not have any variable declarations! `JSON` objects exist to be packaged and/or sent across the internet. As a result, a `JSON` file only contains object data **to be assigned by the requesting function.**
 
 Since `JSON` objects always use the same notation pattern and can be transported efficently, they have become a standard API format to utilize for passing data across networks.
 

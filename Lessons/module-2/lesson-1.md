@@ -43,10 +43,7 @@ Test your understanding of templating with the questions below. Try to answer ea
 
 # Written Companion 🗒
 
-<aside>
-🤔 How can we efficiently separate the Python code from the HTML code in a way that supports scalability and readability?
-
-</aside>
+> 🤔 How can we efficiently separate the Python code from the HTML code in a way that supports scalability and readability?
 
 ### Coding without Templates
 
@@ -83,17 +80,11 @@ Combining Python and HTML into the same file violates several key principles of 
 
 ### Coding with Templates
 
-<aside>
-💡 If we seperate the Python from the HTML, we can create easily interchangeable components capable of being reused and developed in their respective environments.
-
-</aside>
+> 💡 If we seperate the Python from the HTML, we can create easily interchangeable components capable of being reused and developed in their respective environments.
 
 Flask utilizes an approach to seperating Python code from HTML code known as templates. A template file exists seperatly from a Python file and contains all of the HTML code as a stand-alone, **reusable**, file that can be utilizied in any Flask route.
 
-<aside>
-🤔 Wouldn't seperating the code into two files require importing the templates into the route somehow? If so, how do we pass the template important Python variables and `<form>` data?
-
-</aside>
+> 🤔 Wouldn't seperating the code into two files require importing the templates into the route somehow? If so, how do we pass the template important Python variables and `<form>` data?
 
 Rendering a template requires two key pieces of information—the templateFile HTML file to be rendered and any Python data needed for that template. That second piece of information (the Python data needed to populate the HTML within the template) will be referred to as a context.
 
@@ -107,19 +98,13 @@ context = {
 }
 ```
 
-<aside>
-🤔 Now that we know about the `templateFile` and `context` values, how do we use them?
-
-</aside>
+> 🤔 Now that we know about the `templateFile` and `context` values, how do we use them?
 
 To render a template, Flask provides a method called `render_template()`.
 
 It takes two key arguments, `templateFile` and `context`, and looks like this: `render_template(templateFile, **context)`
 
-<aside>
-🚨 Note the `**kwargs` syntax in `**context` being utilized by `render_template()`. We do this because we do not know the number of **key-value** pairs that will be passed to the template. The `**kwargs` syntax lets the compiler know that the `context` object might have a different size each time it gets called and to handle it accordingly.
-
-</aside>
+> 🚨 Note the `**kwargs` syntax in `**context` being utilized by `render_template()`. We do this because we do not know the number of **key-value** pairs that will be passed to the template. The `**kwargs` syntax lets the compiler know that the `context` object might have a different size each time it gets called and to handle it accordingly.
 
 ```python
 # the same `submit_pizza` route from Fig 1 - that returns a template instead of raw HTML

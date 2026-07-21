@@ -51,10 +51,7 @@ Test your understanding of named parameters, `*args`, and `**kwargs` with the qu
 
 # Written Companion 🗒
 
-<aside>
-🤔 What happens if we don't know the number of arguments a function will need - that is, our function needs to accept any number of arguments, and in any order?
-
-</aside>
+> 🤔 What happens if we don't know the number of arguments a function will need - that is, our function needs to accept any number of arguments, and in any order?
 
 Using Named Parameters
 
@@ -71,10 +68,7 @@ In the above example, the `divide()` function has two parameters: `numerator` an
 
 But, what if we want to pass in these parameters in the reverse order - `denominator` and then `numerator`?
 
-<aside>
-💡 We can *label* the parameters we pass in inside of the function's call! This allows us to pass in values out-of-order and ensure that each parameter gets its needed value.
-
-</aside>
+> 💡 We can *label* the parameters we pass in inside of the function's call! This allows us to pass in values out-of-order and ensure that each parameter gets its needed value.
 
 ```python
 # calling the same function with named parameters
@@ -131,10 +125,7 @@ mango
 
 ### Working with `**kwargs`
 
-<aside>
-💡 We will be using `**kwargs` in the `templating` lesson, so for more concrete examples with Flask you can look there!
-
-</aside>
+> 💡 We will be using `**kwargs` in the `templating` lesson, so for more concrete examples with Flask you can look there!
 
 `*args` allows us to create functions that accept *any number* of arguments.
 

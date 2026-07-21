@@ -32,17 +32,13 @@ Test your understanding of testing Flask routes with the questions below. Try to
 
 # Written Companion 🗒
 
-<aside>
-🤔 How do we know our routes actually work, without opening a browser and clicking through the whole application by hand every time we make a change?
-</aside>
+> 🤔 How do we know our routes actually work, without opening a browser and clicking through the whole application by hand every time we make a change?
 
 ---
 
 Manually testing a route—opening the browser, navigating to a URL, checking that the output looks right—works fine the first time. But it doesn't scale: every time you change your code, you'd need to re-click through your entire application to make sure nothing broke. It's also easy to forget to check something.
 
-<aside>
-💡 An automated test lets you verify your app still works correctly with a single command, run in seconds, every time you make a change.
-</aside>
+> 💡 An automated test lets you verify your app still works correctly with a single command, run in seconds, every time you make a change.
 
 In this class, we'll use **Pytest**, a widely-used Python testing library, along with Flask's built-in **test client**. The test client lets a test simulate a request to one of your routes—without actually starting a live server or opening a browser.
 
@@ -120,6 +116,4 @@ def test_froyo_results():
 
 *Fig 3 - simulating a `POST` request with form data, then checking that the submitted value shows up in the response*
 
-<aside>
-💡 This is the same testing approach used in this module's graded assignment—so the tests you write there should look a lot like the examples above!
-</aside>
+> 💡 This is the same testing approach used in this module's graded assignment—so the tests you write there should look a lot like the examples above!

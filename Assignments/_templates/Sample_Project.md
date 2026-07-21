@@ -1,5 +1,7 @@
 # Class - Assignment Title 
 
+> **Instructor template — not a real assignment.** Copy this file into `Assignments/` and fill it in when authoring a new assignment for this or another course.
+
 ## Description 
 
 A short description of your assignment
@@ -26,6 +28,6 @@ Detailed description...
 
 ## Assessing the assignment
 
-[Assignment Name Rubric](./assignment-rubric.md)
+[Assignment Name Rubric](./Sample_Rubric.md)
 
 

@@ -23,10 +23,7 @@ By the end of this lesson, you should be able to...
 
 # Written Companion 🗒
 
-<aside>
-🤔 What tools can we use to experiment with API's and confirm they work as expected from the user end?
-
-</aside>
+> 🤔 What tools can we use to experiment with API's and confirm they work as expected from the user end?
 
 ---
 

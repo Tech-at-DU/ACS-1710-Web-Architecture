@@ -40,9 +40,7 @@ Test your understanding of SQL vs NoSQL and MongoDB with the questions below. Tr
 
 # Written Companion 🗒
 
-<aside>
-🤔 What would be a good first database technology to implement?
-</aside>
+> 🤔 What would be a good first database technology to implement?
 
 ---
 
@@ -56,10 +54,7 @@ Data can also have **relationships**. For example, if a database contains inform
 
 *Fig 1 - a relationship diagram representing the relationship between teachers (with an ID, name, and subject to teach) and departments (with an ID and name).*
 
-<aside>
-🚨 Always consider if the database technology employs a relational centric **structured query language (SQL)** or a non-relational centric **"not only" structured query language (noSQL)—**as this will form the basis of the data's structure and potential tradeoffs of the technology.
-
-</aside>
+> 🚨 Always consider if the database technology employs a relational centric **structured query language (SQL)** or a non-relational centric **"not only" structured query language (noSQL)—**as this will form the basis of the data's structure and potential tradeoffs of the technology.
 
 ### SQL vs NoSQL Tradeoffs
 
@@ -67,9 +62,7 @@ An SQL database works best for highly-connected relational data (stored in **tab
 
 A NoSQL database works best for lightly-connected, non-relational data (stored in individual key-value pairs called **documents)** that requires dynamic or unstructured data queries and scales by adding additional virtual machines/databases to the system (aka horizontal scaling). 
 
-<aside>
-💡 In this class we will be using low-complexity, lightly connected data so a noSQL database would be the best choice.
-</aside>
+> 💡 In this class we will be using low-complexity, lightly connected data so a noSQL database would be the best choice.
 
 ### Introduction to MongoDB
 
@@ -114,9 +107,7 @@ Every document has its own unique `ObjectId` property. This ensures that every d
 
 A document's `ObjectId` gets stored as a **value** with a **key** of `'_id'`.
 
-<aside>
-🚨 An `ObjectId` does not use a string value. Instead, it uses the built in MongoDB BSON object method `ObjectId`. Always keep this in mind when creating an `ObjectId` as assigning the `'_id'` property of a document anything but this `ObjectId` will result in an error!
-</aside>
+> 🚨 An `ObjectId` does not use a string value. Instead, it uses the built in MongoDB BSON object method `ObjectId`. Always keep this in mind when creating an `ObjectId` as assigning the `'_id'` property of a document anything but this `ObjectId` will result in an error!
 
 ```python
 # creating a new document with a specified _id:ObjectId pair
@@ -138,6 +129,4 @@ A document's `ObjectId` gets stored as a **value** with a **key** of `'_id'`.
 
 The `BSON` object is MongoDB's unique data structure for managing documents and operates almost identically to the `JSON` object. 
 
-<aside>
-💡 In the context of this course, all we need to know about the `BSON` object is that MongoDB uses it and operates similarly to the `JSON` object. We will be mainly using to create `ObjectId`'s as needed.
-</aside>
+> 💡 In the context of this course, all we need to know about the `BSON` object is that MongoDB uses it and operates similarly to the `JSON` object. We will be mainly using to create `ObjectId`'s as needed.

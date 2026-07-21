@@ -43,9 +43,7 @@ Test your understanding of route variables and forms with the questions below. T
 
 ## Written Companion 🗒
 
-<aside>
-🤔 We need to structure and transport information from one end-point to another(i.e. from client to server or server to client)—which way works best?
-</aside>
+> 🤔 We need to structure and transport information from one end-point to another(i.e. from client to server or server to client)—which way works best?
 
 ### Method 1: Route Variables
 

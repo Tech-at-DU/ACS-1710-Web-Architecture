@@ -21,17 +21,13 @@ Go back to your Homework 3 (More Forms) submission and use a `.env` file to hide
 
 # Written Companion 🗒
 
-<aside>
-🤔 How can we easily manage configuration values, such as the URL for a database connection or the production server information, spread out in multiple files of a project?
-</aside>
+> 🤔 How can we easily manage configuration values, such as the URL for a database connection or the production server information, spread out in multiple files of a project?
 
 ---
 
 Any project that utilizes servers and databases, or multiple global constants, will require **environment variables** (sometimes synonymous with configuration variables). 
 
-<aside>
-💡 A variable that contains information required in a global scope that references details about how to connect to external components or internal settings repeated in multiple files can be definied as a **environment variable.**
-</aside>
+> 💡 A variable that contains information required in a global scope that references details about how to connect to external components or internal settings repeated in multiple files can be definied as a **environment variable.**
 
 Examples of **environment variables:**
 
@@ -42,9 +38,7 @@ Examples of **environment variables:**
 
 ### Securly Managing API Security Token and Password Data
 
-<aside>
-🚨 If another developer got a copy of our API security tokens—they could utilize the licences we purchased or make data requests in our name!
-</aside>
+> 🚨 If another developer got a copy of our API security tokens—they could utilize the licences we purchased or make data requests in our name!
 
 Creating and managing **environment variables** in Python can be easily performed utilizing the `dotenv` library.
 

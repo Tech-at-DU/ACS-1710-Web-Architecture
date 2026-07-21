@@ -32,9 +32,7 @@ Here are some routes. Identify whether each one follows RESTful naming conventio
 
 # Written Companion 🗒
 
-<aside>
-🤔 If an API gives a developer a route to interface with data, what's a predictable, consistent way to name and organize those routes?
-</aside>
+> 🤔 If an API gives a developer a route to interface with data, what's a predictable, consistent way to name and organize those routes?
 
 ---
 
@@ -82,6 +80,4 @@ This style makes it easier to build, understand, and maintain web apps—anyone 
 - **Easy to maintain** — follows a common pattern developers already understand.
 - **Works well with frontend tools** — makes connecting APIs and frontends simpler.
 
-<aside>
-💡 RESTful routes are named using nouns to represent the data, and HTTP methods to represent what you want to do with that data. Keep this pattern in mind for every route you write from here on!
-</aside>
+> 💡 RESTful routes are named using nouns to represent the data, and HTTP methods to represent what you want to do with that data. Keep this pattern in mind for every route you write from here on!

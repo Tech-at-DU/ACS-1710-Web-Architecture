@@ -2,16 +2,11 @@
 
 ## ACS 1710 - Module 3: Lesson 2
 
-<aside>
-🤔 If an API provides a developer a **route** to **interface** with another platform—what operations can be performed through this**?**
-
-</aside>
+> 🤔 If an API provides a developer a **route** to **interface** with another platform—what operations can be performed through this**?**
 
 ---
 
-<aside>
-💡 C.R.U.D operations work their way into just about every aspect of web applications! Including the way developers interact with other platforms/services.
-</aside>
+> 💡 C.R.U.D operations work their way into just about every aspect of web applications! Including the way developers interact with other platforms/services.
 
 Let's breakdown some examples of how C.R.U.D manifests in API's:
 

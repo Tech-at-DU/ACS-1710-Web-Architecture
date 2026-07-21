@@ -30,9 +30,7 @@ Test your understanding of `jsonify` and status codes with the questions below. 
 
 # Written Companion 🗒
 
-<aside>
-🤔 So far, every route in this course has returned a plain string. That's fine for a page a human reads in a browser—but if another program (a JavaScript frontend, a mobile app, or someone else's server) is calling your route, it needs the data back in a predictable, structured format. How do we return real, well-formed JSON from a Flask route?
-</aside>
+> 🤔 So far, every route in this course has returned a plain string. That's fine for a page a human reads in a browser—but if another program (a JavaScript frontend, a mobile app, or someone else's server) is calling your route, it needs the data back in a predictable, structured format. How do we return real, well-formed JSON from a Flask route?
 
 ---
 
@@ -51,9 +49,7 @@ def make_joke():
 
 *Fig 1 - returning a JSON response using `jsonify()`, instead of a plain string*
 
-<aside>
-🚨 It's tempting to just build the string yourself, like <code>return str({'joke': joke_text})</code>. Don't! That returns text that merely <i>looks like</i> JSON, with the wrong <code>Content-Type</code> header attached. A program trying to parse it as JSON may fail, even though it looks fine in a browser.
-</aside>
+> 🚨 It's tempting to just build the string yourself, like <code>return str({'joke': joke_text})</code>. Don't! That returns text that merely <i>looks like</i> JSON, with the wrong <code>Content-Type</code> header attached. A program trying to parse it as JSON may fail, even though it looks fine in a browser.
 
 ### Returning Status Codes
 
@@ -83,6 +79,4 @@ Some of the most common status codes used in APIs:
 - `404` = Not Found — the requested resource doesn't exist
 - `500` = Internal Server Error — something went wrong on the server's end
 
-<aside>
-💡 Recent versions of Flask will actually convert a dictionary returned directly from a route (e.g. <code>return new_plant</code>) into JSON automatically. Using <code>jsonify()</code> explicitly is still the clearest, most common approach—especially once you need to pair your data with a status code.
-</aside>
+> 💡 Recent versions of Flask will actually convert a dictionary returned directly from a route (e.g. <code>return new_plant</code>) into JSON automatically. Using <code>jsonify()</code> explicitly is still the clearest, most common approach—especially once you need to pair your data with a status code.

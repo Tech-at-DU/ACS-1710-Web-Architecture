@@ -40,9 +40,7 @@ Test your understanding of C.R.U.D operations in PyMongo with the questions belo
 
 # Written Companion 🗒
 
-<aside>
-🤔 How do we use MongoDB in Python, and how can we connect a Flask server to a MongoDB database?
-</aside>
+> 🤔 How do we use MongoDB in Python, and how can we connect a Flask server to a MongoDB database?
 
 ---
 
@@ -95,17 +93,13 @@ for user in all_instructors:
 
 *Fig 2 - using `find()` with and without a `searchParam`*
 
-<aside>
-🚨 If you only want the first matching document of your `find()` parameter to be returned (instead of all matching documents)—use `find_one(searchParam)` instead of `find(searchParam)`.
-</aside>
+> 🚨 If you only want the first matching document of your `find()` parameter to be returned (instead of all matching documents)—use `find_one(searchParam)` instead of `find(searchParam)`.
 
 ### Update = `update_one()` in PyMongo
 
 To **update** an existing document within a MongoDB collection, the `update_one(searchParam, changes)` method must be used.
 
-<aside>
-💡 In many ways, **updating** combines **reading** and **creating**. We must first pass the `update_one()` a `searchParam` to find the data to update—then modify the found data with the `changes` object.
-</aside>
+> 💡 In many ways, **updating** combines **reading** and **creating**. We must first pass the `update_one()` a `searchParam` to find the data to update—then modify the found data with the `changes` object.
 
 The `changes` update can perform many operations. Some of the most common include:
 

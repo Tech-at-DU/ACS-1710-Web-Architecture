@@ -36,10 +36,7 @@ Test your understanding of template inheritance with the questions below. Try to
 
 # Written Companion 🗒
 
-<aside>
-🤔 Most website will use the same header, footer, etc. through it! How can we design a website that has reusable pieces throughout it, and how can we leverage templates to reduce the amount of repeated code?
-
-</aside>
+> 🤔 Most website will use the same header, footer, etc. through it! How can we design a website that has reusable pieces throughout it, and how can we leverage templates to reduce the amount of repeated code?
 
 ---
 
@@ -51,10 +48,7 @@ Fig 1 - a common design pattern that websites use (the same header, sidebar, and
 
 In design patterns such as this, the only component that changes would be the content. 
 
-<aside>
-💡 Let's make reusable components inheirtable in templates so that we only have to create them once and allow unique content to be passed in!
-
-</aside>
+> 💡 Let's make reusable components inheirtable in templates so that we only have to create them once and allow unique content to be passed in!
 
 A reusable template component can be marked using the `% block blockName %` tag. Note that `block` operates as a keyword and `blockName` can be any reference name.
 

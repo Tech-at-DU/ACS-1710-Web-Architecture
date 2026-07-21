@@ -34,10 +34,7 @@ Test your understanding of APIs with the questions below. Try to answer each one
 
 # Written Companion 🗒
 
-<aside>
-🤔 How do we leverage existing data collected by other services such as Twitter, ESPN, and Uber in our own applications?
-
-</aside>
+> 🤔 How do we leverage existing data collected by other services such as Twitter, ESPN, and Uber in our own applications?
 
 ---
 
@@ -49,6 +46,4 @@ This data can be leveraged across platforms and easily shared using an **Applica
 
 Fig 1 - A user requesting `song_lyrics` through an API to get data about songs from another companies database, and that data be returned as a response
 
-<aside>
-💡 An API is nothing more then a server route which returns information from as a database as a response!
-</aside>
+> 💡 An API is nothing more then a server route which returns information from as a database as a response!

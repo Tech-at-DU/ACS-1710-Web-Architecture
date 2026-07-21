@@ -40,9 +40,7 @@ Test your understanding of connecting Flask to MongoDB with the questions below.
 
 # Written Companion 🗒
 
-<aside>
-🤔 How do we connect a Flask server with API routes to a MongoDB database cluster?
-</aside>
+> 🤔 How do we connect a Flask server with API routes to a MongoDB database cluster?
 
 ---
 
@@ -50,9 +48,7 @@ The `Flask` object has a built-in property called `config` which allows develope
 
 Using this `config` property, developers can create globally accessible URL connection points to help the Flask server find the MongoDB cluster destination.
 
-<aside>
-💡 Once a Flask server gets connected to a MongoDB cluster—we must use the PyMongo library to create a `mongo` object capable of interfacing between the server and database!
-</aside>
+> 💡 Once a Flask server gets connected to a MongoDB cluster—we must use the PyMongo library to create a `mongo` object capable of interfacing between the server and database!
 
 ```python
 # create a Flask server, connect it to a MongoDB cluster, then make a mongo object

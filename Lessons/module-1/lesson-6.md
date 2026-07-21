@@ -44,10 +44,7 @@ def show_results():
 
 # Written Companion 🗒
 
-<aside>
-🤔 We now know how to create forms and connect them to routes using the `action` property—but how do we interact with the data collected from the `<form>`?
-
-</aside>
+> 🤔 We now know how to create forms and connect them to routes using the `action` property—but how do we interact with the data collected from the `<form>`?
 
 `<form>` data can be utilized on the server-side with Flask's built-in `request` function. More specifically, the following two methods of `request` must be invoked for the following two use-cases:
 

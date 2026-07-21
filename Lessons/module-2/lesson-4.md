@@ -10,10 +10,7 @@ By the end of this lesson, you should be able to...
 
 # Videos 🎥
 
-<aside>
-🚨 See the video companion in the lesson before this "Conditional Rendering in Templates" to see a `Jinja2` `for` loop in action.
-
-</aside>
+> 🚨 See the video companion in the lesson before this "Conditional Rendering in Templates" to see a `Jinja2` `for` loop in action.
 
 # Exercises 💪
 
@@ -41,10 +38,7 @@ Test your understanding of loops in templates with the questions below. Try to a
 
 # Written Companion 🗒
 
-<aside>
-🤔 If the user needs to pass in a long array of elements, how do we iteratively process it?
-
-</aside>
+> 🤔 If the user needs to pass in a long array of elements, how do we iteratively process it?
 
 ---
 

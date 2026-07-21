@@ -29,9 +29,7 @@ Test your understanding of deployment with the questions below. Try to answer ea
 
 # Written Companion 🗒
 
-<aside>
-🤔 You've built a Flask app that runs on your computer—how do you get it running on a real URL that anyone on the internet can visit?
-</aside>
+> 🤔 You've built a Flask app that runs on your computer—how do you get it running on a real URL that anyone on the internet can visit?
 
 ---
 
@@ -130,9 +128,7 @@ MONGODB_PASSWORD=yourpasswordgoeshere
 
 You'll also need to add `pymongo`, `python-dotenv`, and `dnspython` to your `requirements.txt` file.
 
-<aside>
-🚨 Never commit your `.env` file to GitHub—it should already be listed in your `.gitignore`. Your database credentials should never end up in a public repository!
-</aside>
+> 🚨 Never commit your `.env` file to GitHub—it should already be listed in your `.gitignore`. Your database credentials should never end up in a public repository!
 
 ## Step 6: Set Environment Variables on Render
 
@@ -147,6 +143,4 @@ Save your changes—Render will automatically redeploy your app with the new env
 
 You did it! You have a real, live URL running a Flask app with a working database connection—the same skills used to build and ship production web applications.
 
-<aside>
-💡 Render's free tier "spins down" a web service after a period of inactivity, so the first request after some idle time may take up to a minute to respond while it spins back up. This is a free-tier limitation only—paid tiers stay running continuously.
-</aside>
+> 💡 Render's free tier "spins down" a web service after a period of inactivity, so the first request after some idle time may take up to a minute to respond while it spins back up. This is a free-tier limitation only—paid tiers stay running continuously.
