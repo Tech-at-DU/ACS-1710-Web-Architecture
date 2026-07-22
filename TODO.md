@@ -27,7 +27,7 @@ Any lesson currently pointing to "Answer questions on Gradescope" or a dead Repl
 
 ## Module 2 — Creating scalable web applications and templating
 
-- [ ] No content changes planned — content holds up as-is
+- [x] No content changes planned — content holds up as-is (reviewed, no action needed)
 - [x] Lessons 1, 3, 4, 5: "Exercises" sections are HTML-commented-out dead Repl.it remnants — convert each to the self-check pattern above (module still keeps its one big graded Assignment as the real checkpoint)
 
 ## Module 3 — Building robust services that connect to platforms via APIs
@@ -85,13 +85,13 @@ Big enough to split into 4 reviewable chunks, done in order (each depends on the
 
 ## Assessments folder
 
-- [ ] `quiz-2-study-guide.md` requires reviewing four personal `repl.it/@MeredithMurphy1/...` links as exam prep — replace with current/working resources
-- [ ] `final-assessment.md` hardcodes a specific term's date ("Wed Oct 7") — part of the broader recurring-dates problem below
+- [x] `quiz-2-study-guide.md` requires reviewing four personal `repl.it/@MeredithMurphy1/...` links as exam prep — replace with current/working resources (replaced with links to Module 3 Lessons 3 & 6 and Homework 4; also fixed a broken self-referencing link to Quiz 1's study guide — it was written as `Assessments/quiz-1-study-guide.md` from inside a file already in `Assessments/`, which would resolve one level too deep. Found and fixed the identical bug in `quiz-3-study-guide.md` while in the area.)
+- [x] `final-assessment.md` hardcodes a specific term's date ("Wed Oct 7") — part of the broader recurring-dates problem below (de-hardcoded the date to "near the end of the term, check the course schedule"; also dropped the "via Gradescope" wording rather than naming a replacement platform, since the actual replacement submission mechanism is still an open, undecided question per the Content Pattern note at the top of this file)
 
 ## Labs / Activities folders (exist but aren't linked from anywhere a self-paced student would find them)
 
 - [x] `Labs/deployment-howto.md` — see Module 5, Chunk 3 above (rescued from Heroku, moved into `Lessons/module-5/lesson-6.md`; the now-empty `Labs/` folder was removed)
-- [ ] `Activities/MongoDB-Setup-Tutorial.md` — empty stub (just a title, no body); finish it or delete it
+- [x] `Activities/MongoDB-Setup-Tutorial.md` — empty stub (just a title, no body); finish it or delete it (deleted — still empty and unreferenced anywhere; MongoDB setup is already covered in `Assignments/04-Databases.md` and `Assignments/module-5-tutorial.md`, so finishing it would've just duplicated that. The now-empty `Activities/` folder is gone too.)
 
 ## Formatting / portability (Notion → GitHub migration artifacts)
 
@@ -100,8 +100,9 @@ Big enough to split into 4 reviewable chunks, done in order (each depends on the
 
 ## Repo-level cleanup (found during review, separate from lesson content)
 
-- [ ] `README.md` "Learning Modules" section links out to stale `notion.site`/`makeschool` URLs instead of the local `Lessons/module-X/lesson-Y.md` files
-- [ ] `README.md` has conflicting date sets: course header (Aug 24–Oct 9, 2025), schedule table (ends Oct 7), assignments table (Oct 25–Dec 7), late-policy text ("Mar 3 & Mar 4") — reconcile to one term's dates
-- [ ] Hardcoded per-term dates are scattered across `README.md` and `Assessments/final-assessment.md` with no single source of truth, so they drift out of sync between terms — consider a single "current term dates" section that everything else references
+- [x] `README.md` "Learning Modules" section links out to stale `notion.site`/`makeschool` URLs instead of the local `Lessons/module-X/lesson-Y.md` files (replaced every link with the real local lesson files, including the new/renumbered lessons from Modules 3 and 5; module headers now link to each module's `readme.md`)
+- [x] `README.md` has conflicting date sets: course header (Aug 24–Oct 9, 2025), schedule table (ends Oct 7), assignments table (Oct 25–Dec 7), late-policy text ("Mar 3 & Mar 4") — reconcile to one term's dates
+- [x] Hardcoded per-term dates are scattered across `README.md` and `Assessments/final-assessment.md` with no single source of truth, so they drift out of sync between terms — consider a single "current term dates" section that everything else references
+  - Resolved both date items together: replaced the two conflicting calendar-based tables with one consolidated, term-agnostic **week-based** schedule (Week 1-14) covering every current deliverable (Homeworks 1-6, Quizzes 1-3, Final Project, Final Assessment) — a user decision, chosen over keeping real calendar dates. No more calendar dates to go stale between terms; the instructor posts actual dates separately each term.
 - [x] Remove orphaned `Lessons/module-1/module-5-lesson-4.md` (outdated draft of `module-5/lesson-4.md`, wrong folder, unreferenced) — done as part of Module 5, Chunk 4
-- [ ] Repo root has ~10 files/folders unrelated to this course (`box-model.html`, `flex-box.html`, `position.html`, `text-styles.html`, `watering.html`, `background-image.html`, `events.html`, `assessment/`, `exercises/`, `projects/`, `images/`) — look like leftovers from a different (prerequisite HTML/CSS) course; confirm and remove if truly unused
+- [x] Repo root has ~10 files/folders unrelated to this course (`box-model.html`, `flex-box.html`, `position.html`, `text-styles.html`, `watering.html`, `background-image.html`, `events.html`, `assessment/`, `exercises/`, `projects/`, `images/`) — look like leftovers from a different (prerequisite HTML/CSS) course; confirm and remove if truly unused (confirmed via content — `assessment/readme.md` says "Web 1.0 Final Assessment", `projects/projects.md` says "ACS 1700 Projects" — unambiguously the prerequisite course. Removed all of it.)

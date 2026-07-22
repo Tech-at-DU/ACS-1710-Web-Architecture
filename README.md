@@ -27,62 +27,30 @@ By the end of the course, you will be able to ...
 
 ## Schedule
 
-**Course Dates:** August 24 – October 9, 2025
+**Course Dates & Class Times:** set per term — check with your instructor for this term's specific dates and meeting times.
 
-**Class Times:** Monday and Wednesday, 1:30 PM – 4:00 PM
+This course is self-paced across 14 weeks. Attendance is still required — the pacing below is a recommendation to help you stay on track, not a hard deadline except where noted.
 
-| Class | Date | Pacing Recommendations (Complete all lessons up to - ) |
-|:---:|:--:|:-----:|
-|  - | Week 1      | - |
-|  1 | Mon, Aug 24 | [Module 1](Lessons/module-1/) |
-|  2 | Wed, Aug 26 | [Finished Module 1 Assignment](Assignments/01-Request-Response.md)  |
-|  - | Week 2      | - |
-|  3 | Mon, Aug 31 | ******LABOR DAY****** |
-|  4 | Wed, Sep  2 | [Module 2](Lessons/module-2/) |
-|  - | Week 3      | - |
-|  5 | Mon, Sep  7 | [Finished Module 2 Assignment](Assignments/02-Forms-Templates.md) |
-|  6 | Wed, Sep  9 | **Finished Quiz 1 (HARD DEADLINE - CLOSES END OF WEEK)** |
-|  - | Week 4      | - |
-|  7 | Mon, Sep 14 | [Module 3](Lessons/module-3/) |
-|  8 | Wed, Sep 16 | [Finished Module 3 Assignment](Assignments/03-More-Forms.md) |
-|  - | Week 5      | - |
-|  9 | Mon, Sep 21 | **Finished [Quiz 2](https://github.com/Tech-at-DU/ACS-1710-Web-Architecture/blob/master/Assessments/quiz-2.md) (HARD DEADLINE - CLOSES END OF WEEK)** |
-| 10 | Wed, Sep 23 | [Module 4](Lessons/module-4/) |
-|  - | Week 6      | - |
-| 11 | Mon, Sep 28 | [Finished Module 4 Assignment](Assignments/03-APIs.md) |
-| 12 | Wed, Sep 30 | [Module 5](Lessons/module-5/) |
-|  - | Week 7      | - |
-| 13 | Mon, Oct  5 | LAB DAY |
-| 14 | Wed, Oct  7 | [Finished Module 5 Assignment](Assignments/04-Databases.md) |
+| Week | Pacing Recommendation |
+|:--:|:--|
+| 1  | [Module 1](Lessons/module-1/) |
+| 2  | Finished [Homework 1: Request/Response](Assignments/01-Request-Response.md) |
+| 3  | [Module 2](Lessons/module-2/) |
+| 4  | Finished [Homework 2: Forms](Assignments/02-Forms-Templates.md) |
+| 5  | Finished [Quiz 1](Assessments/quiz-1-study-guide.md) **(hard deadline — closes end of week)** |
+| 6  | [Module 3](Lessons/module-3/) |
+| 7  | Finished [Homework 3: More Forms](Assignments/03-More-Forms.md) |
+| 8  | Finished [Homework 4: APIs](Assignments/03-APIs.md) |
+| 9  | Finished [Quiz 2](Assessments/quiz-2.md) **(hard deadline — closes end of week)** |
+| 10 | [Module 4](Lessons/module-4/) |
+| 11 | Finished [Homework 6: Testing](Assignments/05-Testing.md) |
+| 12 | [Module 5](Lessons/module-5/) |
+| 13 | Finished [Homework 5: Databases](Assignments/04-Databases.md) |
+| 14 | Finished [Quiz 3](Assessments/quiz-3-study-guide.md), the [Final Project](Assignments/06-Final-Project.md), and the [Final Assessment](Assessments/final-assessment.md) |
 
-## Assignments
-Students will complete assignments at their own pace. 
+Quizzes can be retaken once, with the final grade being the average of the two scores. Students who complete all assignments with a score of 3 or higher and earn 80% or greater on Quizzes 1 & 2 **automatically pass Quiz 3** and won't be required to take it! 🤩
 
-Assignments **must be turned in via [Gradescope](https://gradescope.com) for credit!**
-
-### Assignments should be completed by the recommended date in the above **schedules** section. Students falling behind should connect with the instructor for help staying on pace!
-
-### Any assignments not complete by the final day of class (Wed, Mar 3 & Thu, Mar 4) will be given a score of **0**.
-
-Quizzes can be found on [Gradescope](https://gradescope.com) for credit during the week of their listing.
-
-### Quizzes have a **HARD DEADLINE** date and will close on the Friday of its listed week. 
-
-Quizzes can be retaken once, with the final grade being the average of the two final scores. 
-
-### Students that have completed all assignments with a score of 3 or higher and earned an 80% or greater on their quizzes **AUTOMATICALLY PASS QUIZ 3** and will not be required to take it! 🤩
-
-| Topic | Pacing Date | Assignment |
-| :--: | :------------: | :----: |
-| 1 | Tue, Oct 25 | [Module 1 Assignment: Request/Response](Assignments/01-Request-Response.md) |
-| 2 | Tue, Nov  1 | [Module 2 Assignment: Forms & Templates](Assignments/02-Forms-Templates.md) |
-| 3 | Thu, Nov  3 | [**Quiz 1**](Assessments/quiz-1-study-guide.md) |
-| 4 | Thu, Nov 10 | [Module 3 Assignment: More Forms](Assignments/03-More-Forms.md) |
-| 5 | Tue, Nov 15 | [**Quiz 2**](Assessments/quiz-2.md) |
-| 6 | Thu, Dec  1 | [Module 4 Assignment: APIs](Assignments/03-APIs.md) |
-| 7 | Thu, Dec  7 | [Module 5: Databases](Assignments/04-Databases.md) |
-
-5. [Pymongo Todo List](Assignments/module-5-tutorial.md)
+Students falling behind should connect with the instructor for help staying on pace. Any assignment not completed by the end of the term will be scored as a 0, except for extenuating circumstances (see the Late Assignment Policy below).
 
 ## Learning Modules
 
@@ -90,44 +58,49 @@ This course has been broken down into 5 modules for students to approach at thei
 
 ### Although this course has self-pacing elements--attendance is still a requirement! We will be doing activites, checking-in, and learning as a class!
 
-#### MODULE 1: [ Introduction to internet communication patterns, C.R.U.D, and servers](https://handsome-air-ad0.notion.site/MODULE-1-Intro-to-Flask-Forms-54dd4bdc06494f6f9fd44e73ae5fd907) 
+#### MODULE 1: [Introduction to internet communication patterns, C.R.U.D, and servers](Lessons/module-1/readme.md)
 
-1. [Introduction to the Request/Response Cycle](https://handsome-air-ad0.notion.site/Introduction-to-the-Request-Response-Cycle-3458f6f619bd4e84b79f01a8731e6818)
-2. [Setting up and Using Flask Servers](https://handsome-air-ad0.notion.site/Setting-up-and-Using-Flask-Servers-757e541158ed4eefa71ebd350462bb8b)
-3. [Introduction to C.R.U.D](https://handsome-air-ad0.notion.site/Introduction-to-C-R-U-D-7de1dc81889e46f7a0c9220515276923)
-4. [`GET` vs `POST`](https://handsome-air-ad0.notion.site/GET-vs-POST-1537f91a237b46f69fd0f0cf5eef66e3)
-5. [Working with Route Variables and Forms](https://handsome-air-ad0.notion.site/Working-with-Route-Variables-and-Forms-b96cb82e882d43f580cef4dcf2ccda03)
-6. [Interacting with Form Data in Flask](https://handsome-air-ad0.notion.site/Interacting-with-Form-Data-in-Flask-954d1021433e460a8f17abee94fbe9c1)
-7. [Understanding `**args` and `**kwargs`](https://handsome-air-ad0.notion.site/Understanding-args-and-kwargs-b677fabf03d44b38952fde75f39efdd5)
+1. [Introduction to the Request/Response Cycle](Lessons/module-1/lesson-1.md)
+2. [Setting up and Using Flask Servers](Lessons/module-1/lesson-2.md)
+3. [Introduction to C.R.U.D](Lessons/module-1/lesson-3.md)
+4. [`GET` vs `POST`](Lessons/module-1/lesson-4.md)
+5. [Working with Route Variables and Forms](Lessons/module-1/lesson-5.md)
+6. [Interacting with Form Data in Flask](Lessons/module-1/lesson-6.md)
+7. [Understanding `*args` and `**kwargs`](Lessons/module-1/lesson-7.md)
 
-#### MODULE 2: [ Creating scalable web applications and templating](https://www.notion.so/makeschool/MODULE-2-Creating-scalable-web-applications-and-templating-f952b99874f44ed7a886609ec4ecbd6c)
+#### MODULE 2: [Creating scalable web applications and templating](Lessons/module-2/readme.md)
 
-1. [Templating](https://www.notion.so/makeschool/Templating-3d4e522e057643169a3af209bea33b77)
-2. [Named Parameters](https://www.notion.so/makeschool/Named-Parameters-e86280fd4a7a488eb9494a7de93288a2)
-3. [Conditional Rendering with Templates](https://www.notion.so/makeschool/Conditional-Rendering-with-Templates-1d02a420605b4ecc9e999e9f9acdd03d)
-4. [Loops in Templates](https://www.notion.so/makeschool/Loops-in-Templates-0350470fb2d349f29fe2af77546e5dd0)
-5. [Creating Reusable Components via Template Inheritance](https://www.notion.so/makeschool/Creating-Reusable-Components-via-Template-Inheritance-816309fd9b084509a183a05ca22b4c79)
+1. [Templating](Lessons/module-2/lesson-1.md)
+2. [Named Parameters](Lessons/module-2/lesson-2.md)
+3. [Conditional Rendering with Templates](Lessons/module-2/lesson-3.md)
+4. [Loops in Templates](Lessons/module-2/lesson-4.md)
+5. [Creating Reusable Components via Template Inheritance](Lessons/module-2/lesson-5.md)
 
+#### MODULE 3: [Building robust services that connect to platforms via API's](Lessons/module-3/readme.md)
 
-#### MODULE 3: [ Building robust services that connect to platforms via API's ](https://www.notion.so/makeschool/MODULE-3-Building-robust-services-that-connect-to-platforms-via-API-s-886ab4e636574ebca8e6e157ee8bf82b)
-1. [Introduction to APIs](https://www.notion.so/makeschool/Introduction-to-APIs-cb1db95de4c24fdfbbdf9be49d4c201e)
-2. [C.R.U.D in API's](https://www.notion.so/makeschool/C-R-U-D-in-API-s-d0478a7c928946b881fa62af058b22cb)
-3. [Working with JSON Objects](https://www.notion.so/makeschool/Working-with-JSON-Objects-f95e153725f042a69bd06224f116d8b2)
-4. [Testing API Routes with Postman](https://www.notion.so/makeschool/Testing-API-Routes-with-Postman-2c3abe212a424d3682bd94fc3724e180)
-5. [Using the Requests Library to Generate User Requests](https://www.notion.so/makeschool/Using-the-Requests-Library-to-Generate-User-Requests-3c5c50b0fc374eb88708bb312a9a1def) - Note! When following the example here you will need to run your server (main.py) in one terminal window and run the firstrequest.py example in a second terminal! 
+1. [Introduction to APIs](Lessons/module-3/lesson-1.md)
+2. [C.R.U.D in API's](Lessons/module-3/lesson-2.md)
+3. [Working with JSON Objects](Lessons/module-3/lesson-3.md)
+4. [Returning JSON Responses with `jsonify`](Lessons/module-3/lesson-4.md)
+5. [Testing API Routes with Postman](Lessons/module-3/lesson-5.md)
+6. [Using the Requests Library to Generate User Requests](Lessons/module-3/lesson-6.md)
 
+#### MODULE 4: [Developing secure, tested, and distributable web applications](Lessons/module-4/readme.md)
 
-#### MODULE 4: [ Developing secure and distributable web applications](https://www.notion.so/makeschool/MODULE-4-Developing-secure-and-distributable-web-applications-bcc343ed1483406e8bb928ebf223e19c)
-1. [Working with Virtual Environments and the `requirements.txt` File](https://www.notion.so/makeschool/Working-with-Virtual-Environments-and-the-requirements-txt-File-6dc8b6d6b8924d8db65db60eec68dfcc)
-2. [Creating and Managing Environment Variables with `dotenv`](https://www.notion.so/makeschool/Creating-and-Managing-Environment-Variables-with-dotenv-ddb6aa5630fe464c884cfc1a75af9c2f)
-3. [Leveraging the Datetime Library](https://www.notion.so/makeschool/Leveraging-the-Datetime-Library-c02959f8f3cc45b19e6582c215ed85d0)
+1. [Working with Virtual Environments and the `requirements.txt` File](Lessons/module-4/lesson-1.md)
+2. [Creating and Managing Environment Variables with `dotenv`](Lessons/module-4/lesson-2.md)
+3. [Leveraging the Datetime Library](Lessons/module-4/lesson-3.md)
+4. [Testing Flask Routes with Pytest](Lessons/module-4/lesson-4.md)
 
-#### MODULE 5: [ Introduction to databases and connecting servers to them ](https://www.notion.so/makeschool/MODULE-5-Introduction-to-databases-and-connecting-servers-to-them-ec864dcc497e44339ebb35381eb325a3)
-1. [Introduction to Databases](https://www.notion.so/makeschool/Introduction-to-Databases-601c42c9732e46d595dd2c65a4186253)
-2. [SQL vs NoSQL and Introduction to MongoDB](https://www.notion.so/makeschool/SQL-vs-NoSQL-and-Introduction-to-MongoDB-782a225705ad418d8c1af422c9c57083)
-3. [Connecting a Flask Server to MongoDB Cluster](https://www.notion.so/makeschool/Connecting-a-Flask-Server-to-MongoDB-Cluster-6385c238c38f433f9babc5e85fb67082)
-4. [Performing C.R.U.D Operations with PyMongo](https://www.notion.so/makeschool/Performing-C-R-U-D-Operations-with-PyMongo-0689895c65b24873b429423f14bacfa9)
-5. [Pymongo Todo List](Assignments/module-5-tutorial.md)
+#### MODULE 5: [Introduction to databases and connecting servers to them](Lessons/module-5/readme.md)
+
+1. [Introduction to Databases](Lessons/module-5/lesson-1.md)
+2. [RESTful Routing & Naming Conventions](Lessons/module-5/lesson-2.md)
+3. [SQL vs NoSQL and Introduction to MongoDB](Lessons/module-5/lesson-3.md)
+4. [Connecting a Flask Server to MongoDB Cluster](Lessons/module-5/lesson-4.md)
+5. [Performing C.R.U.D Operations with PyMongo](Lessons/module-5/lesson-5.md)
+6. [Deploying Your Flask Application](Lessons/module-5/lesson-6.md)
+7. [Pymongo Todo List](Assignments/module-5-tutorial.md)
 
 
 

@@ -2,7 +2,7 @@
 
 ## Learning Objectives
 
-This quiz will cover the concepts we've learned so far, including Flask routes, route variables, forms, templates, APIs, and JSON. You may want to review the [Quiz 1 Study Guide](Assessments/quiz-1-study-guide.md) and [Quiz 2 Study Guide](Assessments/quiz-2-study-guide.md) as the information presented there will be covered on this quiz.
+This quiz will cover the concepts we've learned so far, including Flask routes, route variables, forms, templates, APIs, and JSON. You may want to review the [Quiz 1 Study Guide](quiz-1-study-guide.md) and [Quiz 2 Study Guide](quiz-2-study-guide.md) as the information presented there will be covered on this quiz.
 
 In addition, you should be able to...
 
