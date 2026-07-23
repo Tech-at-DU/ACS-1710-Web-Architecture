@@ -123,7 +123,7 @@ def submit_pizza():
 ```
 
 ```html
-<! -- an HTML file utilizing the Jinja2 templating syntax -- >
+<!-- an HTML file utilizing the Jinja2 templating syntax -->
 Your order summary: <br>
 Email: {{ users_email }} <br>
 Phone number: {{ users_phone }} <br><br>
