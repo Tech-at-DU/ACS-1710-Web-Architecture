@@ -24,7 +24,7 @@ Test your understanding of conditional rendering with the questions below. Try t
 1. What is the Jinja2 syntax used to wrap an `if`/`elif`/`else` conditional statement?
 2. What tag must every Jinja2 `{% if %}` block end with?
 3. Given a template with `{% if animal == 'aardvark' %}...{% elif animal == 'penguin' %}...{% else %}...{% endif %}` and a context of `{'animal': 'giraffe'}`, which branch gets shown?
-4. True or False: Jinja2 conditional tags use double curly brackets `{{ }}`, just like variable output.
+4. True or False: Jinja2 _conditional_ tags use double curly brackets `{{ }}`, just like variable output.
 
 <details>
 <summary>Answer Key</summary>
